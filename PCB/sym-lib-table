@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Jones-rescue)(type Legacy)(uri /Users/kenn/Git/jpskenn/Jones/PCB/Jones-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name USB4085-GF-A)(type Legacy)(uri ${KIPRJMOD}/USB4085-GF-A_REVA-3/USB4085-GF-A_REVA.lib)(options "")(descr ""))
+)
