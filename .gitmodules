@@ -1,0 +1,6 @@
+[submodule "PCB/Keebio-Parts.pretty"]
+	path = PCB/Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty
+[submodule "PCB/swanmatch_keyboard.pretty"]
+	path = PCB/swanmatch_keyboard.pretty
+	url = https://github.com/swanmatch/keyboard.pretty.git
