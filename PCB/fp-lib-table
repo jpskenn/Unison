@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name te96)(type KiCad)(uri ${KIPRJMOD}/te96.pretty)(options "")(descr "")(disabled))
+  (lib (name ukiha)(type KiCad)(uri ${KIPRJMOD}/ukiha.pretty)(options "")(descr ""))
+  (lib (name 60_outline)(type KiCad)(uri ${KIPRJMOD}/60_outline.pretty)(options "")(descr ""))
+  (lib (name swanmatch)(type KiCad)(uri ${KIPRJMOD}/swanmatch_keyboard.pretty)(options "")(descr ""))
+)

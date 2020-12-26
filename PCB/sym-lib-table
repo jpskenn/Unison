@@ -1,4 +1,7 @@
 (sym_lib_table
   (lib (name Jones-rescue)(type Legacy)(uri /Users/kenn/Git/jpskenn/Jones/PCB/Jones-rescue.lib)(options "")(descr "")(disabled))
   (lib (name USB4085-GF-A)(type Legacy)(uri ${KIPRJMOD}/USB4085-GF-A_REVA-3/USB4085-GF-A_REVA.lib)(options "")(descr ""))
+  (lib (name swanmatch)(type Legacy)(uri ${KIPRJMOD}/swanmatch_keyboard.pretty/kbd.lib)(options "")(descr ""))
+  (lib (name ukiha)(type Legacy)(uri ${KIPRJMOD}/ukiha_library.lib)(options "")(descr ""))
+  (lib (name mx2u)(type Legacy)(uri ${KIPRJMOD}/mx2u-macropad_library.lib)(options "")(descr ""))
 )
