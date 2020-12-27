@@ -4,4 +4,5 @@
   (lib (name swanmatch)(type Legacy)(uri ${KIPRJMOD}/swanmatch_keyboard.pretty/kbd.lib)(options "")(descr ""))
   (lib (name ukiha)(type Legacy)(uri ${KIPRJMOD}/ukiha_library.lib)(options "")(descr ""))
   (lib (name mx2u)(type Legacy)(uri ${KIPRJMOD}/mx2u-macropad_library.lib)(options "")(descr ""))
+  (lib (name local_library)(type Legacy)(uri ${KIPRJMOD}/local_library.lib)(options "")(descr ""))
 )
