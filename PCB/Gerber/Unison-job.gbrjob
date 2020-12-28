@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.8-0-10_14)"
     },
-    "CreationDate":  "2020-12-27T18:14:17+09:00"
+    "CreationDate":  "2020-12-29T07:16:28+09:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "Unison",
       "GUID": "556e6973-6f6e-42e6-9b69-6361645f7063",
-      "Revision": "v01"
+      "Revision": "v01_1"
     },
     "Size":
     {
