@@ -216,17 +216,17 @@ F 4 "C15850" H 13000 4700 50  0001 C CNN "LCSC"
 $EndComp
 Text GLabel 15300 2325 2    60   Input ~ 0
 pin6
-Text GLabel 15300 4325 2    60   Input ~ 0
+Text GLabel 15300 5025 2    60   Input ~ 0
 pin5
-Text GLabel 15300 2225 2    60   Input ~ 0
-pin4
 Text GLabel 15300 4825 2    60   Input ~ 0
-pin3
+pin4
 Text GLabel 15300 4625 2    60   Input ~ 0
+pin3
+Text GLabel 15300 4325 2    60   Input ~ 0
 pin2
 Text GLabel 15300 2425 2    60   Input ~ 0
 pin1
-Text GLabel 15300 4525 2    60   Input ~ 0
+Text GLabel 15300 3125 2    60   Input ~ 0
 pin10
 Wire Wire Line
 	13775 3425 14100 3425
@@ -284,11 +284,11 @@ Wire Wire Line
 Wire Wire Line
 	13250 4900 13500 4900
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-MU U1
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
 U 1 1 5D93C3AA
 P 14700 3625
 F 0 "U1" H 14700 1739 50  0000 C CNN
-F 1 "ATmega32U4-MU" H 14700 1648 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 14700 1648 50  0000 C CNN
 F 2 "keebio:ATMEGA32U4-AU" H 14700 3625 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 14700 3625 50  0001 C CNN
 F 4 "C45874" H 14700 3625 50  0001 C CNN "LCSC"
@@ -1043,9 +1043,9 @@ F 3 "~" H 8900 3025 50  0001 C CNN
 	1    8900 2825
 	1    0    0    -1  
 $EndComp
-Text GLabel 15300 3525 2    50   Input ~ 0
+Text GLabel 15300 2125 2    50   Input ~ 0
 RE1_A
-Text GLabel 15300 3625 2    50   Input ~ 0
+Text GLabel 15300 2225 2    50   Input ~ 0
 RE1_B
 $Comp
 L Switch:SW_Push SW_84
@@ -2273,7 +2273,7 @@ Wire Wire Line
 Connection ~ 1075 9925
 Wire Wire Line
 	925  10025 925  10225
-Text GLabel 15300 3125 2    50   Input ~ 0
+Text GLabel 15300 2525 2    50   Input ~ 0
 RE6_A
 Text GLabel 15300 2725 2    50   Input ~ 0
 AUDIO1
@@ -2283,13 +2283,13 @@ Wire Wire Line
 Connection ~ 5450 2825
 Text GLabel 15300 2825 2    50   Input ~ 0
 LED
-Text GLabel 15300 5025 2    50   Input ~ 0
+Text GLabel 15300 2625 2    50   Input ~ 0
 RE6_B
-Text GLabel 15300 2125 2    60   Input ~ 0
-pin9
 Text GLabel 15300 4925 2    60   Input ~ 0
-pin8
+pin9
 Text GLabel 15300 4725 2    60   Input ~ 0
+pin8
+Text GLabel 15300 4525 2    60   Input ~ 0
 pin7
 $Comp
 L power:GND #PWR07
@@ -3681,17 +3681,17 @@ Wire Wire Line
 	1550 2225 2200 2225
 Text Notes 14225 3825 0    50   ~ 0
 Audio pins\nGroup1: B5, B6, B7\nGroup2: C4, C5, C6
-Text GLabel 15300 3825 2    50   Input ~ 0
+Text GLabel 15300 3625 2    50   Input ~ 0
 RE3_A
-Text GLabel 15300 3725 2    50   Input ~ 0
+Text GLabel 15300 3525 2    50   Input ~ 0
 RE3_B
-Text GLabel 15300 3925 2    50   Input ~ 0
+Text GLabel 15300 3825 2    50   Input ~ 0
 RE4_A
-Text GLabel 15300 4025 2    50   Input ~ 0
+Text GLabel 15300 3725 2    50   Input ~ 0
 RE4_B
-Text GLabel 15300 2525 2    50   Input ~ 0
+Text GLabel 15300 3925 2    50   Input ~ 0
 RE5_A
-Text GLabel 15300 2625 2    50   Input ~ 0
+Text GLabel 15300 4025 2    50   Input ~ 0
 RE5_B
 Text GLabel 4450 11000 2    50   Input ~ 0
 RE3_B
@@ -4226,7 +4226,7 @@ U 1 1 610975FF
 P 3700 3875
 F 0 "SW_37_2" H 3700 4160 50  0000 C CNN
 F 1 "SW_Push" H 3700 4069 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 3700 4075 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_alt_guide" H 3700 4075 50  0001 C CNN
 F 3 "~" H 3700 4075 50  0001 C CNN
 	1    3700 3875
 	1    0    0    -1  
