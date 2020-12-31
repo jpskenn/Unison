@@ -216,17 +216,17 @@ F 4 "C15850" H 13000 4700 50  0001 C CNN "LCSC"
 $EndComp
 Text GLabel 15300 2325 2    60   Input ~ 0
 pin6
-Text GLabel 15300 4325 2    60   Input ~ 0
+Text GLabel 15300 5025 2    60   Input ~ 0
 pin5
-Text GLabel 15300 2225 2    60   Input ~ 0
-pin4
 Text GLabel 15300 4825 2    60   Input ~ 0
-pin3
+pin4
 Text GLabel 15300 4625 2    60   Input ~ 0
+pin3
+Text GLabel 15300 4325 2    60   Input ~ 0
 pin2
 Text GLabel 15300 2425 2    60   Input ~ 0
 pin1
-Text GLabel 15300 4525 2    60   Input ~ 0
+Text GLabel 15300 3125 2    60   Input ~ 0
 pin10
 Wire Wire Line
 	13775 3425 14100 3425
@@ -1043,9 +1043,9 @@ F 3 "~" H 8900 3025 50  0001 C CNN
 	1    8900 2825
 	1    0    0    -1  
 $EndComp
-Text GLabel 15300 3525 2    50   Input ~ 0
+Text GLabel 15300 2125 2    50   Input ~ 0
 RE1_A
-Text GLabel 15300 3625 2    50   Input ~ 0
+Text GLabel 15300 2225 2    50   Input ~ 0
 RE1_B
 $Comp
 L Switch:SW_Push SW_84
@@ -2273,7 +2273,7 @@ Wire Wire Line
 Connection ~ 1075 9925
 Wire Wire Line
 	925  10025 925  10225
-Text GLabel 15300 3125 2    50   Input ~ 0
+Text GLabel 15300 2525 2    50   Input ~ 0
 RE6_A
 Text GLabel 15300 2725 2    50   Input ~ 0
 AUDIO1
@@ -2283,13 +2283,13 @@ Wire Wire Line
 Connection ~ 5450 2825
 Text GLabel 15300 2825 2    50   Input ~ 0
 LED
-Text GLabel 15300 5025 2    50   Input ~ 0
+Text GLabel 15300 2625 2    50   Input ~ 0
 RE6_B
-Text GLabel 15300 2125 2    60   Input ~ 0
-pin9
 Text GLabel 15300 4925 2    60   Input ~ 0
-pin8
+pin9
 Text GLabel 15300 4725 2    60   Input ~ 0
+pin8
+Text GLabel 15300 4525 2    60   Input ~ 0
 pin7
 $Comp
 L power:GND #PWR07
@@ -3681,17 +3681,17 @@ Wire Wire Line
 	1550 2225 2200 2225
 Text Notes 14225 3825 0    50   ~ 0
 Audio pins\nGroup1: B5, B6, B7\nGroup2: C4, C5, C6
-Text GLabel 15300 3825 2    50   Input ~ 0
+Text GLabel 15300 3625 2    50   Input ~ 0
 RE3_A
-Text GLabel 15300 3725 2    50   Input ~ 0
+Text GLabel 15300 3525 2    50   Input ~ 0
 RE3_B
-Text GLabel 15300 3925 2    50   Input ~ 0
+Text GLabel 15300 3825 2    50   Input ~ 0
 RE4_A
-Text GLabel 15300 4025 2    50   Input ~ 0
+Text GLabel 15300 3725 2    50   Input ~ 0
 RE4_B
-Text GLabel 15300 2525 2    50   Input ~ 0
+Text GLabel 15300 3925 2    50   Input ~ 0
 RE5_A
-Text GLabel 15300 2625 2    50   Input ~ 0
+Text GLabel 15300 4025 2    50   Input ~ 0
 RE5_B
 Text GLabel 4450 11000 2    50   Input ~ 0
 RE3_B

@@ -284,12 +284,12 @@ Wire Wire Line
 Wire Wire Line
 	13250 4900 13500 4900
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
+L MCU_Microchip_ATmega:ATmega32U4-MU U1
 U 1 1 5D93C3AA
 P 14700 3625
 F 0 "U1" H 14700 1739 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 14700 1648 50  0000 C CNN
-F 2 "keebio:ATMEGA32U4-AU" H 14700 3625 50  0001 C CIN
+F 1 "ATmega32U4-MU" H 14700 1648 50  0000 C CNN
+F 2 "swanmatch:QFN-44-1EP_7x7mm_Pitch0.5mm" H 14700 3625 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 14700 3625 50  0001 C CNN
 F 4 "C45874" H 14700 3625 50  0001 C CNN "LCSC"
 	1    14700 3625
