@@ -430,10 +430,10 @@ F 4 "C81598" H 3250 2975 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW_36
+L Switch:SW_Push SW_36_1
 U 1 1 5F62D1CC
 P 3700 2825
-F 0 "SW_36" H 3700 3110 50  0000 C CNN
+F 0 "SW_36_1" H 3700 3110 50  0000 C CNN
 F 1 "SW_Push" H 3700 3019 50  0000 C CNN
 F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3700 3025 50  0001 C CNN
 F 3 "~" H 3700 3025 50  0001 C CNN
@@ -453,10 +453,10 @@ F 4 "C81598" H 3900 2975 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW_41
+L Switch:SW_Push SW_41_1
 U 1 1 5F62D1D8
 P 4350 2825
-F 0 "SW_41" H 4350 3110 50  0000 C CNN
+F 0 "SW_41_1" H 4350 3110 50  0000 C CNN
 F 1 "SW_Push" H 4350 3019 50  0000 C CNN
 F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 4350 3025 50  0001 C CNN
 F 3 "~" H 4350 3025 50  0001 C CNN
@@ -476,10 +476,10 @@ F 4 "C81598" H 4550 2975 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW_46
+L Switch:SW_Push SW_46_1
 U 1 1 5F62D1E4
 P 5000 2825
-F 0 "SW_46" H 5000 3110 50  0000 C CNN
+F 0 "SW_46_1" H 5000 3110 50  0000 C CNN
 F 1 "SW_Push" H 5000 3019 50  0000 C CNN
 F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5000 3025 50  0001 C CNN
 F 3 "~" H 5000 3025 50  0001 C CNN
@@ -534,10 +534,10 @@ F 4 "C81598" H 6500 2975 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW_51
+L Switch:SW_Push SW_51_1
 U 1 1 5F633F2C
 P 5650 2825
-F 0 "SW_51" H 5650 3110 50  0000 C CNN
+F 0 "SW_51_1" H 5650 3110 50  0000 C CNN
 F 1 "SW_Push" H 5650 3019 50  0000 C CNN
 F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5650 3025 50  0001 C CNN
 F 3 "~" H 5650 3025 50  0001 C CNN
@@ -1630,7 +1630,7 @@ F 4 "C81598" H 8700 925 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9350 1325 9350 2425
+	9350 1325 9350 2225
 Connection ~ 2850 6575
 Connection ~ 2850 2825
 Connection ~ 3500 2825
@@ -2257,8 +2257,6 @@ Wire Wire Line
 Connection ~ 1075 9925
 Wire Wire Line
 	925  10025 925  10225
-Text GLabel 15300 2525 2    50   Input ~ 0
-pin11
 Text GLabel 15300 2725 2    50   Input ~ 0
 AUDIO1
 Connection ~ 4800 6575
@@ -2775,54 +2773,6 @@ F 2 "Diode_SMD:D_SOD-123" H 11700 925 50  0001 C CNN
 F 3 "~" H 11700 925 50  0001 C CNN
 F 4 "C81598" H 11700 925 50  0001 C CNN "LCSC"
 	1    11700 925 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D53
-U 1 1 5FFDF81C
-P 7350 1725
-F 0 "D53" V 7396 1645 50  0000 R CNN
-F 1 "D" V 7305 1645 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 7350 1725 50  0001 C CNN
-F 3 "~" H 7350 1725 50  0001 C CNN
-F 4 "C81598" H 7350 1725 50  0001 C CNN "LCSC"
-	1    7350 1725
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D65
-U 1 1 5FFEC98C
-P 8650 1725
-F 0 "D65" V 8696 1645 50  0000 R CNN
-F 1 "D" V 8605 1645 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 8650 1725 50  0001 C CNN
-F 3 "~" H 8650 1725 50  0001 C CNN
-F 4 "C81598" H 8650 1725 50  0001 C CNN "LCSC"
-	1    8650 1725
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D77
-U 1 1 5FFF8963
-P 9950 1725
-F 0 "D77" V 9996 1645 50  0000 R CNN
-F 1 "D" V 9905 1645 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 9950 1725 50  0001 C CNN
-F 3 "~" H 9950 1725 50  0001 C CNN
-F 4 "C81598" H 9950 1725 50  0001 C CNN "LCSC"
-	1    9950 1725
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D89
-U 1 1 60005BC1
-P 11250 1725
-F 0 "D89" V 11296 1645 50  0000 R CNN
-F 1 "D" V 11205 1645 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 11250 1725 50  0001 C CNN
-F 3 "~" H 11250 1725 50  0001 C CNN
-F 4 "C81598" H 11250 1725 50  0001 C CNN "LCSC"
-	1    11250 1725
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -3392,12 +3342,12 @@ Wire Wire Line
 	7150 8125 7150 8225
 Connection ~ 7150 8225
 Wire Wire Line
-	7400 2825 7400 2425
+	7400 2825 7400 2225
 Wire Wire Line
-	7400 2425 8050 2425
-Connection ~ 8050 2425
+	7400 2225 8050 2225
+Connection ~ 8050 2225
 Wire Wire Line
-	8050 2425 8050 2825
+	8050 2225 8050 2825
 Wire Wire Line
 	7800 3125 7800 3325
 Connection ~ 7800 3325
@@ -3463,13 +3413,13 @@ Connection ~ 8450 8225
 Wire Wire Line
 	10000 1075 10000 1325
 Wire Wire Line
-	8700 2825 8700 2425
+	8700 2825 8700 2225
 Wire Wire Line
-	8700 2425 9350 2425
+	8700 2225 9350 2225
 Connection ~ 8700 2825
-Connection ~ 9350 2425
+Connection ~ 9350 2225
 Wire Wire Line
-	9350 2425 9350 2825
+	9350 2225 9350 2825
 Wire Wire Line
 	9350 1325 10000 1325
 Wire Wire Line
@@ -3521,11 +3471,11 @@ Connection ~ 9750 8225
 Wire Wire Line
 	9750 8225 11050 8225
 Wire Wire Line
-	10000 2825 10000 2425
+	10000 2825 10000 2225
 Wire Wire Line
-	10000 2425 10650 2425
+	10000 2225 10650 2225
 Connection ~ 10000 2825
-Connection ~ 10650 2425
+Connection ~ 10650 2225
 Wire Wire Line
 	11300 1075 11300 1325
 Wire Wire Line
@@ -3562,27 +3512,21 @@ Wire Wire Line
 Wire Wire Line
 	11300 2425 11300 2825
 Connection ~ 11300 2825
-Text GLabel 775  1875 0    50   Input ~ 0
-pin11
 Wire Wire Line
 	6100 2225 6100 2825
 Wire Wire Line
-	5450 2225 5450 2825
+	5450 2225 5450 2475
 Wire Wire Line
 	5450 2225 6100 2225
 Wire Wire Line
-	4800 2225 4800 2825
-Wire Wire Line
-	4800 1075 4800 1575
+	4800 2225 4800 2475
 Connection ~ 4800 2225
 Wire Wire Line
-	4150 2225 4150 2825
+	4150 2225 4150 2475
 Wire Wire Line
 	4150 2225 4800 2225
 Wire Wire Line
-	3500 2225 3500 2825
-Wire Wire Line
-	3500 1075 3500 1575
+	3500 2225 3500 2475
 Connection ~ 3500 2225
 Wire Wire Line
 	2850 2225 2850 2825
@@ -3590,8 +3534,6 @@ Wire Wire Line
 	2850 2225 3500 2225
 Wire Wire Line
 	2200 2225 2200 2825
-Wire Wire Line
-	2200 1075 2200 1575
 Connection ~ 2200 2225
 Wire Wire Line
 	1550 2225 1550 2825
@@ -3707,17 +3649,17 @@ Text GLabel 6650 10800 0    50   Input ~ 0
 RE5_1
 Text GLabel 6650 11000 0    50   Input ~ 0
 RE5_2
-Text GLabel 8050 1575 2    50   Input ~ 0
+Text GLabel 8050 2425 2    50   Input ~ 0
 RE3_1
-Text GLabel 8650 1575 0    50   Input ~ 0
+Text GLabel 8450 2650 1    50   Input ~ 0
 RE3_2
-Text GLabel 9350 1575 2    50   Input ~ 0
+Text GLabel 9350 2425 2    50   Input ~ 0
 RE4_1
-Text GLabel 9950 1575 0    50   Input ~ 0
+Text GLabel 9750 2650 1    50   Input ~ 0
 RE4_2
-Text GLabel 10650 1575 2    50   Input ~ 0
+Text GLabel 10650 2425 2    50   Input ~ 0
 RE5_1
-Text GLabel 11250 1575 0    50   Input ~ 0
+Text GLabel 11050 2650 1    50   Input ~ 0
 RE5_2
 Text GLabel 1450 9475 2    50   Input ~ 0
 AUDIO2[Reserve]
@@ -3761,12 +3703,6 @@ Wire Wire Line
 Connection ~ 10650 7425
 Wire Wire Line
 	10650 7425 10650 7825
-Text Notes 6800 1475 0    50   ~ 0
-SW_6B
-Text Notes 8100 1475 0    50   ~ 0
-SW_7B
-Text Notes 9400 1475 0    50   ~ 0
-SW_8B
 $Comp
 L Switch:SW_Push SW_8_2
 U 1 1 6238D388
@@ -3835,7 +3771,7 @@ Connection ~ 4550 7825
 Connection ~ 5850 7825
 Connection ~ 9750 7825
 Wire Wire Line
-	10650 2425 10650 2825
+	10650 2225 10650 2825
 $Comp
 L Switch:SW_Push SW_7_2
 U 1 1 6232085E
@@ -4146,12 +4082,6 @@ Wire Wire Line
 Wire Wire Line
 	9350 9525 9350 9625
 Wire Wire Line
-	9350 9625 9425 9625
-Wire Wire Line
-	9425 9625 9425 9725
-Wire Wire Line
-	9825 9525 9825 9625
-Wire Wire Line
 	2925 9325 2925 9525
 Wire Wire Line
 	3875 9525 3875 9325
@@ -4206,11 +4136,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 9525 8950 9325
 Connection ~ 8950 9325
-Wire Wire Line
-	9425 9525 9425 9325
 NoConn ~ 11475 9625
-Wire Wire Line
-	9825 9725 9825 9925
 Wire Wire Line
 	9350 9725 9350 9925
 Connection ~ 9350 9925
@@ -4281,8 +4207,6 @@ Wire Wire Line
 	9925 9925 11575 9925
 Wire Notes Line
 	9800 9200 6750 9200
-Text Notes 10700 1475 0    50   ~ 0
-SW_9B
 Connection ~ 11300 3875
 Wire Wire Line
 	11300 3875 11300 4075
@@ -4300,17 +4224,7 @@ Connection ~ 11700 5325
 Wire Wire Line
 	11300 1325 10650 1325
 Wire Wire Line
-	10650 1325 10650 2425
-Wire Notes Line
-	1925 10350 3450 10350
-Wire Notes Line
-	3450 10350 3450 11125
-Wire Notes Line
-	3450 11125 1925 11125
-Wire Notes Line
-	1925 11125 1925 10350
-Text Notes 1950 10450 0    50   ~ 0
-Optional: OLED alternate
+	10650 1325 10650 2225
 $Comp
 L swanmatch:OLED OL1
 U 1 1 62544862
@@ -4351,16 +4265,8 @@ Wire Wire Line
 Connection ~ 7975 9725
 Wire Wire Line
 	7975 9725 7975 9825
-Wire Wire Line
-	9350 9925 9825 9925
-Wire Wire Line
-	9925 9925 9825 9925
 Connection ~ 9925 9925
-Connection ~ 9825 9925
-Wire Wire Line
-	9925 9325 9425 9325
 Connection ~ 9925 9325
-Connection ~ 9425 9325
 $Comp
 L power:PWR_FLAG #FLG03
 U 1 1 5F06FBE1
@@ -4383,8 +4289,6 @@ F 3 "" H 15825 775 50  0001 C CNN
 	1    15825 775 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8950 9325 9425 9325
 $Comp
 L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L1
 U 1 1 631491CE
@@ -4528,17 +4432,6 @@ F 3 "" H 9150 9625 60  0001 C CNN
 	1    9150 9625
 	-1   0    0    1   
 $EndComp
-$Comp
-L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L14
-U 1 1 6365724A
-P 9625 9625
-F 0 "L14" H 9625 9887 51  0000 C CNN
-F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 9625 9822 16  0000 C CNN
-F 2 "mx2u:YS-SK6812MINI-E" H 9625 9625 60  0001 C CNN
-F 3 "" H 9625 9625 60  0001 C CNN
-	1    9625 9625
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	11650 9325 11650 9975
 Wire Wire Line
@@ -4555,8 +4448,6 @@ F 3 "" H 10725 9725 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 NoConn ~ 11475 9475
-Wire Wire Line
-	9825 9625 9875 9625
 NoConn ~ 11475 9775
 Wire Wire Line
 	9875 9625 9875 10225
@@ -4582,118 +4473,60 @@ Text Notes 1025 8925 0    98   ~ 20
 1                2                3                4                5                6                7                8                9/0
 Text Notes 975  8675 0    91   ~ 18
  1        2         3        4        5        6        7         8        9       10       11       12       13       14       15       16       17\n17       16       15       14       13       12       11       10        9        8        7        6         5        4        3         2        1
-Text GLabel 7350 1575 0    50   Input ~ 0
+Text GLabel 7150 2650 1    50   Input ~ 0
 RE2_2
-Text GLabel 6750 1575 2    50   Input ~ 0
-RE2_1
 NoConn ~ 15300 2625
 Wire Wire Line
 	11700 1075 11700 2425
 $Comp
-L Switch:SW_Push SW_2B1
+L Switch:SW_Push SW_36_2
 U 1 1 601DDE62
-P 2400 1575
-F 0 "SW_2B1" H 2400 1860 50  0000 C CNN
-F 1 "SW_Push" H 2400 1769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 2400 1775 50  0001 C CNN
-F 3 "~" H 2400 1775 50  0001 C CNN
-	1    2400 1575
+P 3700 2475
+F 0 "SW_36_2" H 3700 2760 50  0000 C CNN
+F 1 "SW_Push" H 3700 2669 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3700 2675 50  0001 C CNN
+F 3 "~" H 3700 2675 50  0001 C CNN
+	1    3700 2475
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D100
-U 1 1 601DDE69
-P 2600 1725
-F 0 "D100" V 2646 1645 50  0000 R CNN
-F 1 "D" V 2555 1645 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 2600 1725 50  0001 C CNN
-F 3 "~" H 2600 1725 50  0001 C CNN
-F 4 "C81598" H 2600 1725 50  0001 C CNN "LCSC"
-	1    2600 1725
-	0    -1   -1   0   
-$EndComp
-Connection ~ 2200 1575
-Wire Wire Line
-	2200 1575 2200 2225
-$Comp
-L Switch:SW_Push SW_3B1
+L Switch:SW_Push SW_41_2
 U 1 1 6030A01E
-P 3700 1575
-F 0 "SW_3B1" H 3700 1860 50  0000 C CNN
-F 1 "SW_Push" H 3700 1769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3700 1775 50  0001 C CNN
-F 3 "~" H 3700 1775 50  0001 C CNN
-	1    3700 1575
+P 4350 2475
+F 0 "SW_41_2" H 4350 2760 50  0000 C CNN
+F 1 "SW_Push" H 4350 2669 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 4350 2675 50  0001 C CNN
+F 3 "~" H 4350 2675 50  0001 C CNN
+	1    4350 2475
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D101
-U 1 1 6030A025
-P 3900 1725
-F 0 "D101" V 3946 1645 50  0000 R CNN
-F 1 "D" V 3855 1645 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 3900 1725 50  0001 C CNN
-F 3 "~" H 3900 1725 50  0001 C CNN
-F 4 "C81598" H 3900 1725 50  0001 C CNN "LCSC"
-	1    3900 1725
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW_4B1
+L Switch:SW_Push SW_46_2
 U 1 1 6036E1F7
-P 5000 1575
-F 0 "SW_4B1" H 5000 1860 50  0000 C CNN
-F 1 "SW_Push" H 5000 1769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5000 1775 50  0001 C CNN
-F 3 "~" H 5000 1775 50  0001 C CNN
-	1    5000 1575
+P 5000 2475
+F 0 "SW_46_2" H 5000 2760 50  0000 C CNN
+F 1 "SW_Push" H 5000 2669 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5000 2675 50  0001 C CNN
+F 3 "~" H 5000 2675 50  0001 C CNN
+	1    5000 2475
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D103
-U 1 1 6036E1FE
-P 5200 1725
-F 0 "D103" V 5246 1645 50  0000 R CNN
-F 1 "D" V 5155 1645 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 5200 1725 50  0001 C CNN
-F 3 "~" H 5200 1725 50  0001 C CNN
-F 4 "C81598" H 5200 1725 50  0001 C CNN "LCSC"
-	1    5200 1725
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW_5B1
+L Switch:SW_Push SW_51_2
 U 1 1 603D1856
-P 5650 1575
-F 0 "SW_5B1" H 5650 1860 50  0000 C CNN
-F 1 "SW_Push" H 5650 1769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5650 1775 50  0001 C CNN
-F 3 "~" H 5650 1775 50  0001 C CNN
-	1    5650 1575
+P 5650 2475
+F 0 "SW_51_2" H 5650 2760 50  0000 C CNN
+F 1 "SW_Push" H 5650 2669 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5650 2675 50  0001 C CNN
+F 3 "~" H 5650 2675 50  0001 C CNN
+	1    5650 2475
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D D104
-U 1 1 603D185D
-P 5850 1725
-F 0 "D104" V 5896 1645 50  0000 R CNN
-F 1 "D" V 5805 1645 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 5850 1725 50  0001 C CNN
-F 3 "~" H 5850 1725 50  0001 C CNN
-F 4 "C81598" H 5850 1725 50  0001 C CNN "LCSC"
-	1    5850 1725
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5450 1175 5450 1575
 Connection ~ 5450 2225
-Connection ~ 5450 1575
-Wire Wire Line
-	5450 1575 5450 2225
 Wire Wire Line
 	8700 1075 8700 1325
 Wire Wire Line
-	8050 1325 8050 2425
+	8050 1325 8050 2225
 Wire Wire Line
 	8050 1325 8700 1325
 Wire Wire Line
@@ -4706,56 +4539,10 @@ Wire Wire Line
 	6100 1075 6100 1175
 Wire Wire Line
 	6100 1175 5450 1175
-Connection ~ 2600 1875
-Connection ~ 3900 1875
-Wire Wire Line
-	3900 1875 2600 1875
-Connection ~ 5200 1875
-Wire Wire Line
-	5200 1875 3900 1875
-Connection ~ 5850 1875
-Wire Wire Line
-	5850 1875 5200 1875
-Text GLabel 1500 1575 0    50   Input ~ 0
+Text GLabel 2600 2650 1    50   Input ~ 0
 RE1_2
-Text Notes 1175 1475 0    50   ~ 0
-SW_1B
-Text GLabel 900  1575 2    50   Input ~ 0
+Text GLabel 2200 2425 2    50   Input ~ 0
 RE1_1
-$Comp
-L Device:D D8
-U 1 1 5FFC4396
-P 1500 1725
-F 0 "D8" V 1546 1645 50  0000 R CNN
-F 1 "D" V 1455 1645 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 1500 1725 50  0001 C CNN
-F 3 "~" H 1500 1725 50  0001 C CNN
-F 4 "C81598" H 1500 1725 50  0001 C CNN "LCSC"
-	1    1500 1725
-	0    -1   -1   0   
-$EndComp
-Connection ~ 1500 1875
-Wire Wire Line
-	1500 1875 775  1875
-Wire Wire Line
-	1500 1875 2600 1875
-Connection ~ 7350 1875
-Wire Wire Line
-	5850 1875 7350 1875
-Connection ~ 8650 1875
-Wire Wire Line
-	7350 1875 8650 1875
-Wire Wire Line
-	8650 1875 9950 1875
-Connection ~ 9950 1875
-Wire Wire Line
-	9950 1875 11250 1875
-Connection ~ 3500 1575
-Wire Wire Line
-	3500 1575 3500 2225
-Connection ~ 4800 1575
-Wire Wire Line
-	4800 1575 4800 2225
 Wire Wire Line
 	2850 4925 2850 5125
 Wire Wire Line
@@ -5206,4 +4993,60 @@ Wire Wire Line
 Wire Wire Line
 	7150 7475 7150 7650
 Connection ~ 7150 7650
+NoConn ~ 15300 2525
+Wire Wire Line
+	2600 2650 2600 2825
+Connection ~ 2600 2825
+Connection ~ 3500 2475
+Wire Wire Line
+	3500 2475 3500 2825
+Wire Wire Line
+	3900 2475 3900 2825
+Wire Wire Line
+	2200 1075 2200 2225
+Connection ~ 3900 2825
+Connection ~ 4150 2475
+Wire Wire Line
+	4150 2475 4150 2825
+Connection ~ 4800 2475
+Wire Wire Line
+	4800 2475 4800 2825
+Connection ~ 5450 2475
+Wire Wire Line
+	5450 2475 5450 2825
+Wire Wire Line
+	5850 2475 5850 2825
+Wire Wire Line
+	4800 1075 4800 2225
+Wire Wire Line
+	3500 1075 3500 2225
+Wire Wire Line
+	5450 1175 5450 2225
+Connection ~ 5850 2825
+Wire Wire Line
+	5200 2475 5200 2825
+Connection ~ 5200 2825
+Wire Wire Line
+	4550 2475 4550 2825
+Connection ~ 4550 2825
+Text GLabel 6750 2425 2    50   Input ~ 0
+RE2_1
+Wire Wire Line
+	11050 2650 11050 2825
+Connection ~ 11050 2825
+Wire Wire Line
+	9750 2650 9750 2825
+Connection ~ 9750 2825
+Wire Wire Line
+	8450 2650 8450 2825
+Connection ~ 8450 2825
+Wire Wire Line
+	7150 2650 7150 2825
+Connection ~ 7150 2825
+Wire Wire Line
+	8950 9325 9925 9325
+Wire Wire Line
+	9350 9625 9875 9625
+Wire Wire Line
+	9350 9925 9925 9925
 $EndSCHEMATC
