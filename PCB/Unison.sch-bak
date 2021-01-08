@@ -216,17 +216,17 @@ F 4 "C15850" H 13000 4700 50  0001 C CNN "LCSC"
 $EndComp
 Text GLabel 15300 2325 2    60   Input ~ 0
 pin6
-Text GLabel 15300 4325 2    60   Input ~ 0
+Text GLabel 15300 5025 2    60   Input ~ 0
 pin5
-Text GLabel 15300 2225 2    60   Input ~ 0
-pin4
 Text GLabel 15300 4825 2    60   Input ~ 0
-pin3
+pin4
 Text GLabel 15300 4625 2    60   Input ~ 0
+pin3
+Text GLabel 15300 4325 2    60   Input ~ 0
 pin2
 Text GLabel 15300 2425 2    60   Input ~ 0
 pin1
-Text GLabel 15300 4525 2    60   Input ~ 0
+Text GLabel 15300 3125 2    60   Input ~ 0
 pin10
 Wire Wire Line
 	13775 3425 14100 3425
@@ -1022,10 +1022,10 @@ F 3 "~" H 2400 8025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW_83
+L Switch:SW_Push SW_83_1
 U 1 1 5F68651C
 P 9550 5325
-F 0 "SW_83" H 9550 5610 50  0000 C CNN
+F 0 "SW_83_1" H 9550 5610 50  0000 C CNN
 F 1 "SW_Push" H 9550 5519 50  0000 C CNN
 F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 9550 5525 50  0001 C CNN
 F 3 "~" H 9550 5525 50  0001 C CNN
@@ -1043,9 +1043,9 @@ F 3 "~" H 8900 3025 50  0001 C CNN
 	1    8900 2825
 	1    0    0    -1  
 $EndComp
-Text GLabel 15300 3525 2    50   Input ~ 0
+Text GLabel 15300 2125 2    50   Input ~ 0
 RE1_A
-Text GLabel 15300 3625 2    50   Input ~ 0
+Text GLabel 15300 2225 2    50   Input ~ 0
 RE1_B
 $Comp
 L Switch:SW_Push SW_84
@@ -1630,16 +1630,8 @@ F 4 "C81598" H 8700 925 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6750 2225 6750 2825
-Wire Wire Line
-	8050 2225 8050 2425
-Wire Wire Line
-	8700 1075 8700 2225
-Wire Wire Line
-	9350 2225 9350 2425
+	9350 1325 9350 2425
 Connection ~ 2850 6575
-Wire Wire Line
-	2850 5325 2850 6375
 Connection ~ 2850 2825
 Connection ~ 3500 2825
 Connection ~ 4150 2825
@@ -1806,10 +1798,10 @@ F 4 "C81598" H 8450 5475 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW_73
+L Switch:SW_Push SW_73_1
 U 1 1 5F66589F
 P 8250 5325
-F 0 "SW_73" H 8250 5610 50  0000 C CNN
+F 0 "SW_73_1" H 8250 5610 50  0000 C CNN
 F 1 "SW_Push" H 8250 5519 50  0000 C CNN
 F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 8250 5525 50  0001 C CNN
 F 3 "~" H 8250 5525 50  0001 C CNN
@@ -1962,14 +1954,12 @@ Connection ~ 8050 5325
 Wire Wire Line
 	8050 5325 8050 6575
 Connection ~ 8050 6575
-Wire Wire Line
-	8050 6575 8050 7625
 Connection ~ 9350 2825
 $Comp
-L Switch:SW_Push SW_78
+L Switch:SW_Push SW_78_1
 U 1 1 61890135
 P 8900 5325
-F 0 "SW_78" H 8900 5610 50  0000 C CNN
+F 0 "SW_78_1" H 8900 5610 50  0000 C CNN
 F 1 "SW_Push" H 8900 5519 50  0000 C CNN
 F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 8900 5525 50  0001 C CNN
 F 3 "~" H 8900 5525 50  0001 C CNN
@@ -2009,7 +1999,7 @@ pin9
 Text GLabel 8700 775  1    50   Input ~ 0
 pin7
 Wire Wire Line
-	3500 6575 3500 7825
+	3500 6575 3500 7625
 $Comp
 L Switch:SW_Push SW_35_1
 U 1 1 5F6780D3
@@ -2187,12 +2177,6 @@ Wire Wire Line
 	7400 5325 7400 6575
 Connection ~ 7400 6575
 Wire Wire Line
-	7400 6575 7400 7625
-Text GLabel 8650 11000 2    50   Input ~ 0
-RE6_B
-Text GLabel 8650 10800 2    50   Input ~ 0
-RE6_A
-Wire Wire Line
 	3350 10900 2825 10900
 $Comp
 L power:GND #PWR03
@@ -2273,8 +2257,8 @@ Wire Wire Line
 Connection ~ 1075 9925
 Wire Wire Line
 	925  10025 925  10225
-Text GLabel 15300 3125 2    50   Input ~ 0
-RE6_A
+Text GLabel 15300 2525 2    50   Input ~ 0
+pin11
 Text GLabel 15300 2725 2    50   Input ~ 0
 AUDIO1
 Connection ~ 4800 6575
@@ -2283,13 +2267,11 @@ Wire Wire Line
 Connection ~ 5450 2825
 Text GLabel 15300 2825 2    50   Input ~ 0
 LED
-Text GLabel 15300 5025 2    50   Input ~ 0
-RE6_B
-Text GLabel 15300 2125 2    60   Input ~ 0
-pin9
 Text GLabel 15300 4925 2    60   Input ~ 0
-pin8
+pin9
 Text GLabel 15300 4725 2    60   Input ~ 0
+pin8
+Text GLabel 15300 4525 2    60   Input ~ 0
 pin7
 $Comp
 L power:GND #PWR07
@@ -2306,13 +2288,11 @@ Wire Wire Line
 	2800 9825 2800 9725
 Wire Wire Line
 	9350 5325 9350 6175
-Wire Wire Line
-	8700 6575 8700 7425
 $Comp
-L Switch:SW_Push SW_65
+L Switch:SW_Push SW_65_1
 U 1 1 5F5D094E
 P 6950 7825
-F 0 "SW_65" H 6950 8110 50  0000 C CNN
+F 0 "SW_65_1" H 6950 8110 50  0000 C CNN
 F 1 "SW_Push" H 6950 8019 50  0000 C CNN
 F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 6950 8025 50  0001 C CNN
 F 3 "~" H 6950 8025 50  0001 C CNN
@@ -2374,8 +2354,6 @@ F 3 "~" H 10200 8025 50  0001 C CNN
 	1    10200 7825
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10000 6575 10000 7625
 $Comp
 L Switch:SW_Push SW_89
 U 1 1 5F3CB957
@@ -2477,8 +2455,6 @@ Wire Wire Line
 	900  6575 900  7625
 Wire Wire Line
 	1550 5325 1550 6575
-Wire Wire Line
-	2200 6575 2200 7625
 $Comp
 L Switch:SW_Push SW_14
 U 1 1 5FECF01C
@@ -2510,14 +2486,12 @@ Wire Wire Line
 Wire Wire Line
 	8700 5325 8700 6575
 Wire Wire Line
-	6750 6575 6750 7825
-Wire Wire Line
-	2850 6575 2850 7325
+	6750 6575 6750 7475
 $Comp
-L Switch:SW_Push SW_30
+L Switch:SW_Push SW_30_1
 U 1 1 5FF60A39
 P 3700 7825
-F 0 "SW_30" H 3700 8110 50  0000 C CNN
+F 0 "SW_30_1" H 3700 8110 50  0000 C CNN
 F 1 "SW_Push" H 3700 8019 50  0000 C CNN
 F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3700 8025 50  0001 C CNN
 F 3 "~" H 3700 8025 50  0001 C CNN
@@ -2582,8 +2556,6 @@ F 4 "C81598" H 7800 7975 50  0001 C CNN "LCSC"
 	1    7800 7975
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4150 6575 4150 7625
 $Comp
 L Device:D D83
 U 1 1 5FF817F0
@@ -2779,10 +2751,10 @@ F 4 "C81598" H 11050 7975 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW_90
+L Switch:SW_Push SW_90_1
 U 1 1 5FF9BF9F
 P 11500 7825
-F 0 "SW_90" H 11500 8110 50  0000 C CNN
+F 0 "SW_90_1" H 11500 8110 50  0000 C CNN
 F 1 "SW_Push" H 11500 8019 50  0000 C CNN
 F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 11500 8025 50  0001 C CNN
 F 3 "~" H 11500 8025 50  0001 C CNN
@@ -2793,18 +2765,6 @@ Wire Wire Line
 	11300 5325 11300 6575
 Text GLabel 11700 775  1    50   Input ~ 0
 pin10
-$Comp
-L Device:D D8
-U 1 1 5FFC4396
-P 3225 1725
-F 0 "D8" V 3271 1645 50  0000 R CNN
-F 1 "D" V 3180 1645 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 3225 1725 50  0001 C CNN
-F 3 "~" H 3225 1725 50  0001 C CNN
-F 4 "C81598" H 3225 1725 50  0001 C CNN "LCSC"
-	1    3225 1725
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:D D94
 U 1 1 5FFCFE27
@@ -2820,49 +2780,49 @@ $EndComp
 $Comp
 L Device:D D53
 U 1 1 5FFDF81C
-P 7150 1725
-F 0 "D53" V 7196 1645 50  0000 R CNN
-F 1 "D" V 7105 1645 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 7150 1725 50  0001 C CNN
-F 3 "~" H 7150 1725 50  0001 C CNN
-F 4 "C81598" H 7150 1725 50  0001 C CNN "LCSC"
-	1    7150 1725
+P 7350 1725
+F 0 "D53" V 7396 1645 50  0000 R CNN
+F 1 "D" V 7305 1645 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7350 1725 50  0001 C CNN
+F 3 "~" H 7350 1725 50  0001 C CNN
+F 4 "C81598" H 7350 1725 50  0001 C CNN "LCSC"
+	1    7350 1725
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D65
 U 1 1 5FFEC98C
-P 8450 1725
-F 0 "D65" V 8496 1645 50  0000 R CNN
-F 1 "D" V 8405 1645 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 8450 1725 50  0001 C CNN
-F 3 "~" H 8450 1725 50  0001 C CNN
-F 4 "C81598" H 8450 1725 50  0001 C CNN "LCSC"
-	1    8450 1725
+P 8650 1725
+F 0 "D65" V 8696 1645 50  0000 R CNN
+F 1 "D" V 8605 1645 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8650 1725 50  0001 C CNN
+F 3 "~" H 8650 1725 50  0001 C CNN
+F 4 "C81598" H 8650 1725 50  0001 C CNN "LCSC"
+	1    8650 1725
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D77
 U 1 1 5FFF8963
-P 9750 1725
-F 0 "D77" V 9796 1645 50  0000 R CNN
-F 1 "D" V 9705 1645 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 9750 1725 50  0001 C CNN
-F 3 "~" H 9750 1725 50  0001 C CNN
-F 4 "C81598" H 9750 1725 50  0001 C CNN "LCSC"
-	1    9750 1725
+P 9950 1725
+F 0 "D77" V 9996 1645 50  0000 R CNN
+F 1 "D" V 9905 1645 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9950 1725 50  0001 C CNN
+F 3 "~" H 9950 1725 50  0001 C CNN
+F 4 "C81598" H 9950 1725 50  0001 C CNN "LCSC"
+	1    9950 1725
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D89
 U 1 1 60005BC1
-P 11050 1725
-F 0 "D89" V 11096 1645 50  0000 R CNN
-F 1 "D" V 11005 1645 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 11050 1725 50  0001 C CNN
-F 3 "~" H 11050 1725 50  0001 C CNN
-F 4 "C81598" H 11050 1725 50  0001 C CNN "LCSC"
-	1    11050 1725
+P 11250 1725
+F 0 "D89" V 11296 1645 50  0000 R CNN
+F 1 "D" V 11205 1645 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11250 1725 50  0001 C CNN
+F 3 "~" H 11250 1725 50  0001 C CNN
+F 4 "C81598" H 11250 1725 50  0001 C CNN "LCSC"
+	1    11250 1725
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -2885,8 +2845,6 @@ Wire Wire Line
 	1550 3675 1550 3875
 Wire Wire Line
 	2200 2825 2200 3875
-Wire Wire Line
-	2850 2825 2850 3675
 Wire Wire Line
 	4150 2825 4150 4075
 Wire Wire Line
@@ -3031,13 +2989,11 @@ Connection ~ 6750 4075
 Wire Wire Line
 	6750 4075 6750 5325
 Wire Wire Line
-	8050 2825 8050 4075
+	8050 2825 8050 3875
 Wire Wire Line
-	8700 2825 8700 4075
+	8700 2825 8700 3875
 Wire Wire Line
-	9350 2825 9350 4075
-Wire Wire Line
-	10000 2825 10000 3875
+	9350 2825 9350 3875
 Wire Wire Line
 	11300 2825 11300 3875
 $Comp
@@ -3054,10 +3010,10 @@ $EndComp
 Wire Wire Line
 	7400 4075 7400 5325
 $Comp
-L Switch:SW_Push SW_72
+L Switch:SW_Push SW_72_1
 U 1 1 6038E75B
 P 8250 4075
-F 0 "SW_72" H 8250 4360 50  0000 C CNN
+F 0 "SW_72_1" H 8250 4360 50  0000 C CNN
 F 1 "SW_Push" H 8250 4269 50  0000 C CNN
 F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 8250 4275 50  0001 C CNN
 F 3 "~" H 8250 4275 50  0001 C CNN
@@ -3066,12 +3022,12 @@ F 3 "~" H 8250 4275 50  0001 C CNN
 $EndComp
 Connection ~ 8050 4075
 Wire Wire Line
-	8050 4075 8050 4925
+	8050 4075 8050 4725
 $Comp
-L Switch:SW_Push SW_87
+L Switch:SW_Push SW_87_1
 U 1 1 603909D8
 P 8900 4075
-F 0 "SW_87" H 8900 4360 50  0000 C CNN
+F 0 "SW_87_1" H 8900 4360 50  0000 C CNN
 F 1 "SW_Push" H 8900 4269 50  0000 C CNN
 F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 8900 4275 50  0001 C CNN
 F 3 "~" H 8900 4275 50  0001 C CNN
@@ -3079,10 +3035,10 @@ F 3 "~" H 8900 4275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW_82
+L Switch:SW_Push SW_82_1
 U 1 1 6039F75D
 P 9550 4075
-F 0 "SW_82" H 9550 4360 50  0000 C CNN
+F 0 "SW_82_1" H 9550 4360 50  0000 C CNN
 F 1 "SW_Push" H 9550 4269 50  0000 C CNN
 F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 9550 4275 50  0001 C CNN
 F 3 "~" H 9550 4275 50  0001 C CNN
@@ -3102,7 +3058,7 @@ F 3 "~" H 10200 4275 50  0001 C CNN
 $EndComp
 Connection ~ 9350 4075
 Wire Wire Line
-	9350 4075 9350 5325
+	9350 4075 9350 5125
 Connection ~ 10000 4075
 $Comp
 L Switch:SW_Push SW_7_1
@@ -3247,8 +3203,6 @@ Wire Wire Line
 	2600 8325 3900 8325
 Wire Wire Line
 	2200 4925 2850 4925
-Wire Wire Line
-	2850 4925 2850 5125
 Connection ~ 2200 4925
 Wire Wire Line
 	2200 4925 2200 5125
@@ -3385,11 +3339,7 @@ Wire Wire Line
 	5850 6975 7150 6975
 Wire Wire Line
 	4800 7225 5450 7225
-Wire Wire Line
-	5450 7225 5450 7350
 Connection ~ 4800 7225
-Wire Wire Line
-	4800 7225 4800 7375
 Wire Wire Line
 	5850 8125 5850 8225
 Connection ~ 5850 8225
@@ -3418,10 +3368,6 @@ Wire Wire Line
 Connection ~ 6500 8325
 Wire Wire Line
 	6500 8325 7800 8325
-Wire Wire Line
-	6750 2225 7400 2225
-Wire Wire Line
-	7400 1075 7400 2225
 Wire Wire Line
 	7150 3125 7150 3225
 Connection ~ 7150 3225
@@ -3452,8 +3398,6 @@ Wire Wire Line
 Connection ~ 8050 2425
 Wire Wire Line
 	8050 2425 8050 2825
-Wire Wire Line
-	8050 2225 8700 2225
 Wire Wire Line
 	7800 3125 7800 3325
 Connection ~ 7800 3325
@@ -3517,7 +3461,7 @@ Wire Wire Line
 	8450 8225 9750 8225
 Connection ~ 8450 8225
 Wire Wire Line
-	10000 1075 10000 2225
+	10000 1075 10000 1325
 Wire Wire Line
 	8700 2825 8700 2425
 Wire Wire Line
@@ -3527,7 +3471,7 @@ Connection ~ 9350 2425
 Wire Wire Line
 	9350 2425 9350 2825
 Wire Wire Line
-	9350 2225 10000 2225
+	9350 1325 10000 1325
 Wire Wire Line
 	9100 3125 9100 3325
 Connection ~ 9100 3325
@@ -3539,12 +3483,12 @@ Connection ~ 9100 4575
 Wire Wire Line
 	9100 4575 10400 4575
 Wire Wire Line
-	8050 4925 8700 4925
+	8050 4725 8700 4725
 Wire Wire Line
-	8700 4925 8700 5325
-Connection ~ 8050 4925
+	8700 4725 8700 5125
+Connection ~ 8050 4725
 Wire Wire Line
-	8050 4925 8050 5325
+	8050 4725 8050 5125
 Connection ~ 8700 5325
 Wire Wire Line
 	9100 5625 9100 5825
@@ -3614,40 +3558,14 @@ Connection ~ 10400 8325
 Wire Wire Line
 	10400 8325 11700 8325
 Wire Wire Line
-	11700 1075 11700 1175
-Wire Wire Line
 	11700 2425 11300 2425
 Wire Wire Line
 	11300 2425 11300 2825
 Connection ~ 11300 2825
-Wire Wire Line
-	9350 1175 9350 1575
-Connection ~ 11700 1175
-Wire Wire Line
-	11700 1175 11700 2425
-Wire Wire Line
-	8050 1175 8050 1575
-Wire Wire Line
-	6750 1175 6750 1575
-Wire Wire Line
-	5450 1175 5450 1575
-Wire Wire Line
-	2825 1175 2825 1575
-Text GLabel 3225 1875 0    50   Input ~ 0
-pin1
-Text GLabel 5850 1875 0    50   Input ~ 0
-pin2
-Text GLabel 7150 1875 0    50   Input ~ 0
-pin3
-Text GLabel 8450 1875 0    50   Input ~ 0
-pin4
-Text GLabel 9750 1875 0    50   Input ~ 0
-pin5
+Text GLabel 775  1875 0    50   Input ~ 0
+pin11
 Wire Wire Line
 	6100 2225 6100 2825
-Wire Wire Line
-	6100 1075 6100 2225
-Connection ~ 6100 2225
 Wire Wire Line
 	5450 2225 5450 2825
 Wire Wire Line
@@ -3655,7 +3573,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 2225 4800 2825
 Wire Wire Line
-	4800 1075 4800 2225
+	4800 1075 4800 1575
 Connection ~ 4800 2225
 Wire Wire Line
 	4150 2225 4150 2825
@@ -3664,7 +3582,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 2225 3500 2825
 Wire Wire Line
-	3500 1075 3500 2225
+	3500 1075 3500 1575
 Connection ~ 3500 2225
 Wire Wire Line
 	2850 2225 2850 2825
@@ -3673,7 +3591,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 2225 2200 2825
 Wire Wire Line
-	2200 1075 2200 2225
+	2200 1075 2200 1575
 Connection ~ 2200 2225
 Wire Wire Line
 	1550 2225 1550 2825
@@ -3681,17 +3599,17 @@ Wire Wire Line
 	1550 2225 2200 2225
 Text Notes 14225 3825 0    50   ~ 0
 Audio pins\nGroup1: B5, B6, B7\nGroup2: C4, C5, C6
-Text GLabel 15300 3825 2    50   Input ~ 0
+Text GLabel 15300 3625 2    50   Input ~ 0
 RE3_A
-Text GLabel 15300 3725 2    50   Input ~ 0
+Text GLabel 15300 3525 2    50   Input ~ 0
 RE3_B
-Text GLabel 15300 3925 2    50   Input ~ 0
+Text GLabel 15300 3825 2    50   Input ~ 0
 RE4_A
-Text GLabel 15300 4025 2    50   Input ~ 0
+Text GLabel 15300 3725 2    50   Input ~ 0
 RE4_B
-Text GLabel 15300 2525 2    50   Input ~ 0
+Text GLabel 15300 3925 2    50   Input ~ 0
 RE5_A
-Text GLabel 15300 2625 2    50   Input ~ 0
+Text GLabel 15300 4025 2    50   Input ~ 0
 RE5_B
 Text GLabel 4450 11000 2    50   Input ~ 0
 RE3_B
@@ -3789,25 +3707,17 @@ Text GLabel 6650 10800 0    50   Input ~ 0
 RE5_1
 Text GLabel 6650 11000 0    50   Input ~ 0
 RE5_2
-Text GLabel 2825 1575 0    50   Input ~ 0
-RE1_1
-Text GLabel 3225 1575 0    50   Input ~ 0
-RE1_2
-Text GLabel 5450 1575 0    50   Input ~ 0
-RE2_1
-Text GLabel 5850 1575 0    50   Input ~ 0
-RE2_2
-Text GLabel 6750 1575 0    50   Input ~ 0
+Text GLabel 8050 1575 2    50   Input ~ 0
 RE3_1
-Text GLabel 7150 1575 0    50   Input ~ 0
+Text GLabel 8650 1575 0    50   Input ~ 0
 RE3_2
-Text GLabel 8050 1575 0    50   Input ~ 0
+Text GLabel 9350 1575 2    50   Input ~ 0
 RE4_1
-Text GLabel 8450 1575 0    50   Input ~ 0
+Text GLabel 9950 1575 0    50   Input ~ 0
 RE4_2
-Text GLabel 9350 1575 0    50   Input ~ 0
+Text GLabel 10650 1575 2    50   Input ~ 0
 RE5_1
-Text GLabel 9750 1575 0    50   Input ~ 0
+Text GLabel 11250 1575 0    50   Input ~ 0
 RE5_2
 Text GLabel 1450 9475 2    50   Input ~ 0
 AUDIO2[Reserve]
@@ -3847,20 +3757,16 @@ $EndComp
 Wire Wire Line
 	10650 7425 11300 7425
 Wire Wire Line
-	11300 7425 11300 7825
+	11300 7425 11300 7650
 Connection ~ 10650 7425
 Wire Wire Line
 	10650 7425 10650 7825
-Text Notes 2900 1475 0    50   ~ 0
-SW_01
-Text Notes 5475 1475 0    50   ~ 0
-SW_02
 Text Notes 6800 1475 0    50   ~ 0
-SW_03
+SW_6B
 Text Notes 8100 1475 0    50   ~ 0
-SW_04
+SW_7B
 Text Notes 9400 1475 0    50   ~ 0
-SW_05
+SW_8B
 $Comp
 L Switch:SW_Push SW_8_2
 U 1 1 6238D388
@@ -3907,23 +3813,6 @@ Wire Wire Line
 	3250 7625 3250 7825
 Connection ~ 3250 7825
 $Comp
-L Switch:SW_Push SW_24_2
-U 1 1 5FF3CD6A
-P 3050 6375
-F 0 "SW_24_2" H 3050 6660 50  0000 C CNN
-F 1 "SW_Push" H 3050 6569 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 3050 6575 50  0001 C CNN
-F 3 "~" H 3050 6575 50  0001 C CNN
-	1    3050 6375
-	1    0    0    -1  
-$EndComp
-Connection ~ 2850 6375
-Wire Wire Line
-	2850 6375 2850 6575
-Wire Wire Line
-	3250 6375 3250 6575
-Connection ~ 3250 6575
-$Comp
 L Switch:SW_Push SW_39_2
 U 1 1 5FFAEB2A
 P 3700 6375
@@ -3940,212 +3829,16 @@ Wire Wire Line
 Wire Wire Line
 	3900 6375 3900 6575
 Connection ~ 3900 6575
-$Comp
-L Switch:SW_Push SW_40_3
-U 1 1 60021D2D
-P 5000 7525
-F 0 "SW_40_3" H 5000 7810 50  0000 C CNN
-F 1 "SW_Push" H 5000 7719 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.25u_guide" H 5000 7725 50  0001 C CNN
-F 3 "~" H 5000 7725 50  0001 C CNN
-	1    5000 7525
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_35_2
-U 1 1 6005AA30
-P 4350 7625
-F 0 "SW_35_2" H 4350 7910 50  0000 C CNN
-F 1 "SW_Push" H 4350 7819 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.25u_guide" H 4350 7825 50  0001 C CNN
-F 3 "~" H 4350 7825 50  0001 C CNN
-	1    4350 7625
-	1    0    0    -1  
-$EndComp
-Connection ~ 4150 7625
-Wire Wire Line
-	4150 7625 4150 7825
-$Comp
-L Switch:SW_Push SW_45_3
-U 1 1 6009405B
-P 5650 7500
-F 0 "SW_45_3" H 5650 7785 50  0000 C CNN
-F 1 "SW_Push" H 5650 7694 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.25u_guide" H 5650 7700 50  0001 C CNN
-F 3 "~" H 5650 7700 50  0001 C CNN
-	1    5650 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_40_4
-U 1 1 600CD442
-P 5000 7375
-F 0 "SW_40_4" H 5000 7660 50  0000 C CNN
-F 1 "SW_Push" H 5000 7569 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.25u_guide" H 5000 7575 50  0001 C CNN
-F 3 "~" H 5000 7575 50  0001 C CNN
-	1    5000 7375
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_80_2
-U 1 1 60106133
-P 10200 7625
-F 0 "SW_80_2" H 10200 7910 50  0000 C CNN
-F 1 "SW_Push" H 10200 7819 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.25u_guide" H 10200 7825 50  0001 C CNN
-F 3 "~" H 10200 7825 50  0001 C CNN
-	1    10200 7625
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_85_4
-U 1 1 6013EE5A
-P 9550 7375
-F 0 "SW_85_4" H 9550 7660 50  0000 C CNN
-F 1 "SW_Push" H 9550 7569 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.25u_guide" H 9550 7575 50  0001 C CNN
-F 3 "~" H 9550 7575 50  0001 C CNN
-	1    9550 7375
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_85_3
-U 1 1 60177B9C
-P 9550 7525
-F 0 "SW_85_3" H 9550 7810 50  0000 C CNN
-F 1 "SW_Push" H 9550 7719 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 9550 7725 50  0001 C CNN
-F 3 "~" H 9550 7725 50  0001 C CNN
-	1    9550 7525
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_85_2
-U 1 1 601B0806
-P 9550 7675
-F 0 "SW_85_2" H 9550 7960 50  0000 C CNN
-F 1 "SW_Push" H 9550 7869 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.25u_guide" H 9550 7875 50  0001 C CNN
-F 3 "~" H 9550 7875 50  0001 C CNN
-	1    9550 7675
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_45_2
-U 1 1 601E94DC
-P 5650 7675
-F 0 "SW_45_2" H 5650 7960 50  0000 C CNN
-F 1 "SW_Push" H 5650 7869 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 5650 7875 50  0001 C CNN
-F 3 "~" H 5650 7875 50  0001 C CNN
-	1    5650 7675
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_40_2
-U 1 1 6022212B
-P 5000 7675
-F 0 "SW_40_2" H 5000 7960 50  0000 C CNN
-F 1 "SW_Push" H 5000 7869 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 5000 7875 50  0001 C CNN
-F 3 "~" H 5000 7875 50  0001 C CNN
-	1    5000 7675
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4550 7625 4550 7825
 Connection ~ 4550 7825
-Connection ~ 4800 7675
-Wire Wire Line
-	4800 7675 4800 7825
-Wire Wire Line
-	5200 7675 5200 7825
 Connection ~ 5200 7825
-Connection ~ 4800 7375
-Connection ~ 5200 7675
-Connection ~ 5450 7675
-Wire Wire Line
-	5450 7675 5450 7825
-Connection ~ 5450 7500
-Wire Wire Line
-	5450 7500 5450 7675
-Wire Wire Line
-	5850 7500 5850 7675
 Connection ~ 5850 7825
-Connection ~ 5850 7675
-Wire Wire Line
-	5850 7675 5850 7825
-Connection ~ 10000 7625
-Wire Wire Line
-	10000 7625 10000 7825
 Wire Wire Line
 	10400 7625 10400 7825
 Connection ~ 10400 7825
-Connection ~ 9350 7675
-Wire Wire Line
-	9350 7675 9350 7825
-Connection ~ 4800 7525
-Wire Wire Line
-	4800 7525 4800 7675
-Connection ~ 5200 7525
-Wire Wire Line
-	5200 7525 5200 7675
-Wire Wire Line
-	4800 7375 4800 7525
-Wire Wire Line
-	5200 7375 5200 7525
-Connection ~ 9350 7525
-Wire Wire Line
-	9350 7525 9350 7675
-Connection ~ 9350 7375
-Wire Wire Line
-	9350 6575 9350 7375
-Wire Wire Line
-	9350 7375 9350 7525
 Connection ~ 9750 7825
-Wire Wire Line
-	9750 7525 9750 7675
-Connection ~ 9750 7675
-Wire Wire Line
-	9750 7675 9750 7825
-Wire Wire Line
-	9750 7375 9750 7525
-Connection ~ 9750 7525
-$Comp
-L Switch:SW_Push SW_70_2
-U 1 1 6080ACB1
-P 8900 7625
-F 0 "SW_70_2" H 8900 7910 50  0000 C CNN
-F 1 "SW_Push" H 8900 7819 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 8900 7825 50  0001 C CNN
-F 3 "~" H 8900 7825 50  0001 C CNN
-	1    8900 7625
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_70_3
-U 1 1 60848B47
-P 8900 7425
-F 0 "SW_70_3" H 8900 7710 50  0000 C CNN
-F 1 "SW_Push" H 8900 7619 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.25u_guide" H 8900 7625 50  0001 C CNN
-F 3 "~" H 8900 7625 50  0001 C CNN
-	1    8900 7425
-	1    0    0    -1  
-$EndComp
-Connection ~ 8700 7625
-Wire Wire Line
-	8700 7625 8700 7825
-Connection ~ 8700 7425
-Wire Wire Line
-	8700 7425 8700 7625
-Wire Wire Line
-	9100 7425 9100 7625
 Connection ~ 9100 7825
-Connection ~ 9100 7625
-Wire Wire Line
-	9100 7625 9100 7825
 Wire Wire Line
 	10650 2425 10650 2825
 $Comp
@@ -4160,42 +3853,6 @@ F 3 "~" H 11500 4075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW_32_2
-U 1 1 60DEF714
-P 3050 3875
-F 0 "SW_32_2" H 3050 4160 50  0000 C CNN
-F 1 "SW_Push" H 3050 4069 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 3050 4075 50  0001 C CNN
-F 3 "~" H 3050 4075 50  0001 C CNN
-	1    3050 3875
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_97_2
-U 1 1 60E6D2AF
-P 10200 3875
-F 0 "SW_97_2" H 10200 4160 50  0000 C CNN
-F 1 "SW_Push" H 10200 4069 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 10200 4075 50  0001 C CNN
-F 3 "~" H 10200 4075 50  0001 C CNN
-	1    10200 3875
-	1    0    0    -1  
-$EndComp
-Connection ~ 10000 3875
-Wire Wire Line
-	10000 3875 10000 4075
-Wire Wire Line
-	10400 3875 10400 4075
-Connection ~ 10400 4075
-Wire Wire Line
-	10000 4075 10000 5125
-Wire Wire Line
-	10000 5125 10000 5325
-Connection ~ 10000 5125
-Wire Wire Line
-	10400 5125 10400 5325
-Connection ~ 10400 5325
-$Comp
 L Switch:SW_Push SW_98_1
 U 1 1 61BAA342
 P 10200 5325
@@ -4206,20 +3863,6 @@ F 3 "~" H 10200 5525 50  0001 C CNN
 	1    10200 5325
 	1    0    0    -1  
 $EndComp
-$Comp
-L Switch:SW_Push SW_98_2
-U 1 1 60E2E5C7
-P 10200 5125
-F 0 "SW_98_2" H 10200 5410 50  0000 C CNN
-F 1 "SW_Push" H 10200 5319 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 10200 5325 50  0001 C CNN
-F 3 "~" H 10200 5325 50  0001 C CNN
-	1    10200 5125
-	1    0    0    -1  
-$EndComp
-Connection ~ 2850 3875
-Wire Wire Line
-	2850 3875 2850 4075
 $Comp
 L Switch:SW_Push SW_37_2
 U 1 1 610975FF
@@ -4279,17 +3922,6 @@ F 3 "~" H 1100 5325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW_23_2
-U 1 1 611DAC9D
-P 3050 5125
-F 0 "SW_23_2" H 3050 5410 50  0000 C CNN
-F 1 "SW_Push" H 3050 5319 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 3050 5325 50  0001 C CNN
-F 3 "~" H 3050 5325 50  0001 C CNN
-	1    3050 5125
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW_17_2
 U 1 1 6129BFE7
 P 1100 3875
@@ -4343,9 +3975,6 @@ Wire Wire Line
 Connection ~ 2200 5125
 Wire Wire Line
 	2200 5125 2200 5325
-Connection ~ 2850 5125
-Wire Wire Line
-	2850 5125 2850 5325
 Wire Wire Line
 	1300 3875 1300 4075
 Connection ~ 1300 4075
@@ -4355,8 +3984,6 @@ Connection ~ 1950 4075
 Wire Wire Line
 	2600 3875 2600 4075
 Connection ~ 2600 4075
-Wire Wire Line
-	3250 3875 3250 4075
 Connection ~ 3250 4075
 Wire Wire Line
 	3900 3875 3900 4075
@@ -4364,8 +3991,6 @@ Connection ~ 3900 4075
 Wire Wire Line
 	3900 5125 3900 5325
 Connection ~ 3900 5325
-Wire Wire Line
-	3250 5125 3250 5325
 Connection ~ 3250 5325
 Wire Wire Line
 	2600 5125 2600 5325
@@ -4393,136 +4018,16 @@ Wire Wire Line
 Wire Wire Line
 	1300 6375 1300 6575
 Connection ~ 1300 6575
-$Comp
-L Switch:SW_Push SW_20_2
-U 1 1 5FF0CABC
-P 2400 7625
-F 0 "SW_20_2" H 2400 7910 50  0000 C CNN
-F 1 "SW_Push" H 2400 7819 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.25u_guide" H 2400 7825 50  0001 C CNN
-F 3 "~" H 2400 7825 50  0001 C CNN
-	1    2400 7625
-	1    0    0    -1  
-$EndComp
-Connection ~ 2200 7625
-Wire Wire Line
-	2200 7625 2200 7825
 Wire Wire Line
 	2600 7625 2600 7825
 Connection ~ 2600 7825
-$Comp
-L Switch:SW_Push SW_25_3
-U 1 1 5FFA1D66
-P 3050 7475
-F 0 "SW_25_3" H 3050 7760 50  0000 C CNN
-F 1 "SW_Push" H 3050 7669 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 3050 7675 50  0001 C CNN
-F 3 "~" H 3050 7675 50  0001 C CNN
-	1    3050 7475
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_25_4
-U 1 1 5FFEDA15
-P 3050 7325
-F 0 "SW_25_4" H 3050 7610 50  0000 C CNN
-F 1 "SW_Push" H 3050 7519 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.25u_guide" H 3050 7525 50  0001 C CNN
-F 3 "~" H 3050 7525 50  0001 C CNN
-	1    3050 7325
-	1    0    0    -1  
-$EndComp
-Connection ~ 2850 7475
-Wire Wire Line
-	2850 7475 2850 7625
-Connection ~ 2850 7325
-Wire Wire Line
-	3250 7325 3250 7475
-Wire Wire Line
-	2850 7325 2850 7475
 Connection ~ 3250 7625
-Connection ~ 3250 7475
 Wire Wire Line
-	3250 7475 3250 7625
-$Comp
-L Switch:SW_Push SW_45_4
-U 1 1 60085F0B
-P 5650 7350
-F 0 "SW_45_4" H 5650 7635 50  0000 C CNN
-F 1 "SW_Push" H 5650 7544 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 5650 7550 50  0001 C CNN
-F 3 "~" H 5650 7550 50  0001 C CNN
-	1    5650 7350
-	1    0    0    -1  
-$EndComp
-Connection ~ 5450 7350
-Wire Wire Line
-	5450 7350 5450 7500
-Wire Wire Line
-	5850 7350 5850 7500
-Connection ~ 5850 7500
-$Comp
-L Switch:SW_Push SW_60_2
-U 1 1 6011E524
-P 7600 7625
-F 0 "SW_60_2" H 7600 7910 50  0000 C CNN
-F 1 "SW_Push" H 7600 7819 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2U_vertical_guide" H 7600 7825 50  0001 C CNN
-F 3 "~" H 7600 7825 50  0001 C CNN
-	1    7600 7625
-	1    0    0    -1  
-$EndComp
-Connection ~ 7400 7625
-Wire Wire Line
-	7400 7625 7400 7825
-Wire Wire Line
-	7800 7625 7800 7825
+	7800 7625 7800 7650
 Connection ~ 7800 7825
-$Comp
-L Switch:SW_Push SW_75_2
-U 1 1 601BB994
-P 8250 7625
-F 0 "SW_75_2" H 8250 7910 50  0000 C CNN
-F 1 "SW_Push" H 8250 7819 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 8250 7825 50  0001 C CNN
-F 3 "~" H 8250 7825 50  0001 C CNN
-	1    8250 7625
-	1    0    0    -1  
-$EndComp
-Connection ~ 8050 7625
 Wire Wire Line
-	8050 7625 8050 7825
-Wire Wire Line
-	8450 7625 8450 7825
+	8450 7500 8450 7650
 Connection ~ 8450 7825
-Wire Wire Line
-	9025 10900 8650 10900
-$Comp
-L power:GND #PWR09
-U 1 1 5FF84671
-P 9025 10900
-F 0 "#PWR09" H 9025 10650 50  0001 C CNN
-F 1 "GND" H 9030 10727 50  0000 C CNN
-F 2 "" H 9025 10900 50  0001 C CNN
-F 3 "" H 9025 10900 50  0001 C CNN
-	1    9025 10900
-	1    0    0    -1  
-$EndComp
-Text GLabel 8050 10800 0    50   Input ~ 0
-RE6_1
-Text GLabel 8050 11000 0    50   Input ~ 0
-RE6_2
-$Comp
-L Device:Rotary_Encoder_Switch SW_RE6
-U 1 1 5FF84677
-P 8350 10900
-F 0 "SW_RE6" H 8350 11267 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 8350 11176 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 8200 11060 50  0001 C CNN
-F 3 "~" H 8350 11160 50  0001 C CNN
-	1    8350 10900
-	-1   0    0    -1  
-$EndComp
 Text GLabel 2825 11000 2    50   Input ~ 0
 SCL_RE2B
 Text GLabel 2825 10800 2    50   Input ~ 0
@@ -4775,20 +4280,6 @@ Wire Wire Line
 Connection ~ 8875 9925
 Wire Wire Line
 	8875 9925 9350 9925
-Connection ~ 5450 1175
-Wire Wire Line
-	5450 1175 2825 1175
-Wire Wire Line
-	5450 1175 6750 1175
-Connection ~ 6750 1175
-Wire Wire Line
-	6750 1175 8050 1175
-Connection ~ 8050 1175
-Wire Wire Line
-	8050 1175 9350 1175
-Connection ~ 9350 1175
-Wire Wire Line
-	9350 1175 11700 1175
 Wire Wire Line
 	2800 10225 9875 10225
 Wire Wire Line
@@ -4797,26 +4288,8 @@ Wire Wire Line
 	9925 9925 11575 9925
 Wire Notes Line
 	9800 9200 6750 9200
-Text GLabel 11050 1875 0    50   Input ~ 0
-pin2
-Text GLabel 10650 1575 0    50   Input ~ 0
-RE6_1
-Text GLabel 11050 1575 0    50   Input ~ 0
-RE6_2
 Text Notes 10700 1475 0    50   ~ 0
-SW_92
-$Comp
-L Device:D D100
-U 1 1 620DB3F3
-P 5850 1725
-F 0 "D100" V 5896 1645 50  0000 R CNN
-F 1 "D" V 5805 1645 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 5850 1725 50  0001 C CNN
-F 3 "~" H 5850 1725 50  0001 C CNN
-F 4 "C81598" H 5850 1725 50  0001 C CNN "LCSC"
-	1    5850 1725
-	0    -1   -1   0   
-$EndComp
+SW_9B
 Connection ~ 11300 3875
 Wire Wire Line
 	11300 3875 11300 4075
@@ -4825,18 +4298,12 @@ Wire Wire Line
 Connection ~ 11700 4075
 Wire Wire Line
 	10400 4575 11700 4575
-Text Notes 10700 5150 0    50   ~ 0
-SW_93\nReserve
-Wire Wire Line
-	10650 2825 10650 5325
 Connection ~ 11300 5125
 Wire Wire Line
 	11300 5125 11300 5325
 Wire Wire Line
 	11700 5125 11700 5325
 Connection ~ 11700 5325
-Wire Wire Line
-	10400 5825 11050 5825
 Wire Wire Line
 	11300 1325 10650 1325
 Wire Wire Line
@@ -5103,65 +4570,658 @@ Wire Wire Line
 Connection ~ 9875 9625
 Wire Wire Line
 	9875 9625 9925 9625
-$Comp
-L Connector_Generic:Conn_02x01 J2
-U 1 1 5FF9A5AD
-P 11050 5525
-F 0 "J2" V 11054 5605 50  0000 L CNN
-F 1 "Conn_02x01" V 11145 5605 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 11050 5525 50  0001 C CNN
-F 3 "~" H 11050 5525 50  0001 C CNN
-F 4 "Col 9" V 11050 5525 50  0001 C CNN "Text1"
-F 5 "Row 3" V 11050 5525 50  0001 C CNN "Text2"
-	1    11050 5525
-	0    1    1    0   
-$EndComp
-Connection ~ 11050 5825
-Wire Wire Line
-	11050 5825 11700 5825
-Wire Wire Line
-	11050 5325 10650 5325
-Connection ~ 10650 5325
-Wire Wire Line
-	10650 5325 10650 6575
 Wire Wire Line
 	3500 2825 3500 3875
 Wire Wire Line
 	3500 4075 3500 5125
 $Comp
-L Switch:SW_Push SW_23_3
+L Switch:SW_Push SW_23_2
 U 1 1 60110853
-P 3050 4925
-F 0 "SW_23_3" H 3050 5210 50  0000 C CNN
-F 1 "SW_Push" H 3050 5119 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3050 5125 50  0001 C CNN
-F 3 "~" H 3050 5125 50  0001 C CNN
-	1    3050 4925
+P 3050 5125
+F 0 "SW_23_2" H 3050 5410 50  0000 C CNN
+F 1 "SW_Push" H 3050 5319 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3050 5325 50  0001 C CNN
+F 3 "~" H 3050 5325 50  0001 C CNN
+	1    3050 5125
 	1    0    0    -1  
 $EndComp
-Connection ~ 2850 4925
-Wire Wire Line
-	3250 4925 3250 5125
-Connection ~ 3250 5125
-$Comp
-L Switch:SW_Push SW_32_3
-U 1 1 601D943F
-P 3050 3675
-F 0 "SW_32_3" H 3050 3960 50  0000 C CNN
-F 1 "SW_Push" H 3050 3869 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3050 3875 50  0001 C CNN
-F 3 "~" H 3050 3875 50  0001 C CNN
-	1    3050 3675
-	1    0    0    -1  
-$EndComp
-Connection ~ 2850 3675
-Wire Wire Line
-	2850 3675 2850 3875
-Wire Wire Line
-	3250 3675 3250 3875
-Connection ~ 3250 3875
 Text Notes 1025 8925 0    98   ~ 20
 1                2                3                4                5                6                7                8                9/0
 Text Notes 975  8675 0    91   ~ 18
  1        2         3        4        5        6        7         8        9       10       11       12       13       14       15       16       17\n17       16       15       14       13       12       11       10        9        8        7        6         5        4        3         2        1
+Text GLabel 7350 1575 0    50   Input ~ 0
+RE2_2
+Text GLabel 6750 1575 2    50   Input ~ 0
+RE2_1
+NoConn ~ 15300 2625
+Wire Wire Line
+	11700 1075 11700 2425
+$Comp
+L Switch:SW_Push SW_2B1
+U 1 1 601DDE62
+P 2400 1575
+F 0 "SW_2B1" H 2400 1860 50  0000 C CNN
+F 1 "SW_Push" H 2400 1769 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 2400 1775 50  0001 C CNN
+F 3 "~" H 2400 1775 50  0001 C CNN
+	1    2400 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D100
+U 1 1 601DDE69
+P 2600 1725
+F 0 "D100" V 2646 1645 50  0000 R CNN
+F 1 "D" V 2555 1645 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2600 1725 50  0001 C CNN
+F 3 "~" H 2600 1725 50  0001 C CNN
+F 4 "C81598" H 2600 1725 50  0001 C CNN "LCSC"
+	1    2600 1725
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2200 1575
+Wire Wire Line
+	2200 1575 2200 2225
+$Comp
+L Switch:SW_Push SW_3B1
+U 1 1 6030A01E
+P 3700 1575
+F 0 "SW_3B1" H 3700 1860 50  0000 C CNN
+F 1 "SW_Push" H 3700 1769 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3700 1775 50  0001 C CNN
+F 3 "~" H 3700 1775 50  0001 C CNN
+	1    3700 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D101
+U 1 1 6030A025
+P 3900 1725
+F 0 "D101" V 3946 1645 50  0000 R CNN
+F 1 "D" V 3855 1645 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3900 1725 50  0001 C CNN
+F 3 "~" H 3900 1725 50  0001 C CNN
+F 4 "C81598" H 3900 1725 50  0001 C CNN "LCSC"
+	1    3900 1725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW_4B1
+U 1 1 6036E1F7
+P 5000 1575
+F 0 "SW_4B1" H 5000 1860 50  0000 C CNN
+F 1 "SW_Push" H 5000 1769 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5000 1775 50  0001 C CNN
+F 3 "~" H 5000 1775 50  0001 C CNN
+	1    5000 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D103
+U 1 1 6036E1FE
+P 5200 1725
+F 0 "D103" V 5246 1645 50  0000 R CNN
+F 1 "D" V 5155 1645 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5200 1725 50  0001 C CNN
+F 3 "~" H 5200 1725 50  0001 C CNN
+F 4 "C81598" H 5200 1725 50  0001 C CNN "LCSC"
+	1    5200 1725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW_5B1
+U 1 1 603D1856
+P 5650 1575
+F 0 "SW_5B1" H 5650 1860 50  0000 C CNN
+F 1 "SW_Push" H 5650 1769 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5650 1775 50  0001 C CNN
+F 3 "~" H 5650 1775 50  0001 C CNN
+	1    5650 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D104
+U 1 1 603D185D
+P 5850 1725
+F 0 "D104" V 5896 1645 50  0000 R CNN
+F 1 "D" V 5805 1645 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5850 1725 50  0001 C CNN
+F 3 "~" H 5850 1725 50  0001 C CNN
+F 4 "C81598" H 5850 1725 50  0001 C CNN "LCSC"
+	1    5850 1725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5450 1175 5450 1575
+Connection ~ 5450 2225
+Connection ~ 5450 1575
+Wire Wire Line
+	5450 1575 5450 2225
+Wire Wire Line
+	8700 1075 8700 1325
+Wire Wire Line
+	8050 1325 8050 2425
+Wire Wire Line
+	8050 1325 8700 1325
+Wire Wire Line
+	7400 1075 7400 1325
+Wire Wire Line
+	6750 1325 6750 2825
+Wire Wire Line
+	6750 1325 7400 1325
+Wire Wire Line
+	6100 1075 6100 1175
+Wire Wire Line
+	6100 1175 5450 1175
+Connection ~ 2600 1875
+Connection ~ 3900 1875
+Wire Wire Line
+	3900 1875 2600 1875
+Connection ~ 5200 1875
+Wire Wire Line
+	5200 1875 3900 1875
+Connection ~ 5850 1875
+Wire Wire Line
+	5850 1875 5200 1875
+Text GLabel 1500 1575 0    50   Input ~ 0
+RE1_2
+Text Notes 1175 1475 0    50   ~ 0
+SW_1B
+Text GLabel 900  1575 2    50   Input ~ 0
+RE1_1
+$Comp
+L Device:D D8
+U 1 1 5FFC4396
+P 1500 1725
+F 0 "D8" V 1546 1645 50  0000 R CNN
+F 1 "D" V 1455 1645 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1500 1725 50  0001 C CNN
+F 3 "~" H 1500 1725 50  0001 C CNN
+F 4 "C81598" H 1500 1725 50  0001 C CNN "LCSC"
+	1    1500 1725
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1500 1875
+Wire Wire Line
+	1500 1875 775  1875
+Wire Wire Line
+	1500 1875 2600 1875
+Connection ~ 7350 1875
+Wire Wire Line
+	5850 1875 7350 1875
+Connection ~ 8650 1875
+Wire Wire Line
+	7350 1875 8650 1875
+Wire Wire Line
+	8650 1875 9950 1875
+Connection ~ 9950 1875
+Wire Wire Line
+	9950 1875 11250 1875
+Connection ~ 3500 1575
+Wire Wire Line
+	3500 1575 3500 2225
+Connection ~ 4800 1575
+Wire Wire Line
+	4800 1575 4800 2225
+Wire Wire Line
+	2850 4925 2850 5125
+Wire Wire Line
+	3250 3875 3250 4075
+Wire Wire Line
+	2850 3875 2850 4075
+Connection ~ 2850 3875
+Wire Wire Line
+	2850 2825 2850 3875
+$Comp
+L Switch:SW_Push SW_32_2
+U 1 1 601D943F
+P 3050 3875
+F 0 "SW_32_2" H 3050 4160 50  0000 C CNN
+F 1 "SW_Push" H 3050 4069 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3050 4075 50  0001 C CNN
+F 3 "~" H 3050 4075 50  0001 C CNN
+	1    3050 3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5325 2850 6575
+Wire Wire Line
+	10000 2825 10000 3875
+Wire Wire Line
+	10000 4075 10000 5125
+Wire Wire Line
+	10650 2825 10650 6575
+Wire Wire Line
+	10400 5825 11700 5825
+Wire Wire Line
+	2850 6575 2850 7425
+Wire Wire Line
+	3250 7325 3250 7425
+Wire Wire Line
+	4150 6575 4150 7425
+Wire Wire Line
+	4800 7225 4800 7825
+Wire Wire Line
+	5200 7375 5200 7825
+Wire Wire Line
+	7400 6575 7400 7650
+Wire Wire Line
+	8050 6575 8050 7500
+Wire Wire Line
+	8700 6575 8700 7825
+Wire Wire Line
+	9100 7425 9100 7825
+Wire Wire Line
+	9350 6575 9350 7475
+Wire Wire Line
+	9750 7375 9750 7475
+Wire Wire Line
+	10000 6575 10000 7825
+Wire Wire Line
+	2200 6575 2200 7625
+Connection ~ 2850 5125
+Wire Wire Line
+	2850 5125 2850 5325
+Wire Wire Line
+	3250 5125 3250 5325
+$Comp
+L Switch:SW_Push SW_97_2
+U 1 1 6132D040
+P 10200 3875
+F 0 "SW_97_2" H 10200 4160 50  0000 C CNN
+F 1 "SW_Push" H 10200 4069 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 10200 4075 50  0001 C CNN
+F 3 "~" H 10200 4075 50  0001 C CNN
+	1    10200 3875
+	1    0    0    -1  
+$EndComp
+Connection ~ 10000 3875
+Wire Wire Line
+	10000 3875 10000 4075
+Wire Wire Line
+	10400 3875 10400 4075
+Connection ~ 10400 4075
+$Comp
+L Switch:SW_Push SW_82_2
+U 1 1 613DE975
+P 9550 3875
+F 0 "SW_82_2" H 9550 4160 50  0000 C CNN
+F 1 "SW_Push" H 9550 4069 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 9550 4075 50  0001 C CNN
+F 3 "~" H 9550 4075 50  0001 C CNN
+	1    9550 3875
+	1    0    0    -1  
+$EndComp
+Connection ~ 9350 3875
+Wire Wire Line
+	9350 3875 9350 4075
+Wire Wire Line
+	9750 3875 9750 4075
+Connection ~ 9750 4075
+$Comp
+L Switch:SW_Push SW_72_2
+U 1 1 614918D3
+P 8250 3875
+F 0 "SW_72_2" H 8250 4160 50  0000 C CNN
+F 1 "SW_Push" H 8250 4069 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 8250 4075 50  0001 C CNN
+F 3 "~" H 8250 4075 50  0001 C CNN
+	1    8250 3875
+	1    0    0    -1  
+$EndComp
+Connection ~ 8050 3875
+Wire Wire Line
+	8050 3875 8050 4075
+$Comp
+L Switch:SW_Push SW_87_2
+U 1 1 614EB0D3
+P 8900 3875
+F 0 "SW_87_2" H 8900 4160 50  0000 C CNN
+F 1 "SW_Push" H 8900 4069 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 8900 4075 50  0001 C CNN
+F 3 "~" H 8900 4075 50  0001 C CNN
+	1    8900 3875
+	1    0    0    -1  
+$EndComp
+Connection ~ 8700 3875
+Wire Wire Line
+	8700 3875 8700 4075
+Wire Wire Line
+	9100 3875 9100 4075
+Connection ~ 9100 4075
+Wire Wire Line
+	8450 3875 8450 4075
+Connection ~ 8450 4075
+$Comp
+L Switch:SW_Push SW_98_2
+U 1 1 61655483
+P 10200 5125
+F 0 "SW_98_2" H 10200 5410 50  0000 C CNN
+F 1 "SW_Push" H 10200 5319 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 10200 5325 50  0001 C CNN
+F 3 "~" H 10200 5325 50  0001 C CNN
+	1    10200 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_83_2
+U 1 1 616AF3E4
+P 9550 5125
+F 0 "SW_83_2" H 9550 5410 50  0000 C CNN
+F 1 "SW_Push" H 9550 5319 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 9550 5325 50  0001 C CNN
+F 3 "~" H 9550 5325 50  0001 C CNN
+	1    9550 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_78_2
+U 1 1 61709CBC
+P 8900 5125
+F 0 "SW_78_2" H 8900 5410 50  0000 C CNN
+F 1 "SW_Push" H 8900 5319 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 8900 5325 50  0001 C CNN
+F 3 "~" H 8900 5325 50  0001 C CNN
+	1    8900 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_73_2
+U 1 1 61763F53
+P 8250 5125
+F 0 "SW_73_2" H 8250 5410 50  0000 C CNN
+F 1 "SW_Push" H 8250 5319 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 8250 5325 50  0001 C CNN
+F 3 "~" H 8250 5325 50  0001 C CNN
+	1    8250 5125
+	1    0    0    -1  
+$EndComp
+Connection ~ 10000 5125
+Wire Wire Line
+	10000 5125 10000 5325
+Connection ~ 9350 5125
+Wire Wire Line
+	9350 5125 9350 5325
+Connection ~ 8700 5125
+Wire Wire Line
+	8700 5125 8700 5325
+Connection ~ 8050 5125
+Wire Wire Line
+	8050 5125 8050 5325
+Wire Wire Line
+	8450 5125 8450 5325
+Connection ~ 8450 5325
+Wire Wire Line
+	9100 5125 9100 5325
+Connection ~ 9100 5325
+Wire Wire Line
+	9750 5125 9750 5325
+Connection ~ 9750 5325
+Wire Wire Line
+	10400 5125 10400 5325
+Connection ~ 10400 5325
+$Comp
+L Switch:SW_Push SW_90_2
+U 1 1 61957303
+P 11500 7650
+F 0 "SW_90_2" H 11500 7935 50  0000 C CNN
+F 1 "SW_Push" H 11500 7844 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2U_vertical_guide" H 11500 7850 50  0001 C CNN
+F 3 "~" H 11500 7850 50  0001 C CNN
+	1    11500 7650
+	1    0    0    -1  
+$EndComp
+Connection ~ 11300 7650
+Wire Wire Line
+	11300 7650 11300 7825
+Wire Wire Line
+	11700 7650 11700 7825
+Connection ~ 11700 7825
+$Comp
+L Switch:SW_Push SW_60_2
+U 1 1 61A13D82
+P 7600 7650
+F 0 "SW_60_2" H 7600 7935 50  0000 C CNN
+F 1 "SW_Push" H 7600 7844 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2U_vertical_guide" H 7600 7850 50  0001 C CNN
+F 3 "~" H 7600 7850 50  0001 C CNN
+	1    7600 7650
+	1    0    0    -1  
+$EndComp
+Connection ~ 7400 7650
+Wire Wire Line
+	7400 7650 7400 7825
+Connection ~ 7800 7650
+Wire Wire Line
+	7800 7650 7800 7825
+$Comp
+L Switch:SW_Push SW_45_2
+U 1 1 61A8A567
+P 5650 7650
+F 0 "SW_45_2" H 5650 7935 50  0000 C CNN
+F 1 "SW_Push" H 5650 7844 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 5650 7850 50  0001 C CNN
+F 3 "~" H 5650 7850 50  0001 C CNN
+	1    5650 7650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 7650
+Wire Wire Line
+	5450 7650 5450 7825
+Connection ~ 5850 7650
+Wire Wire Line
+	5850 7650 5850 7825
+$Comp
+L Switch:SW_Push SW_85_2
+U 1 1 61AF67A6
+P 9550 7650
+F 0 "SW_85_2" H 9550 7935 50  0000 C CNN
+F 1 "SW_Push" H 9550 7844 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 9550 7850 50  0001 C CNN
+F 3 "~" H 9550 7850 50  0001 C CNN
+	1    9550 7650
+	1    0    0    -1  
+$EndComp
+Connection ~ 9350 7650
+Wire Wire Line
+	9350 7650 9350 7825
+Connection ~ 9750 7650
+Wire Wire Line
+	9750 7650 9750 7825
+$Comp
+L Switch:SW_Push SW_45_3
+U 1 1 61B6B486
+P 5650 7475
+F 0 "SW_45_3" H 5650 7760 50  0000 C CNN
+F 1 "SW_Push" H 5650 7669 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 5650 7675 50  0001 C CNN
+F 3 "~" H 5650 7675 50  0001 C CNN
+	1    5650 7475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_65_2
+U 1 1 61BD84A8
+P 6950 7650
+F 0 "SW_65_2" H 6950 7935 50  0000 C CNN
+F 1 "SW_Push" H 6950 7844 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 6950 7850 50  0001 C CNN
+F 3 "~" H 6950 7850 50  0001 C CNN
+	1    6950 7650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6750 7650
+Wire Wire Line
+	6750 7650 6750 7825
+Wire Wire Line
+	7150 7650 7150 7825
+Connection ~ 7150 7825
+$Comp
+L Switch:SW_Push SW_75_2
+U 1 1 61C9BF22
+P 8250 7650
+F 0 "SW_75_2" H 8250 7935 50  0000 C CNN
+F 1 "SW_Push" H 8250 7844 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 8250 7850 50  0001 C CNN
+F 3 "~" H 8250 7850 50  0001 C CNN
+	1    8250 7650
+	1    0    0    -1  
+$EndComp
+Connection ~ 8050 7650
+Wire Wire Line
+	8050 7650 8050 7825
+Connection ~ 8450 7650
+Wire Wire Line
+	8450 7650 8450 7825
+$Comp
+L Switch:SW_Push SW_85_3
+U 1 1 61D1090C
+P 9550 7475
+F 0 "SW_85_3" H 9550 7760 50  0000 C CNN
+F 1 "SW_Push" H 9550 7669 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 9550 7675 50  0001 C CNN
+F 3 "~" H 9550 7675 50  0001 C CNN
+	1    9550 7475
+	1    0    0    -1  
+$EndComp
+Connection ~ 9350 7475
+Wire Wire Line
+	9350 7475 9350 7650
+Connection ~ 9750 7475
+Wire Wire Line
+	9750 7475 9750 7650
+$Comp
+L Switch:SW_Push SW_20_2
+U 1 1 61D7CB06
+P 2400 7625
+F 0 "SW_20_2" H 2400 7910 50  0000 C CNN
+F 1 "SW_Push" H 2400 7819 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 2400 7825 50  0001 C CNN
+F 3 "~" H 2400 7825 50  0001 C CNN
+	1    2400 7625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_30_2
+U 1 1 61DDF8CD
+P 3700 7625
+F 0 "SW_30_2" H 3700 7910 50  0000 C CNN
+F 1 "SW_Push" H 3700 7819 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 3700 7825 50  0001 C CNN
+F 3 "~" H 3700 7825 50  0001 C CNN
+	1    3700 7625
+	1    0    0    -1  
+$EndComp
+Connection ~ 3500 7625
+Wire Wire Line
+	3500 7625 3500 7825
+Connection ~ 2200 7625
+Wire Wire Line
+	2200 7625 2200 7825
+Wire Wire Line
+	3900 7625 3900 7825
+Connection ~ 3900 7825
+$Comp
+L Switch:SW_Push SW_35_2
+U 1 1 61EA91EB
+P 4350 7625
+F 0 "SW_35_2" H 4350 7910 50  0000 C CNN
+F 1 "SW_Push" H 4350 7819 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 4350 7825 50  0001 C CNN
+F 3 "~" H 4350 7825 50  0001 C CNN
+	1    4350 7625
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 7625
+Wire Wire Line
+	4150 7625 4150 7825
+$Comp
+L Switch:SW_Push SW_75_3
+U 1 1 61F1BE07
+P 8250 7500
+F 0 "SW_75_3" H 8250 7785 50  0000 C CNN
+F 1 "SW_Push" H 8250 7694 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 8250 7700 50  0001 C CNN
+F 3 "~" H 8250 7700 50  0001 C CNN
+	1    8250 7500
+	1    0    0    -1  
+$EndComp
+Connection ~ 8050 7500
+Wire Wire Line
+	8050 7500 8050 7650
+$Comp
+L Switch:SW_Push SW_25_3
+U 1 1 61FEDB77
+P 3050 7425
+F 0 "SW_25_3" H 3050 7710 50  0000 C CNN
+F 1 "SW_Push" H 3050 7619 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 3050 7625 50  0001 C CNN
+F 3 "~" H 3050 7625 50  0001 C CNN
+	1    3050 7425
+	1    0    0    -1  
+$EndComp
+Connection ~ 2850 7425
+Wire Wire Line
+	2850 7425 2850 7625
+Connection ~ 3250 7425
+Wire Wire Line
+	3250 7425 3250 7625
+$Comp
+L Switch:SW_Push SW_35_3
+U 1 1 62052F41
+P 4350 7425
+F 0 "SW_35_3" H 4350 7710 50  0000 C CNN
+F 1 "SW_Push" H 4350 7619 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 4350 7625 50  0001 C CNN
+F 3 "~" H 4350 7625 50  0001 C CNN
+	1    4350 7425
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 7425
+Wire Wire Line
+	4150 7425 4150 7625
+Wire Wire Line
+	4550 7425 4550 7625
+Connection ~ 4550 7625
+$Comp
+L Switch:SW_Push SW_45_4
+U 1 1 621209D2
+P 5650 7275
+F 0 "SW_45_4" H 5650 7560 50  0000 C CNN
+F 1 "SW_Push" H 5650 7469 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 5650 7475 50  0001 C CNN
+F 3 "~" H 5650 7475 50  0001 C CNN
+	1    5650 7275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_65_3
+U 1 1 6220128F
+P 6950 7475
+F 0 "SW_65_3" H 6950 7760 50  0000 C CNN
+F 1 "SW_Push" H 6950 7669 50  0000 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 6950 7675 50  0001 C CNN
+F 3 "~" H 6950 7675 50  0001 C CNN
+	1    6950 7475
+	1    0    0    -1  
+$EndComp
+Connection ~ 6750 7475
+Wire Wire Line
+	6750 7475 6750 7650
+Connection ~ 5450 7475
+Wire Wire Line
+	5450 7475 5450 7650
+Connection ~ 5850 7475
+Wire Wire Line
+	5850 7475 5850 7650
+Connection ~ 5450 7275
+Wire Wire Line
+	5450 7225 5450 7275
+Wire Wire Line
+	5450 7275 5450 7475
+Wire Wire Line
+	5850 7275 5850 7475
+Wire Wire Line
+	7150 7475 7150 7650
+Connection ~ 7150 7650
 $EndSCHEMATC
