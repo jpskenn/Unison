@@ -1101,7 +1101,7 @@ Wire Wire Line
 	14100 2525 13950 2525
 Wire Wire Line
 	13950 2525 13950 2625
-Text GLabel 2650 10025 0    50   Input ~ 0
+Text GLabel 5600 9725 0    50   Input ~ 0
 LED
 $Comp
 L power:PWR_FLAG #FLG02
@@ -2283,8 +2283,6 @@ F 3 "" H 11650 9975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 9825 2800 9725
-Wire Wire Line
 	9350 5325 9350 6175
 $Comp
 L Switch:SW_Push SW_65_1
@@ -2299,18 +2297,6 @@ F 3 "~" H 6950 8025 50  0001 C CNN
 $EndComp
 Text GLabel 15300 3025 2    50   Input ~ 0
 AUDIO2[Reserve]
-$Comp
-L Jumper:SolderJumper_3_Open JP_LED1
-U 1 1 5F261658
-P 2800 10025
-F 0 "JP_LED1" V 2754 10093 50  0000 L CNN
-F 1 "SolderJumper_3_Open" V 2845 10093 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 2800 10025 50  0001 C CNN
-F 3 "~" H 2800 10025 50  0001 C CNN
-F 4 "Use Front LEDs" H 2425 9975 50  0000 C CNN "Note"
-	1    2800 10025
-	0    1    1    0   
-$EndComp
 Connection ~ 1075 10225
 Wire Wire Line
 	1075 10225 1275 10225
@@ -3661,27 +3647,12 @@ Text GLabel 10650 2425 2    50   Input ~ 0
 RE5_1
 Text GLabel 11050 2650 1    50   Input ~ 0
 RE5_2
-Text GLabel 1450 9475 2    50   Input ~ 0
+Text GLabel 1450 9775 2    50   Input ~ 0
 AUDIO2[Reserve]
 Wire Wire Line
 	1375 9925 1400 9925
-$Comp
-L Jumper:SolderJumper_2_Open JP1
-U 1 1 61E9DE16
-P 1400 9700
-F 0 "JP1" V 1354 9768 50  0000 L CNN
-F 1 "SolderJumper_2_Open" V 1445 9768 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 1400 9700 50  0001 C CNN
-F 3 "~" H 1400 9700 50  0001 C CNN
-	1    1400 9700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	1450 9475 1400 9475
-Wire Wire Line
-	1400 9475 1400 9550
-Wire Wire Line
-	1400 9850 1400 9925
+	1450 9775 1400 9775
 Connection ~ 1400 9925
 Wire Wire Line
 	1400 9925 1450 9925
@@ -3965,104 +3936,36 @@ Text GLabel 13525 9300 0    50   Input ~ 0
 SCL_RE2B
 Text GLabel 13525 9150 0    50   Input ~ 0
 SDA_RE2A
-Wire Wire Line
-	2800 9725 2925 9725
 Wire Notes Line
-	2950 9250 2950 9200
+	5575 9250 5575 9200
 Wire Notes Line
-	2950 9200 5200 9200
+	5575 9200 6975 9200
 Wire Notes Line
-	5200 9200 5200 9250
+	6975 9200 6975 9250
 Wire Notes Line
-	5325 9250 5325 9200
+	7225 9250 7225 9200
 Wire Notes Line
-	5325 9200 6625 9200
-Wire Notes Line
-	6625 9200 6625 9250
-Wire Notes Line
-	6750 9250 6750 9200
-Wire Notes Line
-	9800 9200 9800 9250
-Text Notes 2950 9175 0    50   ~ 0
-Volume Indicator
-Text Notes 5325 9175 0    50   ~ 0
+	9850 9200 9850 9250
+Text Notes 5575 9175 0    50   ~ 0
 Layer Indicator
-Text Notes 6750 9175 0    50   ~ 0
-Rotary Encoder Indicator (2nd R.E. is OLED alternate)
-$Comp
-L Jumper:SolderJumper_3_Open JP_LED2
-U 1 1 607ABC5B
-P 7350 9625
-F 0 "JP_LED2" V 7304 9693 50  0000 L CNN
-F 1 "SolderJumper_3_Open" V 7395 9693 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 7350 9625 50  0001 C CNN
-F 3 "~" H 7350 9625 50  0001 C CNN
-F 4 "Use RE2 LED" H 6975 9575 50  0000 C CNN "Note"
-	1    7350 9625
-	0    1    1    0   
-$EndComp
+Text Notes 7225 9175 0    50   ~ 0
+Rotary Encoder Indicator
 Wire Wire Line
-	3325 9525 3325 9625
+	6000 9525 6000 9625
 Wire Wire Line
-	3325 9625 3400 9625
+	6000 9625 6075 9625
 Wire Wire Line
-	3400 9625 3400 9725
+	6075 9625 6075 9725
 Wire Wire Line
-	3800 9525 3800 9625
+	6475 9525 6475 9625
 Wire Wire Line
-	3800 9625 3875 9625
+	6475 9625 6550 9625
 Wire Wire Line
-	3875 9625 3875 9725
+	6550 9625 6550 9725
 Wire Wire Line
-	4275 9525 4275 9625
-Wire Wire Line
-	4275 9625 4350 9625
-Wire Wire Line
-	4350 9625 4350 9725
-Wire Wire Line
-	4750 9525 4750 9625
-Wire Wire Line
-	4750 9625 4825 9625
-Wire Wire Line
-	4825 9625 4825 9725
-Wire Wire Line
-	5225 9525 5225 9625
-Wire Wire Line
-	5225 9625 5300 9625
-Wire Wire Line
-	5300 9625 5300 9725
-Wire Wire Line
-	5700 9525 5700 9625
-Wire Wire Line
-	5700 9625 5775 9625
-Wire Wire Line
-	5775 9625 5775 9725
-Wire Wire Line
-	6175 9525 6175 9625
-Wire Wire Line
-	6175 9625 6250 9625
-Wire Wire Line
-	6250 9625 6250 9725
-Wire Wire Line
-	6650 9525 6650 9625
-Wire Wire Line
-	6650 9625 6725 9625
-Wire Wire Line
-	6725 9625 6725 9725
-Wire Wire Line
-	7125 9525 7125 9625
-Wire Wire Line
-	7125 9625 7200 9625
-Wire Wire Line
-	7350 9425 7450 9425
-Wire Wire Line
-	7450 9425 7450 9625
-Wire Wire Line
-	7450 9625 7525 9625
+	6950 9525 6950 9625
 Wire Wire Line
 	7525 9625 7525 9725
-Wire Wire Line
-	7350 9825 7975 9825
 Wire Wire Line
 	7925 9525 7925 9625
 Wire Wire Line
@@ -4082,45 +3985,9 @@ Wire Wire Line
 Wire Wire Line
 	9350 9525 9350 9625
 Wire Wire Line
-	2925 9325 2925 9525
-Wire Wire Line
-	3875 9525 3875 9325
-Connection ~ 3875 9325
-Wire Wire Line
-	3875 9325 4350 9325
-Wire Wire Line
-	4350 9525 4350 9325
-Connection ~ 4350 9325
-Wire Wire Line
-	4350 9325 4825 9325
-Wire Wire Line
-	4825 9525 4825 9325
-Connection ~ 4825 9325
-Wire Wire Line
-	5300 9525 5300 9325
-Wire Wire Line
-	4825 9325 5300 9325
-Connection ~ 5300 9325
-Wire Wire Line
-	5300 9325 5775 9325
-Wire Wire Line
-	5775 9525 5775 9325
-Connection ~ 5775 9325
-Wire Wire Line
-	5775 9325 6250 9325
-Wire Wire Line
-	6250 9525 6250 9325
-Connection ~ 6250 9325
-Wire Wire Line
-	6250 9325 6725 9325
-Wire Wire Line
-	6725 9525 6725 9325
-Connection ~ 6725 9325
-Wire Wire Line
-	6725 9325 7525 9325
+	5600 9325 5600 9525
 Wire Wire Line
 	7525 9325 7525 9525
-Connection ~ 7525 9325
 Wire Wire Line
 	7525 9325 8000 9325
 Connection ~ 8000 9325
@@ -4141,72 +4008,32 @@ Wire Wire Line
 	9350 9725 9350 9925
 Connection ~ 9350 9925
 Wire Wire Line
-	3325 9925 3325 9725
+	6000 9925 6000 9725
 Wire Wire Line
-	3325 9925 3800 9925
+	6000 9925 6475 9925
 Wire Wire Line
-	3800 9725 3800 9925
-Connection ~ 3800 9925
+	6475 9725 6475 9925
+Connection ~ 6475 9925
 Wire Wire Line
-	3800 9925 4275 9925
+	6475 9925 6950 9925
 Wire Wire Line
-	4275 9725 4275 9925
-Connection ~ 4275 9925
-Wire Wire Line
-	4275 9925 4750 9925
-Wire Wire Line
-	4750 9725 4750 9925
-Connection ~ 4750 9925
-Wire Wire Line
-	4750 9925 5225 9925
-Wire Wire Line
-	5225 9725 5225 9925
-Connection ~ 5225 9925
-Wire Wire Line
-	5225 9925 5700 9925
-Wire Wire Line
-	5700 9725 5700 9925
-Connection ~ 5700 9925
-Wire Wire Line
-	5700 9925 6175 9925
-Wire Wire Line
-	6175 9725 6175 9925
-Connection ~ 6175 9925
-Wire Wire Line
-	6175 9925 6650 9925
-Wire Wire Line
-	6650 9725 6650 9925
-Connection ~ 6650 9925
-Wire Wire Line
-	6650 9925 7125 9925
-Wire Wire Line
-	7125 9725 7125 9925
-Connection ~ 7125 9925
-Wire Wire Line
-	7125 9925 7925 9925
+	6950 9725 6950 9925
 Wire Wire Line
 	8400 9725 8400 9925
 Connection ~ 8400 9925
 Wire Wire Line
 	8400 9925 8875 9925
 Wire Wire Line
-	7925 9725 7925 9925
-Connection ~ 7925 9925
-Wire Wire Line
-	7925 9925 8400 9925
-Wire Wire Line
 	8875 9725 8875 9925
 Connection ~ 8875 9925
 Wire Wire Line
 	8875 9925 9350 9925
 Wire Wire Line
-	2800 10225 9875 10225
-Wire Wire Line
 	9925 9775 9925 9925
 Wire Wire Line
 	9925 9925 11575 9925
 Wire Notes Line
-	9800 9200 6750 9200
+	9850 9200 7225 9200
 Connection ~ 11300 3875
 Wire Wire Line
 	11300 3875 11300 4075
@@ -4236,13 +4063,6 @@ F 3 "" H 14275 9500 60  0001 C CNN
 	1    14275 9400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3400 9325 3875 9325
-Wire Wire Line
-	3400 9325 2925 9325
-Connection ~ 3400 9325
-Wire Wire Line
-	3400 9525 3400 9325
 $Comp
 L power:+5V #PWR06
 U 1 1 5FE0E1CB
@@ -4262,9 +4082,6 @@ Wire Wire Line
 	7975 9625 7975 9725
 Wire Wire Line
 	8000 9725 7975 9725
-Connection ~ 7975 9725
-Wire Wire Line
-	7975 9725 7975 9825
 Connection ~ 9925 9925
 Connection ~ 9925 9325
 $Comp
@@ -4292,96 +4109,41 @@ $EndComp
 $Comp
 L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L1
 U 1 1 631491CE
-P 3125 9625
-F 0 "L1" H 3125 9887 51  0000 C CNN
-F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 3125 9822 16  0000 C CNN
-F 2 "mx2u:YS-SK6812MINI-E" H 3125 9625 60  0001 C CNN
-F 3 "" H 3125 9625 60  0001 C CNN
-	1    3125 9625
+P 5800 9625
+F 0 "L1" H 5800 9887 51  0000 C CNN
+F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 5800 9822 16  0000 C CNN
+F 2 "mx2u:YS-SK6812MINI-E" H 5800 9625 60  0001 C CNN
+F 3 "" H 5800 9625 60  0001 C CNN
+	1    5800 9625
 	-1   0    0    1   
 $EndComp
 $Comp
 L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L2
 U 1 1 631ADF1C
-P 3600 9625
-F 0 "L2" H 3600 9887 51  0000 C CNN
-F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 3600 9822 16  0000 C CNN
-F 2 "mx2u:YS-SK6812MINI-E" H 3600 9625 60  0001 C CNN
-F 3 "" H 3600 9625 60  0001 C CNN
-	1    3600 9625
+P 6275 9625
+F 0 "L2" H 6275 9887 51  0000 C CNN
+F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 6275 9822 16  0000 C CNN
+F 2 "mx2u:YS-SK6812MINI-E" H 6275 9625 60  0001 C CNN
+F 3 "" H 6275 9625 60  0001 C CNN
+	1    6275 9625
 	-1   0    0    1   
 $EndComp
 $Comp
 L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L3
 U 1 1 63211639
-P 4075 9625
-F 0 "L3" H 4075 9887 51  0000 C CNN
-F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 4075 9822 16  0000 C CNN
-F 2 "mx2u:YS-SK6812MINI-E" H 4075 9625 60  0001 C CNN
-F 3 "" H 4075 9625 60  0001 C CNN
-	1    4075 9625
+P 6750 9625
+F 0 "L3" H 6750 9887 51  0000 C CNN
+F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 6750 9822 16  0000 C CNN
+F 2 "mx2u:YS-SK6812MINI-E" H 6750 9625 60  0001 C CNN
+F 3 "" H 6750 9625 60  0001 C CNN
+	1    6750 9625
 	-1   0    0    1   
 $EndComp
 $Comp
 L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L4
-U 1 1 63274E1C
-P 4550 9625
-F 0 "L4" H 4550 9887 51  0000 C CNN
-F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 4550 9822 16  0000 C CNN
-F 2 "mx2u:YS-SK6812MINI-E" H 4550 9625 60  0001 C CNN
-F 3 "" H 4550 9625 60  0001 C CNN
-	1    4550 9625
-	-1   0    0    1   
-$EndComp
-$Comp
-L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L5
-U 1 1 632D85DB
-P 5025 9625
-F 0 "L5" H 5025 9887 51  0000 C CNN
-F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 5025 9822 16  0000 C CNN
-F 2 "mx2u:YS-SK6812MINI-E" H 5025 9625 60  0001 C CNN
-F 3 "" H 5025 9625 60  0001 C CNN
-	1    5025 9625
-	-1   0    0    1   
-$EndComp
-$Comp
-L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L6
-U 1 1 6333BC71
-P 5500 9625
-F 0 "L6" H 5500 9887 51  0000 C CNN
-F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 5500 9822 16  0000 C CNN
-F 2 "mx2u:YS-SK6812MINI-E" H 5500 9625 60  0001 C CNN
-F 3 "" H 5500 9625 60  0001 C CNN
-	1    5500 9625
-	-1   0    0    1   
-$EndComp
-$Comp
-L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L7
-U 1 1 6339F22F
-P 5975 9625
-F 0 "L7" H 5975 9887 51  0000 C CNN
-F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 5975 9822 16  0000 C CNN
-F 2 "mx2u:YS-SK6812MINI-E" H 5975 9625 60  0001 C CNN
-F 3 "" H 5975 9625 60  0001 C CNN
-	1    5975 9625
-	-1   0    0    1   
-$EndComp
-$Comp
-L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L8
-U 1 1 63402862
-P 6450 9625
-F 0 "L8" H 6450 9887 51  0000 C CNN
-F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 6450 9822 16  0000 C CNN
-F 2 "mx2u:YS-SK6812MINI-E" H 6450 9625 60  0001 C CNN
-F 3 "" H 6450 9625 60  0001 C CNN
-	1    6450 9625
-	-1   0    0    1   
-$EndComp
-$Comp
-L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L10
 U 1 1 634662DF
 P 7725 9625
-F 0 "L10" H 7725 9887 51  0000 C CNN
+F 0 "L4" H 7725 9887 51  0000 C CNN
 F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 7725 9822 16  0000 C CNN
 F 2 "mx2u:YS-SK6812MINI-E" H 7725 9625 60  0001 C CNN
 F 3 "" H 7725 9625 60  0001 C CNN
@@ -4389,21 +4151,10 @@ F 3 "" H 7725 9625 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L9
-U 1 1 634C988B
-P 6925 9625
-F 0 "L9" H 6925 9887 51  0000 C CNN
-F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 6925 9822 16  0000 C CNN
-F 2 "mx2u:YS-SK6812MINI-E" H 6925 9625 60  0001 C CNN
-F 3 "" H 6925 9625 60  0001 C CNN
-	1    6925 9625
-	-1   0    0    1   
-$EndComp
-$Comp
-L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L11
+L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L5
 U 1 1 6352CEA3
 P 8200 9625
-F 0 "L11" H 8200 9887 51  0000 C CNN
+F 0 "L5" H 8200 9887 51  0000 C CNN
 F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 8200 9822 16  0000 C CNN
 F 2 "mx2u:YS-SK6812MINI-E" H 8200 9625 60  0001 C CNN
 F 3 "" H 8200 9625 60  0001 C CNN
@@ -4411,10 +4162,10 @@ F 3 "" H 8200 9625 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L12
+L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L6
 U 1 1 6359056F
 P 8675 9625
-F 0 "L12" H 8675 9887 51  0000 C CNN
+F 0 "L6" H 8675 9887 51  0000 C CNN
 F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 8675 9822 16  0000 C CNN
 F 2 "mx2u:YS-SK6812MINI-E" H 8675 9625 60  0001 C CNN
 F 3 "" H 8675 9625 60  0001 C CNN
@@ -4422,10 +4173,10 @@ F 3 "" H 8675 9625 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L13
+L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L7
 U 1 1 635F3C20
 P 9150 9625
-F 0 "L13" H 9150 9887 51  0000 C CNN
+F 0 "L7" H 9150 9887 51  0000 C CNN
 F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 9150 9822 16  0000 C CNN
 F 2 "mx2u:YS-SK6812MINI-E" H 9150 9625 60  0001 C CNN
 F 3 "" H 9150 9625 60  0001 C CNN
@@ -4450,8 +4201,7 @@ $EndComp
 NoConn ~ 11475 9475
 NoConn ~ 11475 9775
 Wire Wire Line
-	9875 9625 9875 10225
-Connection ~ 9875 9625
+	9875 9625 9875 10075
 Wire Wire Line
 	9875 9625 9925 9625
 Wire Wire Line
@@ -5044,9 +4794,84 @@ Wire Wire Line
 	7150 2650 7150 2825
 Connection ~ 7150 2825
 Wire Wire Line
-	8950 9325 9925 9325
+	8950 9325 9425 9325
 Wire Wire Line
-	9350 9625 9875 9625
+	7925 9925 8400 9925
+Connection ~ 7925 9925
 Wire Wire Line
-	9350 9925 9925 9925
+	7925 9725 7925 9925
+Wire Wire Line
+	7450 9625 7525 9625
+Wire Wire Line
+	7450 9425 7450 9625
+Wire Wire Line
+	7350 9425 7450 9425
+$Comp
+L Jumper:SolderJumper_3_Open JP_LED2
+U 1 1 607ABC5B
+P 7350 9625
+F 0 "JP_LED2" V 7304 9693 50  0000 L CNN
+F 1 "SolderJumper_3_Open" V 7395 9693 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 7350 9625 50  0001 C CNN
+F 3 "~" H 7350 9625 50  0001 C CNN
+F 4 "Use RE LEDs" H 6975 9575 50  0000 C CNN "Note"
+	1    7350 9625
+	0    1    1    0   
+$EndComp
+$Comp
+L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L8
+U 1 1 62F9F7BB
+P 9625 9625
+F 0 "L8" H 9625 9887 51  0000 C CNN
+F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 9625 9822 16  0000 C CNN
+F 2 "mx2u:YS-SK6812MINI-E" H 9625 9625 60  0001 C CNN
+F 3 "" H 9625 9625 60  0001 C CNN
+	1    9625 9625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9350 9625 9425 9625
+Wire Wire Line
+	9425 9625 9425 9725
+Connection ~ 6950 9925
+Wire Wire Line
+	6950 9925 7925 9925
+Wire Wire Line
+	6950 9625 7200 9625
+Wire Wire Line
+	7350 9825 7350 10075
+Wire Wire Line
+	7350 10075 9875 10075
+Wire Wire Line
+	9425 9525 9425 9325
+Connection ~ 9425 9325
+Wire Wire Line
+	9425 9325 9925 9325
+Wire Wire Line
+	9825 9525 9875 9525
+Wire Wire Line
+	9875 9525 9875 9625
+Connection ~ 9875 9625
+Wire Wire Line
+	6075 9325 5600 9325
+Wire Wire Line
+	6075 9325 6550 9325
+Connection ~ 6075 9325
+Wire Wire Line
+	6075 9525 6075 9325
+Wire Wire Line
+	6550 9525 6550 9325
+Wire Wire Line
+	6550 9325 7525 9325
+Connection ~ 6550 9325
+Connection ~ 7525 9325
+Wire Wire Line
+	9350 9925 9825 9925
+Wire Wire Line
+	1400 9775 1400 9925
+Wire Wire Line
+	9825 9725 9825 9925
+Connection ~ 9825 9925
+Wire Wire Line
+	9825 9925 9925 9925
 $EndSCHEMATC
