@@ -37,7 +37,7 @@
     (46 B.CrtYd user)
     (47 F.CrtYd user)
     (48 B.Fab user hide)
-    (49 F.Fab user)
+    (49 F.Fab user hide)
   )
 
   (setup
@@ -68,7 +68,7 @@
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (grid_origin 23.3 103.6)
-    (visible_elements FFFFF7FF)
+    (visible_elements FFFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions true)
@@ -2241,7 +2241,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE86B96)
-    (at 284.7 99.1)
+    (at 282.9 95.8)
     (descr SOD-123)
     (tags SOD-123)
     (path /5FFCFE27)
@@ -2635,7 +2635,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A6FE)
-    (at 21.7 30.9)
+    (at 21.7 30.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F725688)
@@ -2723,7 +2723,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A730)
-    (at 21.7 33.4)
+    (at 21.7 33)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F61E4EA)
@@ -2767,7 +2767,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A749)
-    (at 22.3 49.8)
+    (at 21.5 49.4)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F65B339)
@@ -2811,7 +2811,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A762)
-    (at 22.3 66.2)
+    (at 21.5 65.8)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F665845)
@@ -2855,7 +2855,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A77B)
-    (at 21.7 82.6)
+    (at 21.3 82.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F66B9A1)
@@ -2899,7 +2899,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A794)
-    (at 30.1 99)
+    (at 30.1 98.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F678085)
@@ -2943,7 +2943,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A7C6)
-    (at 38.5 33.4)
+    (at 38.3 33)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F621324)
@@ -2987,7 +2987,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A7DF)
-    (at 33.9 49.9)
+    (at 37.3 49.4)
     (descr SOD-123)
     (tags SOD-123)
     (path /5FEB423F)
@@ -3031,7 +3031,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A7F8)
-    (at 33.9 66.2)
+    (at 34.1 65.8)
     (descr SOD-123)
     (tags SOD-123)
     (path /5FE9B58C)
@@ -3075,7 +3075,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A811)
-    (at 38 82.6)
+    (at 38.5 82.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /5FECF023)
@@ -3119,7 +3119,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A82A)
-    (at 39 99)
+    (at 38.5 98.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F29DC79)
@@ -3163,7 +3163,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE87957)
-    (at 63.9 47.3)
+    (at 63.7 46.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5FFCEC9E)
@@ -3207,7 +3207,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A85C)
-    (at 55.3 33.4)
+    (at 55.1 33)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F626384)
@@ -3251,7 +3251,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A875)
-    (at 63.9 49.8)
+    (at 63.7 49.4)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F65B345)
@@ -3295,7 +3295,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A88E)
-    (at 55.9 66.2)
+    (at 55.1 65.8)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F665851)
@@ -3339,7 +3339,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A8A7)
-    (at 63.2 82.6)
+    (at 55.1 82.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F66B9AD)
@@ -3383,7 +3383,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A8C0)
-    (at 55.4 99)
+    (at 55.1 98.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F678091)
@@ -3427,7 +3427,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A8D9)
-    (at 72.1 33.4)
+    (at 71.9 33)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F626390)
@@ -3471,7 +3471,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A8F2)
-    (at 72.7 49.8)
+    (at 72.1 49.4)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F65B351)
@@ -3515,7 +3515,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A90B)
-    (at 72.7 66.2)
+    (at 72.1 65.8)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F66585D)
@@ -3559,7 +3559,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A924)
-    (at 72.1 82.6)
+    (at 71.7 82.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F66B9B9)
@@ -3603,7 +3603,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A93D)
-    (at 72.1 99)
+    (at 70.9 98.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F67809D)
@@ -3647,7 +3647,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE87683)
-    (at 72.7 63.4)
+    (at 72.1 63)
     (descr SOD-123)
     (tags SOD-123)
     (path /603AC248)
@@ -3691,7 +3691,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A96F)
-    (at 88.9 33.4)
+    (at 88.9 26.4)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F62D1D2)
@@ -3735,7 +3735,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A988)
-    (at 86.4 51.4)
+    (at 89.5 49.4)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F65B35D)
@@ -3779,7 +3779,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A9A1)
-    (at 93.7 66.2)
+    (at 92.7 65.8)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F665869)
@@ -3823,7 +3823,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A9BA)
-    (at 88.9 82.6)
+    (at 88.5 82.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F66B9C5)
@@ -3867,7 +3867,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A9D3)
-    (at 88.9 99)
+    (at 84.8 98.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5FF60A40)
@@ -3911,7 +3911,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7A9EC)
-    (at 105.7 33.4)
+    (at 105.7 26.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F62D1DE)
@@ -3955,7 +3955,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AA05)
-    (at 125.7 49.8)
+    (at 125.5 49.4)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F65B369)
@@ -3999,7 +3999,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AA1E)
-    (at 114.1 66.2)
+    (at 113.7 65.8)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F665875)
@@ -4043,7 +4043,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AA37)
-    (at 105.7 82.6)
+    (at 105.7 82.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F66B9D1)
@@ -4087,7 +4087,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AA50)
-    (at 106.3 99)
+    (at 105.3 98.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F6780D9)
@@ -4131,7 +4131,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AA69)
-    (at 122.5 80.2)
+    (at 121.7 79.4)
     (descr SOD-123)
     (tags SOD-123)
     (path /603FC360)
@@ -4175,7 +4175,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AA82)
-    (at 122.5 33.4)
+    (at 122.3 26.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F62D1EA)
@@ -4219,7 +4219,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AA9B)
-    (at 131.1 49.8)
+    (at 130.9 49.4)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F65B375)
@@ -4263,7 +4263,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AAB4)
-    (at 130.9 66.2)
+    (at 130.5 65.8)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F665881)
@@ -4307,7 +4307,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AACD)
-    (at 122.5 82.6)
+    (at 121.7 82.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F66B9DD)
@@ -4351,7 +4351,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AAE6)
-    (at 123.1 99)
+    (at 122.5 98.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5FF6B5F9)
@@ -4395,7 +4395,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AAFF)
-    (at 139.3 33.4)
+    (at 139.1 26.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F62D1F6)
@@ -4439,7 +4439,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AB18)
-    (at 147.9 49.8)
+    (at 147.5 49.4)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F65B3A5)
@@ -4483,7 +4483,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE814E3)
-    (at 155.5 66.2)
+    (at 156.3 65.8)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F6658B1)
@@ -4527,7 +4527,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AB4A)
-    (at 139.3 82.6)
+    (at 138.9 82.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F66BA0D)
@@ -4571,7 +4571,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AB63)
-    (at 139.9 99)
+    (at 134.7 98.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F1D06D0)
@@ -4615,7 +4615,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AB7C)
-    (at 139.9 96.1)
+    (at 134.7 95.8)
     (descr SOD-123)
     (tags SOD-123)
     (path /6044E0F2)
@@ -4659,7 +4659,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AB95)
-    (at 156.1 33.4)
+    (at 155.9 33)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F633F26)
@@ -4703,7 +4703,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE81BC5)
-    (at 164.7 49.8)
+    (at 164.3 49.4)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F65B3B1)
@@ -4747,7 +4747,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7ABC7)
-    (at 164.5 66.2)
+    (at 164.1 65.8)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F6658BD)
@@ -4791,7 +4791,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7ABE0)
-    (at 156.1 82.6)
+    (at 155.7 82.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F66BA19)
@@ -4835,7 +4835,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7ABF9)
-    (at 156.1 99)
+    (at 156.1 98.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F1F97FB)
@@ -4879,7 +4879,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AC2B)
-    (at 172.9 33.4)
+    (at 172.7 33)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F633F32)
@@ -4923,7 +4923,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AC44)
-    (at 181.5 49.8)
+    (at 181.1 49.4)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F65B3BD)
@@ -4967,7 +4967,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AC5D)
-    (at 181.3 66.2)
+    (at 181.1 65.8)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F6658C9)
@@ -5011,7 +5011,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AC76)
-    (at 172.9 82.6)
+    (at 172.7 82.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F66BA25)
@@ -5055,7 +5055,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AC8F)
-    (at 172.9 99)
+    (at 168.3 98.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F6780E5)
@@ -5099,7 +5099,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7ACA8)
-    (at 183.7 33.4)
+    (at 189.5 30.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /604A1A95)
@@ -5143,7 +5143,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7ACC1)
-    (at 189.7 33.4)
+    (at 189.5 33)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F633F3E)
@@ -5187,7 +5187,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7ACDA)
-    (at 198.3 49.8)
+    (at 197.9 49.4)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F65B38D)
@@ -5231,7 +5231,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7ACF3)
-    (at 198.1 66.2)
+    (at 197.9 65.8)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F665899)
@@ -5275,7 +5275,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AD0C)
-    (at 189.7 82.6)
+    (at 189.5 82.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F66B9F5)
@@ -5319,7 +5319,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AD25)
-    (at 189.7 99)
+    (at 187.9 98.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5FF7624B)
@@ -5363,7 +5363,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AD57)
-    (at 206.5 33.4)
+    (at 206.3 33)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F633F4A)
@@ -5407,7 +5407,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AD70)
-    (at 214.9 49.8)
+    (at 214.7 49.4)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F65B399)
@@ -5451,7 +5451,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AD89)
-    (at 214.9 66.2)
+    (at 214.7 65.8)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F6658A5)
@@ -5495,7 +5495,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7ADA2)
-    (at 206.5 82.6)
+    (at 206.3 82.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F66BA01)
@@ -5539,7 +5539,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7ADBB)
-    (at 199.3 99)
+    (at 199.5 98.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F10665E)
@@ -5583,7 +5583,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7ADD4)
-    (at 225.4 49.8)
+    (at 231.3 46.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /60521C0A)
@@ -5627,7 +5627,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7ADED)
-    (at 223.3 33.4)
+    (at 223.1 33)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F639FBC)
@@ -5671,7 +5671,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AE06)
-    (at 231.7 49.8)
+    (at 231.3 49.4)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F65B3C9)
@@ -5715,7 +5715,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AE1F)
-    (at 231.7 66.2)
+    (at 231.5 65.8)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F6658D5)
@@ -5759,7 +5759,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AE38)
-    (at 223.3 82.6)
+    (at 223.1 82.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F66BA31)
@@ -5803,7 +5803,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AE51)
-    (at 217.5 99)
+    (at 222.9 98.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F106664)
@@ -5847,7 +5847,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AE83)
-    (at 240.1 33.4)
+    (at 239.9 33)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F639FC8)
@@ -5891,7 +5891,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AE9C)
-    (at 248.5 49.8)
+    (at 248.5 49.4)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F65B3D5)
@@ -5935,7 +5935,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AEB5)
-    (at 248.5 66.2)
+    (at 248.5 65.8)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F639FD4)
@@ -5979,7 +5979,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AECE)
-    (at 240.1 82.6)
+    (at 240.1 82.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F66BA3D)
@@ -6023,7 +6023,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AEE7)
-    (at 234.3 99)
+    (at 235.5 98.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F678121)
@@ -6067,7 +6067,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AF00)
-    (at 260 66.2)
+    (at 265.3 63)
     (descr SOD-123)
     (tags SOD-123)
     (path /5FF817F0)
@@ -6111,7 +6111,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AF19)
-    (at 256.9 33.4)
+    (at 256.7 33)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F65B3E1)
@@ -6155,7 +6155,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AF32)
-    (at 265.9 49.8)
+    (at 265.3 49.4)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F6658ED)
@@ -6199,7 +6199,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AF4B)
-    (at 265.9 66.2)
+    (at 265.3 65.8)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F320F13)
@@ -6243,7 +6243,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AF64)
-    (at 256.9 82.6)
+    (at 256.7 82.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F3CB947)
@@ -6287,7 +6287,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AF7D)
-    (at 255.3 99)
+    (at 257 98.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F6C56F6)
@@ -6331,7 +6331,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AFAF)
-    (at 273.7 33.4)
+    (at 273.5 33)
     (descr SOD-123)
     (tags SOD-123)
     (path /5FF9BED7)
@@ -6375,7 +6375,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AFC8)
-    (at 273.7 82.6)
+    (at 273.5 82.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /5FF9BF39)
@@ -6419,7 +6419,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AFE1)
-    (at 273.7 99)
+    (at 273.3 98.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5FF9BF92)
@@ -6462,8 +6462,8 @@
     )
   )
 
-  (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7AFFA)
-    (at 283 82.6)
+  (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FFA2F29)
+    (at 283.5 85)
     (descr SOD-123)
     (tags SOD-123)
     (path /5FF9BF2E)
@@ -6507,7 +6507,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7B02C)
-    (at 290.5 33.4)
+    (at 290.3 33)
     (descr SOD-123)
     (tags SOD-123)
     (path /5FF9BEDE)
@@ -6551,7 +6551,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7B045)
-    (at 286.9 49.8)
+    (at 286.1 49.4)
     (descr SOD-123)
     (tags SOD-123)
     (path /5FF9BEF2)
@@ -6595,7 +6595,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7B05E)
-    (at 286.9 66.2)
+    (at 285.9 65.8)
     (descr SOD-123)
     (tags SOD-123)
     (path /5FF9BF00)
@@ -6638,8 +6638,8 @@
     )
   )
 
-  (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7B077)
-    (at 290.5 82.6)
+  (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FF9EB8F)
+    (at 283.5 82.2)
     (descr SOD-123)
     (tags SOD-123)
     (path /5FF9BF07)
@@ -6683,7 +6683,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5FE7B090)
-    (at 290.7 99)
+    (at 282.9 98.6)
     (descr SOD-123)
     (tags SOD-123)
     (path /5FF9BF8B)
@@ -7228,7 +7228,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder (layer B.Cu) (tedit 5F68FEEE) (tstamp 5FEA8A51)
-    (at 34.4 63.3)
+    (at 34.1 63.3)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5B32301F)
