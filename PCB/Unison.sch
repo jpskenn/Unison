@@ -1244,9 +1244,9 @@ F 4 "C17561" H 14650 7475 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 Text GLabel 15300 3325 2    50   Input ~ 0
-SCL_RE2B
+SCL
 Text GLabel 15300 3425 2    50   Input ~ 0
-SDA_RE2A
+SDA
 $Comp
 L Switch:SW_Push SW_15
 U 1 1 5F29DC6B
@@ -3417,7 +3417,7 @@ Wire Wire Line
 	9100 4375 9100 4575
 Connection ~ 9100 4575
 Wire Wire Line
-	9100 4575 10400 4575
+	9100 4575 10225 4575
 Wire Wire Line
 	8050 4725 8700 4725
 Wire Wire Line
@@ -3527,17 +3527,17 @@ Wire Wire Line
 	1550 2225 2200 2225
 Text Notes 14225 3825 0    50   ~ 0
 Audio pins\nGroup1: B5, B6, B7\nGroup2: C4, C5, C6
-Text GLabel 15300 3625 2    50   Input ~ 0
-RE3_A
-Text GLabel 15300 3525 2    50   Input ~ 0
-RE3_B
 Text GLabel 15300 3825 2    50   Input ~ 0
-RE4_A
+RE3_A
 Text GLabel 15300 3725 2    50   Input ~ 0
-RE4_B
+RE3_B
 Text GLabel 15300 3925 2    50   Input ~ 0
-RE5_A
+RE4_A
 Text GLabel 15300 4025 2    50   Input ~ 0
+RE4_B
+Text GLabel 15300 2525 2    50   Input ~ 0
+RE5_A
+Text GLabel 15300 2625 2    50   Input ~ 0
 RE5_B
 Text GLabel 4450 11000 2    50   Input ~ 0
 RE3_B
@@ -3929,13 +3929,13 @@ Wire Wire Line
 	8450 7500 8450 7650
 Connection ~ 8450 7825
 Text GLabel 2825 11000 2    50   Input ~ 0
-SCL_RE2B
+RE2_B
 Text GLabel 2825 10800 2    50   Input ~ 0
-SDA_RE2A
+RE2_A
 Text GLabel 13525 9300 0    50   Input ~ 0
-SCL_RE2B
+SCL
 Text GLabel 13525 9150 0    50   Input ~ 0
-SDA_RE2A
+SDA
 Wire Notes Line
 	5575 9250 5575 9200
 Wire Notes Line
@@ -4225,7 +4225,6 @@ Text Notes 975  8675 0    91   ~ 18
  1        2         3        4        5        6        7         8        9       10       11       12       13       14       15       16       17\n17       16       15       14       13       12       11       10        9        8        7        6         5        4        3         2        1
 Text GLabel 7150 2650 1    50   Input ~ 0
 RE2_2
-NoConn ~ 15300 2625
 Wire Wire Line
 	11700 1075 11700 2425
 $Comp
@@ -4743,7 +4742,6 @@ Wire Wire Line
 Wire Wire Line
 	7150 7475 7150 7650
 Connection ~ 7150 7650
-NoConn ~ 15300 2525
 Wire Wire Line
 	2600 2650 2600 2825
 Connection ~ 2600 2825
@@ -4874,4 +4872,15 @@ Wire Wire Line
 Connection ~ 9825 9925
 Wire Wire Line
 	9825 9925 9925 9925
+Text GLabel 15300 3625 2    50   Input ~ 0
+RE2_B
+Text GLabel 15300 3525 2    50   Input ~ 0
+RE2_A
+Wire Wire Line
+	10250 4500 10225 4500
+Wire Wire Line
+	10225 4500 10225 4575
+Connection ~ 10225 4575
+Wire Wire Line
+	10225 4575 10400 4575
 $EndSCHEMATC
