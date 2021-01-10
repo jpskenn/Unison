@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "(5.1.8-0-10_14)"
+      "Version":     "(5.1.9-0-10_14)"
     },
-    "CreationDate":  "2020-12-29T07:16:28+09:00"
+    "CreationDate":  "2021-01-10T14:58:04+09:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "Unison",
       "GUID": "556e6973-6f6e-42e6-9b69-6361645f7063",
-      "Revision": "v01_1"
+      "Revision": "v01_1AU"
     },
     "Size":
     {
@@ -40,47 +40,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "Unison-F_Cu.gtl",
+      "Path":  "Unison-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Unison-B_Cu.gbl",
+      "Path":  "Unison-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Unison-F_Paste.gtp",
+      "Path":  "Unison-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Unison-B_Paste.gbp",
+      "Path":  "Unison-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Unison-F_SilkS.gto",
+      "Path":  "Unison-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Unison-B_SilkS.gbo",
+      "Path":  "Unison-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Unison-F_Mask.gts",
+      "Path":  "Unison-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "Unison-B_Mask.gbs",
+      "Path":  "Unison-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "Unison-Edge_Cuts.gm1",
+      "Path":  "Unison-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
