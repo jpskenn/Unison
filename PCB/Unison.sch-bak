@@ -3527,17 +3527,17 @@ Wire Wire Line
 	1550 2225 2200 2225
 Text Notes 14225 3825 0    50   ~ 0
 Audio pins\nGroup1: B5, B6, B7\nGroup2: C4, C5, C6
-Text GLabel 15300 3625 2    50   Input ~ 0
-RE3_A
-Text GLabel 15300 3525 2    50   Input ~ 0
-RE3_B
 Text GLabel 15300 3825 2    50   Input ~ 0
-RE4_A
+RE3_A
 Text GLabel 15300 3725 2    50   Input ~ 0
-RE4_B
+RE3_B
 Text GLabel 15300 3925 2    50   Input ~ 0
-RE5_A
+RE4_A
 Text GLabel 15300 4025 2    50   Input ~ 0
+RE4_B
+Text GLabel 15300 2525 2    50   Input ~ 0
+RE5_A
+Text GLabel 15300 2625 2    50   Input ~ 0
 RE5_B
 Text GLabel 4450 11000 2    50   Input ~ 0
 RE3_B
@@ -4872,9 +4872,9 @@ Wire Wire Line
 Connection ~ 9825 9925
 Wire Wire Line
 	9825 9925 9925 9925
-Text GLabel 15300 2525 2    50   Input ~ 0
+Text GLabel 15300 3625 2    50   Input ~ 0
 RE2_B
-Text GLabel 15300 2625 2    50   Input ~ 0
+Text GLabel 15300 3525 2    50   Input ~ 0
 RE2_A
 Wire Wire Line
 	10250 4500 10225 4500
