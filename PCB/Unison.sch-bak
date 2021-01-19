@@ -1194,7 +1194,7 @@ U 1 1 5EE661C6
 P 1150 10900
 F 0 "SW_RE1" H 1150 11267 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 1150 11176 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 1000 11060 50  0001 C CNN
+F 2 "ukiha:RotaryEncoder_Alps_EC11K-Switch_Vertical_H20mm" H 1000 11060 50  0001 C CNN
 F 3 "~" H 1150 11160 50  0001 C CNN
 	1    1150 10900
 	-1   0    0    -1  
@@ -2195,7 +2195,7 @@ U 1 1 62F44E00
 P 2525 10900
 F 0 "SW_RE2" H 2525 11267 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 2525 11176 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 2375 11060 50  0001 C CNN
+F 2 "ukiha:RotaryEncoder_Alps_EC11K-Switch_Vertical_H20mm" H 2375 11060 50  0001 C CNN
 F 3 "~" H 2525 11160 50  0001 C CNN
 	1    2525 10900
 	-1   0    0    -1  
@@ -3562,7 +3562,7 @@ U 1 1 61B1BDBE
 P 4150 10900
 F 0 "SW_RE3" H 4150 11267 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 4150 11176 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 4000 11060 50  0001 C CNN
+F 2 "ukiha:RotaryEncoder_Alps_EC11K-Switch_Vertical_H20mm" H 4000 11060 50  0001 C CNN
 F 3 "~" H 4150 11160 50  0001 C CNN
 	1    4150 10900
 	-1   0    0    -1  
@@ -3594,7 +3594,7 @@ U 1 1 61B51AF0
 P 5550 10900
 F 0 "SW_RE4" H 5550 11267 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 5550 11176 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 5400 11060 50  0001 C CNN
+F 2 "ukiha:RotaryEncoder_Alps_EC11K-Switch_Vertical_H20mm" H 5400 11060 50  0001 C CNN
 F 3 "~" H 5550 11160 50  0001 C CNN
 	1    5550 10900
 	-1   0    0    -1  
@@ -3626,7 +3626,7 @@ U 1 1 61B864E2
 P 6950 10900
 F 0 "SW_RE5" H 6950 11267 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 6950 11176 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 6800 11060 50  0001 C CNN
+F 2 "ukiha:RotaryEncoder_Alps_EC11K-Switch_Vertical_H20mm" H 6800 11060 50  0001 C CNN
 F 3 "~" H 6950 11160 50  0001 C CNN
 	1    6950 10900
 	-1   0    0    -1  

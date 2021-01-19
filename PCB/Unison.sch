@@ -2216,7 +2216,7 @@ F 3 "~" H 715 9975 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 1450 9925 2    50   Input ~ 0
-AUDIO1
+AUDIO
 $Comp
 L power:GND #PWR01
 U 1 1 6309ED5B
@@ -2257,8 +2257,8 @@ Wire Wire Line
 Connection ~ 1075 9925
 Wire Wire Line
 	925  10025 925  10225
-Text GLabel 15300 2725 2    50   Input ~ 0
-AUDIO1
+Text GLabel 15300 3025 2    50   Input ~ 0
+AUDIO
 Connection ~ 4800 6575
 Wire Wire Line
 	4800 6575 4800 7225
@@ -2295,8 +2295,8 @@ F 3 "~" H 6950 8025 50  0001 C CNN
 	1    6950 7825
 	1    0    0    -1  
 $EndComp
-Text GLabel 15300 3025 2    50   Input ~ 0
-AUDIO2[Reserve]
+Text GLabel 15300 2725 2    50   Input ~ 0
+ANALOG
 Connection ~ 1075 10225
 Wire Wire Line
 	1075 10225 1275 10225
@@ -3647,15 +3647,6 @@ Text GLabel 10650 2425 2    50   Input ~ 0
 RE5_1
 Text GLabel 11050 2650 1    50   Input ~ 0
 RE5_2
-Text GLabel 1450 9775 2    50   Input ~ 0
-AUDIO2[Reserve]
-Wire Wire Line
-	1375 9925 1400 9925
-Wire Wire Line
-	1450 9775 1400 9775
-Connection ~ 1400 9925
-Wire Wire Line
-	1400 9925 1450 9925
 $Comp
 L power:GND #PWR029
 U 1 1 5F1DF82B
@@ -4866,8 +4857,6 @@ Connection ~ 7525 9325
 Wire Wire Line
 	9350 9925 9825 9925
 Wire Wire Line
-	1400 9775 1400 9925
-Wire Wire Line
 	9825 9725 9825 9925
 Connection ~ 9825 9925
 Wire Wire Line
@@ -4883,4 +4872,41 @@ Wire Wire Line
 Connection ~ 10225 4575
 Wire Wire Line
 	10225 4575 10400 4575
+Wire Wire Line
+	1375 9925 1450 9925
+$Comp
+L Device:R_POT RV1
+U 1 1 600D2738
+P 2550 9925
+F 0 "RV1" H 2481 9971 50  0000 R CNN
+F 1 "R_POT" H 2481 9880 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTA3043_Single_Slide" H 2550 9925 50  0001 C CNN
+F 3 "~" H 2550 9925 50  0001 C CNN
+	1    2550 9925
+	1    0    0    -1  
+$EndComp
+Text GLabel 2700 9925 2    50   Input ~ 0
+ANALOG
+$Comp
+L power:GND #PWR010
+U 1 1 6012B75D
+P 2550 10075
+F 0 "#PWR010" H 2550 9825 50  0001 C CNN
+F 1 "GND" H 2555 9902 50  0000 C CNN
+F 2 "" H 2550 10075 50  0001 C CNN
+F 3 "" H 2550 10075 50  0001 C CNN
+	1    2550 10075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR09
+U 1 1 60184491
+P 2550 9775
+F 0 "#PWR09" H 2550 9625 50  0001 C CNN
+F 1 "+5V" H 2565 9948 50  0000 C CNN
+F 2 "" H 2550 9775 50  0001 C CNN
+F 3 "" H 2550 9775 50  0001 C CNN
+	1    2550 9775
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
