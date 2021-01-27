@@ -4932,7 +4932,7 @@ U 1 1 6026A20D
 P 8900 7650
 F 0 "SW_70_2" H 8900 7935 50  0000 C CNN
 F 1 "SW_Push" H 8900 7844 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_alt_guide" H 8900 7850 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 8900 7850 50  0001 C CNN
 F 3 "~" H 8900 7850 50  0001 C CNN
 	1    8900 7650
 	1    0    0    -1  
