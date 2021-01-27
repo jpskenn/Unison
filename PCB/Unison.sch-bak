@@ -1297,19 +1297,6 @@ F 3 "~" H 1100 8025 50  0001 C CNN
 	1    1100 7825
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR026
-U 1 1 5F1DDB61
-P 12950 9450
-F 0 "#PWR026" H 12950 9300 50  0001 C CNN
-F 1 "+5V" H 12965 9623 50  0000 C CNN
-F 2 "" H 12950 9450 50  0001 C CNN
-F 3 "" H 12950 9450 50  0001 C CNN
-	1    12950 9450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13525 9450 12950 9450
 Wire Wire Line
 	13450 7075 13900 7075
 $Comp
@@ -2086,7 +2073,7 @@ U 1 1 5F106675
 P 8250 7825
 F 0 "SW_75_1" H 8250 8110 50  0000 C CNN
 F 1 "SW_Push" H 8250 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 8250 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 8250 8025 50  0001 C CNN
 F 3 "~" H 8250 8025 50  0001 C CNN
 	1    8250 7825
 	1    0    0    -1  
@@ -2290,7 +2277,7 @@ U 1 1 5F5D094E
 P 6950 7825
 F 0 "SW_65_1" H 6950 8110 50  0000 C CNN
 F 1 "SW_Push" H 6950 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 6950 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 6950 8025 50  0001 C CNN
 F 3 "~" H 6950 8025 50  0001 C CNN
 	1    6950 7825
 	1    0    0    -1  
@@ -3645,17 +3632,6 @@ Text GLabel 10650 2425 2    50   Input ~ 0
 RE5_1
 Text GLabel 11050 2650 1    50   Input ~ 0
 RE5_2
-$Comp
-L power:GND #PWR029
-U 1 1 5F1DF82B
-P 13525 9600
-F 0 "#PWR029" H 13525 9350 50  0001 C CNN
-F 1 "GND" H 13530 9427 50  0000 C CNN
-F 2 "" H 13525 9600 50  0001 C CNN
-F 3 "" H 13525 9600 50  0001 C CNN
-	1    13525 9600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10650 7425 11300 7425
 Wire Wire Line
@@ -3921,10 +3897,6 @@ Text GLabel 2825 11000 2    50   Input ~ 0
 RE2_B
 Text GLabel 2825 10800 2    50   Input ~ 0
 RE2_A
-Text GLabel 13525 9300 0    50   Input ~ 0
-SCL
-Text GLabel 13525 9150 0    50   Input ~ 0
-SDA
 Wire Notes Line
 	5575 9250 5575 9200
 Wire Notes Line
@@ -4041,17 +4013,6 @@ Wire Wire Line
 	11300 1325 10650 1325
 Wire Wire Line
 	10650 1325 10650 2225
-$Comp
-L swanmatch:OLED OL1
-U 1 1 62544862
-P 14275 9400
-F 0 "OL1" H 14903 9469 51  0000 L CNN
-F 1 "OLED" H 14903 9379 47  0000 L CNN
-F 2 "ukiha:OLED_rev2" H 14275 9500 60  0001 C CNN
-F 3 "" H 14275 9500 60  0001 C CNN
-	1    14275 9400
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR06
 U 1 1 5FE0E1CB
