@@ -43,47 +43,47 @@ D-
 $Comp
 L Device:R_Small R4
 U 1 1 5B32301F
-P 13875 1800
-F 0 "R4" H 13905 1820 50  0000 L CNN
-F 1 "10k" H 13905 1760 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 13875 1800 50  0001 C CNN
-F 3 "" H 13875 1800 50  0001 C CNN
-F 4 "C17414" H 13875 1800 50  0001 C CNN "LCSC"
-	1    13875 1800
+P 13275 1800
+F 0 "R4" H 13305 1820 50  0000 L CNN
+F 1 "10k" H 13305 1760 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 13275 1800 50  0001 C CNN
+F 3 "" H 13275 1800 50  0001 C CNN
+F 4 "C17414" H 13275 1800 50  0001 C CNN "LCSC"
+	1    13275 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR023
 U 1 1 5B32363C
-P 13875 1700
-F 0 "#PWR023" H 13875 1550 50  0001 C CNN
-F 1 "+5V" H 13875 1840 50  0000 C CNN
-F 2 "" H 13875 1700 50  0001 C CNN
-F 3 "" H 13875 1700 50  0001 C CNN
-	1    13875 1700
+P 13275 1700
+F 0 "#PWR023" H 13275 1550 50  0001 C CNN
+F 1 "+5V" H 13275 1840 50  0000 C CNN
+F 2 "" H 13275 1700 50  0001 C CNN
+F 3 "" H 13275 1700 50  0001 C CNN
+	1    13275 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jones-rescue:SW_Push ResetSW1
 U 1 1 5B323AA5
-P 13450 2125
-F 0 "ResetSW1" H 13500 2225 50  0000 L CNN
-F 1 "5.2x5.2mm" H 13450 2065 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_SKQG_WithStem" H 13450 2325 50  0001 C CNN
-F 3 "" H 13450 2325 50  0001 C CNN
-F 4 "" H 13450 2125 50  0001 C CNN "LCSC"
-	1    13450 2125
+P 12850 2125
+F 0 "ResetSW1" H 12900 2225 50  0000 L CNN
+F 1 "5.2x5.2mm" H 12850 2065 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_SKQG_WithStem" H 12850 2325 50  0001 C CNN
+F 3 "" H 12850 2325 50  0001 C CNN
+F 4 "" H 12850 2125 50  0001 C CNN "LCSC"
+	1    12850 2125
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR015
 U 1 1 5B323C60
-P 12900 1975
-F 0 "#PWR015" H 12900 1725 50  0001 C CNN
-F 1 "GND" H 12900 1825 50  0000 C CNN
-F 2 "" H 12900 1975 50  0001 C CNN
-F 3 "" H 12900 1975 50  0001 C CNN
-	1    12900 1975
+P 12300 1975
+F 0 "#PWR015" H 12300 1725 50  0001 C CNN
+F 1 "GND" H 12300 1825 50  0000 C CNN
+F 2 "" H 12300 1975 50  0001 C CNN
+F 3 "" H 12300 1975 50  0001 C CNN
+	1    12300 1975
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -214,26 +214,26 @@ F 4 "C15850" H 13000 4700 50  0001 C CNN "LCSC"
 	1    13000 4700
 	-1   0    0    1   
 $EndComp
-Text GLabel 15300 2325 2    60   Input ~ 0
+Text GLabel 15300 2325 2    50   Input ~ 0
 pin6
-Text GLabel 15300 5025 2    60   Input ~ 0
+Text GLabel 15300 5025 2    50   Input ~ 0
 pin5
-Text GLabel 15300 4825 2    60   Input ~ 0
+Text GLabel 15300 4825 2    50   Input ~ 0
 pin4
-Text GLabel 15300 4625 2    60   Input ~ 0
+Text GLabel 15300 4625 2    50   Input ~ 0
 pin3
-Text GLabel 15300 4325 2    60   Input ~ 0
+Text GLabel 15300 4325 2    50   Input ~ 0
 pin2
-Text GLabel 15300 2425 2    60   Input ~ 0
+Text GLabel 15300 2425 2    50   Input ~ 0
 pin1
-Text GLabel 15300 3125 2    60   Input ~ 0
+Text GLabel 15300 3125 2    50   Input ~ 0
 pin10
 Wire Wire Line
 	13775 3425 14100 3425
 Wire Wire Line
 	13450 3425 13575 3425
 Wire Wire Line
-	13175 2125 13250 2125
+	12575 2125 12650 2125
 Wire Wire Line
 	13050 2325 12900 2325
 Wire Wire Line
@@ -329,9 +329,9 @@ $EndComp
 Wire Wire Line
 	14100 2925 13775 2925
 Wire Wire Line
-	12900 1975 13175 1975
+	12300 1975 12575 1975
 Wire Wire Line
-	13175 1975 13175 2125
+	12575 1975 12575 2125
 $Comp
 L power:GND #PWR027
 U 1 1 5E3D05D9
@@ -1062,12 +1062,12 @@ Wire Wire Line
 	13500 2625 13250 2625
 Connection ~ 12900 2850
 Wire Wire Line
-	13650 2125 13875 2125
+	13050 2125 13275 2125
 Wire Wire Line
-	13875 1900 13875 2125
-Connection ~ 13875 2125
+	13275 1900 13275 2125
+Connection ~ 13275 2125
 Wire Wire Line
-	13875 2125 14100 2125
+	13275 2125 13500 2125
 $Comp
 L Device:Crystal_GND24 Y1
 U 1 1 5F6B9110
@@ -2265,11 +2265,11 @@ Wire Wire Line
 Connection ~ 5450 2825
 Text GLabel 15300 2825 2    50   Input ~ 0
 LED
-Text GLabel 15300 4925 2    60   Input ~ 0
+Text GLabel 15300 4925 2    50   Input ~ 0
 pin9
-Text GLabel 15300 4725 2    60   Input ~ 0
+Text GLabel 15300 4725 2    50   Input ~ 0
 pin8
-Text GLabel 15300 4525 2    60   Input ~ 0
+Text GLabel 15300 4525 2    50   Input ~ 0
 pin7
 $Comp
 L power:GND #PWR07
@@ -2295,8 +2295,6 @@ F 3 "~" H 6950 8025 50  0001 C CNN
 	1    6950 7825
 	1    0    0    -1  
 $EndComp
-Text GLabel 15300 2725 2    50   Input ~ 0
-ANALOG
 Connection ~ 1075 10225
 Wire Wire Line
 	1075 10225 1275 10225
@@ -4875,41 +4873,6 @@ Wire Wire Line
 Wire Wire Line
 	1375 9925 1450 9925
 $Comp
-L Device:R_POT RV1
-U 1 1 600D2738
-P 2550 9925
-F 0 "RV1" H 2481 9971 50  0000 R CNN
-F 1 "R_POT" H 2481 9880 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTA3043_Single_Slide" H 2550 9925 50  0001 C CNN
-F 3 "~" H 2550 9925 50  0001 C CNN
-	1    2550 9925
-	1    0    0    -1  
-$EndComp
-Text GLabel 2700 9925 2    50   Input ~ 0
-ANALOG
-$Comp
-L power:GND #PWR010
-U 1 1 6012B75D
-P 2550 10075
-F 0 "#PWR010" H 2550 9825 50  0001 C CNN
-F 1 "GND" H 2555 9902 50  0000 C CNN
-F 2 "" H 2550 10075 50  0001 C CNN
-F 3 "" H 2550 10075 50  0001 C CNN
-	1    2550 10075
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR09
-U 1 1 60184491
-P 2550 9775
-F 0 "#PWR09" H 2550 9625 50  0001 C CNN
-F 1 "+5V" H 2565 9948 50  0000 C CNN
-F 2 "" H 2550 9775 50  0001 C CNN
-F 3 "" H 2550 9775 50  0001 C CNN
-	1    2550 9775
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW_80_2
 U 1 1 601AB361
 P 10200 7650
@@ -4960,4 +4923,63 @@ Wire Wire Line
 Wire Wire Line
 	7800 7475 7800 7650
 Connection ~ 7800 7650
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 604EDB2E
+P 13075 5900
+F 0 "J2" H 13125 6317 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 13125 6226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 13075 5900 50  0001 C CNN
+F 3 "~" H 13075 5900 50  0001 C CNN
+	1    13075 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR09
+U 1 1 604F00F6
+P 13650 5700
+F 0 "#PWR09" H 13650 5550 50  0001 C CNN
+F 1 "+5V" H 13665 5873 50  0000 C CNN
+F 2 "" H 13650 5700 50  0001 C CNN
+F 3 "" H 13650 5700 50  0001 C CNN
+	1    13650 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 6054A064
+P 13650 5900
+F 0 "#PWR010" H 13650 5650 50  0001 C CNN
+F 1 "GND" H 13655 5727 50  0000 C CNN
+F 2 "" H 13650 5900 50  0001 C CNN
+F 3 "" H 13650 5900 50  0001 C CNN
+	1    13650 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13650 5700 13375 5700
+Wire Wire Line
+	13375 5900 13650 5900
+Text GLabel 14100 2125 0    50   Input ~ 0
+RESET
+Text GLabel 13500 2125 2    50   Input ~ 0
+RESET
+Text GLabel 12875 5900 0    50   Input ~ 0
+RESET
+Text GLabel 15300 2725 2    50   Input ~ 0
+Reserve
+Text GLabel 12875 6000 0    50   Input ~ 0
+Reserve
+Text GLabel 13375 6000 2    50   Input ~ 0
+SCL
+Text GLabel 13375 6100 2    50   Input ~ 0
+SDA
+Text GLabel 12875 5700 0    50   Input ~ 0
+pin1
+Text GLabel 13375 5800 2    50   Input ~ 0
+pin6
+Text GLabel 12875 5800 0    50   Input ~ 0
+RE1_B
+Text GLabel 12875 6100 0    50   Input ~ 0
+AUDIO
 $EndSCHEMATC
