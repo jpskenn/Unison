@@ -1993,7 +1993,7 @@ U 1 1 5F6780D3
 P 4350 7825
 F 0 "SW_35_1" H 4350 8110 50  0000 C CNN
 F 1 "SW_Push" H 4350 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 4350 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 4350 8025 50  0001 C CNN
 F 3 "~" H 4350 8025 50  0001 C CNN
 	1    4350 7825
 	1    0    0    -1  
@@ -2039,7 +2039,7 @@ U 1 1 5F198E16
 P 5650 7825
 F 0 "SW_45_1" H 5650 8110 50  0000 C CNN
 F 1 "SW_Push" H 5650 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5650 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 5650 8025 50  0001 C CNN
 F 3 "~" H 5650 8025 50  0001 C CNN
 	1    5650 7825
 	1    0    0    -1  
