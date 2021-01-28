@@ -4943,4 +4943,18 @@ Text GLabel 12875 5800 0    50   Input ~ 0
 RE1_B
 Text GLabel 12875 6100 0    50   Input ~ 0
 AUDIO
+$Comp
+L Connector_Generic:Conn_01x03 J3
+U 1 1 60D2854A
+P 14250 9400
+F 0 "J3" H 14330 9442 50  0000 L CNN
+F 1 "Conn_01x03" H 14330 9351 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 14250 9400 50  0001 C CNN
+F 3 "~" H 14250 9400 50  0001 C CNN
+	1    14250 9400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 14050 9300
+NoConn ~ 14050 9400
+NoConn ~ 14050 9500
 $EndSCHEMATC
