@@ -3920,12 +3920,6 @@ Wire Wire Line
 Wire Wire Line
 	6475 9525 6475 9625
 Wire Wire Line
-	6475 9625 6550 9625
-Wire Wire Line
-	6550 9625 6550 9725
-Wire Wire Line
-	6950 9525 6950 9625
-Wire Wire Line
 	7525 9625 7525 9725
 Wire Wire Line
 	7925 9525 7925 9625
@@ -3975,10 +3969,6 @@ Wire Wire Line
 Wire Wire Line
 	6475 9725 6475 9925
 Connection ~ 6475 9925
-Wire Wire Line
-	6475 9925 6950 9925
-Wire Wire Line
-	6950 9725 6950 9925
 Wire Wire Line
 	8400 9725 8400 9925
 Connection ~ 8400 9925
@@ -4076,17 +4066,6 @@ F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 6275 9822 16  0000 C CNN
 F 2 "mx2u:YS-SK6812MINI-E" H 6275 9625 60  0001 C CNN
 F 3 "" H 6275 9625 60  0001 C CNN
 	1    6275 9625
-	-1   0    0    1   
-$EndComp
-$Comp
-L mx2u:YS_SK6812MINI_E_modify_GND_powerInput L3
-U 1 1 63211639
-P 6750 9625
-F 0 "L3" H 6750 9887 51  0000 C CNN
-F 1 "YS_SK6812MINI_E_modify_GND_powerInput" H 6750 9822 16  0000 C CNN
-F 2 "mx2u:YS-SK6812MINI-E" H 6750 9625 60  0001 C CNN
-F 3 "" H 6750 9625 60  0001 C CNN
-	1    6750 9625
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -4781,11 +4760,6 @@ Wire Wire Line
 	9350 9625 9425 9625
 Wire Wire Line
 	9425 9625 9425 9725
-Connection ~ 6950 9925
-Wire Wire Line
-	6950 9925 7925 9925
-Wire Wire Line
-	6950 9625 7200 9625
 Wire Wire Line
 	7350 9825 7350 10075
 Wire Wire Line
@@ -4802,16 +4776,9 @@ Wire Wire Line
 Connection ~ 9875 9625
 Wire Wire Line
 	6075 9325 5600 9325
-Wire Wire Line
-	6075 9325 6550 9325
 Connection ~ 6075 9325
 Wire Wire Line
 	6075 9525 6075 9325
-Wire Wire Line
-	6550 9525 6550 9325
-Wire Wire Line
-	6550 9325 7525 9325
-Connection ~ 6550 9325
 Connection ~ 7525 9325
 Wire Wire Line
 	9350 9925 9825 9925
@@ -4948,7 +4915,7 @@ L Connector_Generic:Conn_01x03 J3
 U 1 1 60D2854A
 P 14250 9400
 F 0 "J3" H 14330 9442 50  0000 L CNN
-F 1 "Conn_01x03" H 14330 9351 50  0000 L CNN
+F 1 "LED Shade" H 14330 9351 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 14250 9400 50  0001 C CNN
 F 3 "~" H 14250 9400 50  0001 C CNN
 	1    14250 9400
@@ -4957,4 +4924,38 @@ $EndComp
 NoConn ~ 14050 9300
 NoConn ~ 14050 9400
 NoConn ~ 14050 9500
+$Comp
+L Connector_Generic:Conn_01x03 J4
+U 1 1 60F74693
+P 14250 9750
+F 0 "J4" H 14330 9792 50  0000 L CNN
+F 1 "LED Shade" H 14330 9701 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 14250 9750 50  0001 C CNN
+F 3 "~" H 14250 9750 50  0001 C CNN
+	1    14250 9750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 14050 9650
+NoConn ~ 14050 9750
+NoConn ~ 14050 9850
+NoConn ~ 14050 10000
+NoConn ~ 14050 10100
+NoConn ~ 14050 10200
+$Comp
+L Connector_Generic:Conn_01x03 J5
+U 1 1 60FCE0DF
+P 14250 10100
+F 0 "J5" H 14330 10142 50  0000 L CNN
+F 1 "LED Shade" H 14330 10051 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 14250 10100 50  0001 C CNN
+F 3 "~" H 14250 10100 50  0001 C CNN
+	1    14250 10100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6075 9325 7525 9325
+Wire Wire Line
+	6475 9625 7200 9625
+Wire Wire Line
+	6475 9925 7925 9925
 $EndSCHEMATC
