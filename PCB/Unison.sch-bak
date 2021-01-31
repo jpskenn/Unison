@@ -284,18 +284,6 @@ Wire Wire Line
 Wire Wire Line
 	13250 4900 13500 4900
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 5D93C3AA
-P 14700 3625
-F 0 "U1" H 14700 1739 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 14700 1648 50  0000 C CNN
-F 2 "keebio:ATMEGA32U4-AU" H 14700 3625 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 14700 3625 50  0001 C CNN
-F 4 "C45874" H 14700 3625 50  0001 C CNN "LCSC"
-	1    14700 3625
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR030
 U 1 1 5D9BA68C
 P 14600 1700
@@ -3671,7 +3659,7 @@ U 1 1 5FECAF91
 P 3050 7625
 F 0 "SW_25_2" H 3050 7910 50  0000 C CNN
 F 1 "SW_Push" H 3050 7819 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2U_vertical_guide" H 3050 7825 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2U_vertical_guide" H 3050 7825 50  0001 C CNN
 F 3 "~" H 3050 7825 50  0001 C CNN
 	1    3050 7625
 	1    0    0    -1  
@@ -3734,7 +3722,7 @@ U 1 1 610975FF
 P 3700 3875
 F 0 "SW_37_2" H 3700 4160 50  0000 C CNN
 F 1 "SW_Push" H 3700 4069 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_alt_guide" H 3700 4075 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_alt_guide" H 3700 4075 50  0001 C CNN
 F 3 "~" H 3700 4075 50  0001 C CNN
 	1    3700 3875
 	1    0    0    -1  
@@ -4267,7 +4255,7 @@ U 1 1 61957303
 P 11500 7650
 F 0 "SW_90_2" H 11500 7935 50  0000 C CNN
 F 1 "SW_Push" H 11500 7844 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2U_vertical_guide" H 11500 7850 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2U_vertical_guide" H 11500 7850 50  0001 C CNN
 F 3 "~" H 11500 7850 50  0001 C CNN
 	1    11500 7650
 	1    0    0    -1  
@@ -4284,7 +4272,7 @@ U 1 1 61A13D82
 P 7600 7650
 F 0 "SW_60_2" H 7600 7935 50  0000 C CNN
 F 1 "SW_Push" H 7600 7844 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2U_vertical_guide" H 7600 7850 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2U_vertical_guide" H 7600 7850 50  0001 C CNN
 F 3 "~" H 7600 7850 50  0001 C CNN
 	1    7600 7650
 	1    0    0    -1  
@@ -5211,4 +5199,15 @@ Wire Wire Line
 Connection ~ 7475 9925
 Wire Wire Line
 	7475 9925 8350 9925
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-MU U1
+U 1 1 601BC257
+P 14700 3625
+F 0 "U1" H 14700 1736 50  0000 C CNN
+F 1 "ATmega32U4-MU" H 14700 1645 50  0000 C CNN
+F 2 "swanmatch:QFN-44-1EP_7x7mm_Pitch0.5mm" H 14700 3625 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 14700 3625 50  0001 C CNN
+	1    14700 3625
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

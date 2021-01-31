@@ -284,18 +284,6 @@ Wire Wire Line
 Wire Wire Line
 	13250 4900 13500 4900
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 5D93C3AA
-P 14700 3625
-F 0 "U1" H 14700 1739 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 14700 1648 50  0000 C CNN
-F 2 "keebio:ATMEGA32U4-AU" H 14700 3625 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 14700 3625 50  0001 C CNN
-F 4 "C45874" H 14700 3625 50  0001 C CNN "LCSC"
-	1    14700 3625
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR030
 U 1 1 5D9BA68C
 P 14600 1700
@@ -3899,8 +3887,6 @@ Wire Notes Line
 	7225 9150 7225 9100
 Wire Notes Line
 	11425 9100 11425 9150
-Text Notes 7225 9075 0    50   ~ 0
-Rotary Encoder Indicator
 NoConn ~ 13050 9625
 Wire Wire Line
 	11500 9775 11500 9925
@@ -5211,4 +5197,17 @@ Wire Wire Line
 Connection ~ 7475 9925
 Wire Wire Line
 	7475 9925 8350 9925
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-MU U1
+U 1 1 601BC257
+P 14700 3625
+F 0 "U1" H 14700 1736 50  0000 C CNN
+F 1 "ATmega32U4-MU" H 14700 1645 50  0000 C CNN
+F 2 "swanmatch:QFN-44-1EP_7x7mm_Pitch0.5mm" H 14700 3625 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 14700 3625 50  0001 C CNN
+	1    14700 3625
+	1    0    0    -1  
+$EndComp
+Text Notes 7225 9075 0    50   ~ 0
+Rotary Encoder LEDs
 $EndSCHEMATC
