@@ -3887,8 +3887,6 @@ Wire Notes Line
 	7225 9150 7225 9100
 Wire Notes Line
 	11425 9100 11425 9150
-Text Notes 7225 9075 0    50   ~ 0
-Rotary Encoder Indicator
 NoConn ~ 13050 9625
 Wire Wire Line
 	11500 9775 11500 9925
@@ -5210,4 +5208,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    14700 3625
 	1    0    0    -1  
 $EndComp
+Text Notes 7225 9075 0    50   ~ 0
+Rotary Encoder LEDs
 $EndSCHEMATC
