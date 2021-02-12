@@ -27,6 +27,4 @@ OP-1スタイルでは、5個のロータリーエンコーダにより、ボリ
 ## 特徴
 
 QMKシーケンサとMIDI機能を使用するデモンストレーション  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_A8NaXlWKeE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[QMK Sequencer & MIDI keyboard](https://youtu.be/_A8NaXlWKeE)
+[![](http://img.youtube.com/vi/_A8NaXlWKeE/0.jpg)](http://www.youtube.com/watch?v=_A8NaXlWKeE "QMK Sequencer & MIDI keyboard")
