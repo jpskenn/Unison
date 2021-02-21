@@ -1,6 +1,6 @@
 # Unison / ユニゾン とは
 
-![Unison Music style](./assets/DSC_7287.jpg)
+![Unison Music style](./assets/readme/DSC_7287.jpg)
 
 ユニゾン（Unison）は、GH60互換の60%ケースに収まる狭ピッチキーボードです。  
 
