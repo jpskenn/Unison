@@ -136,7 +136,7 @@ Unisonのコンセプトや特徴などについては、[Unison README](https:/
 
 #### 接続確認
 続いて、基板をPCやMacに接続して、キーボードとして認識されるかを確認します。  
-動作確認用のファームウェアを書き込み済みのため、基板に問題がなければ、キーボードとして認識されます。  
+動作確認用として”Terminalスタイル VIA対応ファームウェア”を書き込み済みのため、基板に問題がなければ、キーボードとして認識されます。  
 USB接続し、下記のMacとWindowsでの確認方法や、スイッチの取り付け箇所の端子部分をピンセットなどでショートして文字を入力するなどして確認してください。
 
 可能であれば、全てのキーが正常に入力されるか確認しておくと、キースイッチ取り付け後の動作確認時に、問題の切り分けがしやすくなります。
@@ -180,22 +180,21 @@ Unison
 ファームウェアは以下よりダウンロードし、QMK Toolbox、またはQMKのコマンドなどで書き込んでください。  
 各ファイルは本家QMKには取り込まれていませんので、私がフォークしたリポジトリから取得してください。
 
-なお、動作確認用としてTerminalスタイル（テンキー中央）のファームウェアを書き込んでいますので、該当のレイアウト・スタイルは、この手順での書き込みは不要です。
+なお、動作確認用として”Terminalスタイル VIA対応ファームウェア”を書き込んでいますので、Terminalスタイルを組み立てる場合は、この手順での書き込みは不要です。  
 
 #### QMK Toolbox
 
 [QMK Toolbox](https://docs.qmk.fm/#/ja/newbs_getting_started?id=qmk-toolbox)をダンロードし、使用できる状態にしておきます。  
 
-使用するレイアウト・スタイルに合わせ、QMK Toolbox用hexファイルをダウンロードします。**近日公開予定**  
+使用するレイアウト・スタイルに合わせ、QMK Toolbox用hexファイルをダウンロードします。  
 
+- Musicスタイルファームウェア  
 
-- [Musicスタイル用](https://gist.github.com/)　
+    [unison_v04_music.hex](https://gist.github.com/jpskenn/32210c4bdc371ec8600858d6645fd631)　
 
-- [Terminalスタイル用（テンキー中央）](https://gist.github.com/)
+- Terminalスタイル VIA対応ファームウェア  
 
-- [Terminalスタイル用（テンキー左）](https://gist.github.com/)
-
-- [Terminalスタイル用（テンキー右）](https://gist.github.com/)
+    [unison_v04_via.hex](https://gist.github.com/jpskenn/c5ac2e3940cbc7818c12e1140436567f)  
 
 `Open`ボタンを押して、ファイル選択ダイアログで書き込むhexファイルを指定します。  
 
@@ -262,6 +261,13 @@ Checking memory from 0x0 to 0x6FFF...  Empty.
 Validating...  Success
 0x6900 bytes written into 0x7000 bytes memory (93.75%).
 ```
+
+#### VIA, Remapによるキーマップの変更
+
+VIA, Remapによるキーマップの変更の際は、以下のファイルを使用してください。
+※Remapへは取り込みを依頼中です。
+
+[unison.json](../via/unison.json)
 
 ### （オプション）LEDの取り付け
 基板裏側でジャンパし、おもて側へLEDを取り付けます。
