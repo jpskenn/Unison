@@ -177,8 +177,7 @@ Unison
 
 ### ファームウェアの書き込み
 
-ファームウェアは以下よりダウンロードし、QMK Toolbox、またはQMKのコマンドなどで書き込んでください。  
-各ファイルは本家QMKには取り込まれていませんので、私がフォークしたリポジトリから取得してください。
+QMK Toolbox、またはQMKのコマンドなどで書き込んでください。  
 
 なお、動作確認用として”Terminalスタイル VIA対応ファームウェア”を書き込んでいますので、Terminalスタイルを組み立てる場合は、この手順での書き込みは不要です。  
 
@@ -214,6 +213,8 @@ USB接続します。
 
 ”[QMK環境の構築：ビルド環境を準備する](https://docs.qmk.fm/#/ja/newbs_getting_started?id=set-up-your-environment)”を参考に、QMKのビルド環境を構築しておきます。
 
+*現在のところ、Unison関連ファイルは本家QMKには取り込まれていませんので、私がフォークしたリポジトリから取得してください。*
+
 [jpskenn/qmk_firmware: develop_Unisonブランチ](https://github.com/jpskenn/qmk_firmware/tree/develop_Unison/)をダウンロードします。
 
 ダウンロードした中の`keyboards`ディレクトリ配下の`unison`ディクトリを、先ほど構築したQMKの`keyboards`ディレクトリ配下へ配置します。  
@@ -227,17 +228,7 @@ USB接続します。
 
 - Terminalスタイル（テンキー中央）
     ```
-    qmk flash -kb unison/v04 -km terminal
-    ```
-
-- Terminalスタイル用（テンキー左）
-    ```
-    qmk flash -kb unison/v04 -km terminal_left
-    ```
-
-- Terminalスタイル用（テンキー右）
-    ```
-    qmk flash -kb unison/v04 -km terminal_right
+    qmk flash -kb unison/v04 -km via
     ```
 
 何やら画面に表示された後、しばらくすると次のようなメッセージが繰り返し表示されます。
