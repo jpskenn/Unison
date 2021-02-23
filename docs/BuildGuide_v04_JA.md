@@ -513,10 +513,16 @@ LEDテープを取り付けた状態, カプトンテープで貼り付け
 キースイッチの動作確認は、OSのキーボードビューアや、[Keyboard Checker](https://keyboardchecker.com)、[QMK Configrator](https://config.qmk.fm/)の入力テスト機能を使用して行います。  
 全てのキーで正常に入力できることを確認します。
 
-なお、初めてキーボードを使用する際はMac向けのキーマップに設定されており、Windows環境では`ALT`と`Win`が逆に認識されます。  
-これを切り替えるには、Windows向けのキーマップへは`Lower + Raise + W`を、Mac向けのキーマップへは`Lower + Raise + Q`のキーを同時に押します。  
+なお、初めてキーボードを使用する際はMac向けのキーマップに設定されているため、Windows環境では`ALT`と`Win`が逆に認識されます。  
+使用するファームウェアに合わせて、キーの配置を切り替えてください。
+
+- Musicスタイル
+Windows向けのキーマップへは`Lower + Raise + W`を、Mac向けのキーマップへは`Lower + Raise + Q`のキーを同時に押すと切り替わります。 （ベースレイヤーの切り替え） 
 切り替えれた状態は記憶されます。  
 ※`Lower`は左スペース、`Raise`は右スペースの長押し。
+
+- Terminalスタイル
+後述の[RemapまたはVIAによるキーマップの変更](#RemapまたはVIAによるキーマップの変更)を参考に、各ツールを使用してキーの配置を切り替えます。
 
 正常に入力できないキーがあった場合は、原因を調査し、修復します。
 
@@ -697,7 +703,7 @@ PCやMacに接続し、各部の動作を簡単に確認します。
 写真を撮影し、`#Unison_kbd` のタグをつけてツイートすると設計者が喜んだりします。  
 [Twitter: #Unison_kbd](https://twitter.com/search?q=%23Unison_kbd)
 
-### Remap, VIAによるキーマップの変更
+### RemapまたはVIAによるキーマップの変更
 
 ”Terminalスタイル VIA対応ファームウェア”を書き込んでいる場合、[Remap](https://remap-keys.app/)や[VIA](https://caniusevia.com/)によるキーマップの変更がおこなえます。
 
