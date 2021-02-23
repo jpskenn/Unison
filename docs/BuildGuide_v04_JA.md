@@ -253,12 +253,6 @@ Validating...  Success
 0x6900 bytes written into 0x7000 bytes memory (93.75%).
 ```
 
-#### VIA, Remapによるキーマップの変更
-
-VIA, Remapによるキーマップの変更の際は、以下のファイルを使用してください。
-※Remapへは取り込みを依頼中です。
-
-[unison.json](../via/unison.json)
 
 ### （オプション）LEDの取り付け
 基板裏側でジャンパし、おもて側へLEDを取り付けます。
@@ -699,3 +693,27 @@ PCやMacに接続し、各部の動作を簡単に確認します。
 
 写真を撮影し、`#Unison_kbd` のタグをつけてツイートすると設計者が喜んだりします。  
 [Twitter: #Unison_kbd](https://twitter.com/search?q=%23Unison_kbd)
+
+### Remap, VIAによるキーマップの変更
+
+”Terminalスタイル VIA対応ファームウェア”を書き込んでいる場合、[Remap](https://remap-keys.app/)や[VIA](https://caniusevia.com/)によるキーマップの変更がおこなえます。
+
+#### Remap
+
+WebHID API対応のブラウザ（Chromeなど）を使用し、[Remap](https://remap-keys.app/)にアクセスします。
+
+`START REMAP YOUR KEYBOARD`をクリックし、`+ KEYBOARD`押して表示されるリストからUnisonを選択して`接続`します。  
+
+キーボードのレイアウトが表示されたら、キーマップを変更します。  
+
+#### VIA
+
+以下の定義ファイルをダウンロードしておきます。
+
+[unison.json](https://gist.github.com/jpskenn/f194c18c5e68a0969275be76204f4772)
+
+VIAアプリを開き、`SETTINGS`タブで`Show Design tab`をONにします。
+
+`DESIGN`タブで`Load Draft Definition`の`Load`ボタンを押し、先ほどダウンロードした定義ファイル、”unison.json"を開きます。
+
+キーボードのレイアウトが表示されたら、`CONFIGURE`タブでキーマップを変更します。
