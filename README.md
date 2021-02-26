@@ -31,6 +31,10 @@
 <!-- TODO スイッチだけの写真 -->
 通常の19.05mmのキーピッチに対して約87%となる、**縦16.4mm × 横16.8mm**のキーピッチを採用しています。
 
+![](./assets/readme/IMG_2392.jpeg)  
+通常のピッチの60%キーボードとの比較  
+上：通常ピッチ Jones, 下：狭ピッチ Unison
+
 デザインの元となったOP-1と同様に、4行×17列のキーとロータリーエンコーダが60%キーボードのケースに収まるように配置しました。  
 また、キーピッチに少し余裕を持たせることで、入手性の良い”[Cherry MX Backlit Low Profile Keycap Set](https://yushakobo.jp/shop/cherry-mx-backlit-low-profile-keycap-set/)”が使用できるようにしています。
 
@@ -117,8 +121,7 @@ Terminalスタイル, アンダーグローLED追加
 Terminalスタイル, アンダーグローLED追加  
 60% プラスチックケース クリア, Cherry MX Backlit Low Profile Keycap Set
 
-![](./assets/readme/IMG_2392.jpeg)  
-60%キーボードとの比較, 上：Jones, 下：Unison
+
 ## 製作歴
 
 ### v05（開発中）
