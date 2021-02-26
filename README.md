@@ -109,6 +109,9 @@ Musicスタイル
 Musicスタイル, サイドビュー  
 60% プラスチックケース ホワイト, Cherry MX Backlit Low Profile Keycap Set
 
+![](./assets/readme/IMG_2684.jpeg)  
+Terminalスタイル, アンダーグローLED追加  
+60% プラスチックケース クリア, YKNキーキャップセット(MX/ChocV2スイッチ 16x16mmキーピッチ用) v1.2
 
 ![](./assets/readme/IMG_2626.jpeg)  
 Terminalスタイル, アンダーグローLED追加  
