@@ -1,6 +1,6 @@
 {
     "name": "Unison",
-    "vendorId": "0x2403",
+    "vendorId": "0xB9DD",
     "productId": "0x176A",
     "lighting": "qmk_rgblight",
     "matrix": { "rows": 10, "cols": 10 },
