@@ -2059,7 +2059,7 @@ U 1 1 5F106675
 P 8250 7825
 F 0 "SW_75_1" H 8250 8110 50  0000 C CNN
 F 1 "SW_Push" H 8250 8019 50  0000 C CNN
-F 2 "ukiha:MXOnly-2U-NoLED_16mm" H 8250 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2u_guide" H 8250 8025 50  0001 C CNN
 F 3 "~" H 8250 8025 50  0001 C CNN
 	1    8250 7825
 	1    0    0    -1  
@@ -4344,7 +4344,7 @@ U 1 1 61C9BF22
 P 8250 7650
 F 0 "SW_75_2" H 8250 7935 50  0000 C CNN
 F 1 "SW_Push" H 8250 7844 50  0000 C CNN
-F 2 "ukiha:MXOnly-1.5U-NoLED_16mm" H 8250 7850 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 8250 7850 50  0001 C CNN
 F 3 "~" H 8250 7850 50  0001 C CNN
 	1    8250 7650
 	1    0    0    -1  
@@ -4620,7 +4620,7 @@ U 1 1 6032DF0B
 P 7600 7475
 F 0 "SW_60_3" H 7600 7760 50  0000 C CNN
 F 1 "SW_Push" H 7600 7669 50  0000 C CNN
-F 2 "ukiha:MXOnly-2U-NoLED_16mm" H 7600 7675 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2u_guide" H 7600 7675 50  0001 C CNN
 F 3 "~" H 7600 7675 50  0001 C CNN
 	1    7600 7475
 	1    0    0    -1  

@@ -2188,8 +2188,6 @@ F 3 "~" H 715 9975 50  0001 C CNN
 	1    725  10025
 	-1   0    0    1   
 $EndComp
-Text GLabel 1450 9925 2    50   Input ~ 0
-AUDIO
 $Comp
 L power:GND #PWR01
 U 1 1 6309ED5B
@@ -2230,8 +2228,6 @@ Wire Wire Line
 Connection ~ 1075 9925
 Wire Wire Line
 	925  10025 925  10225
-Text GLabel 15300 3025 2    50   Input ~ 0
-AUDIO
 Connection ~ 4800 6575
 Wire Wire Line
 	4800 6575 4800 7225
@@ -4740,7 +4736,6 @@ Wire Notes Line
 	9375 9250 9375 9300
 Text Notes 8100 9225 0    50   ~ 0
 Optional LEDs
-NoConn ~ 15300 2725
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 60F2CA73
@@ -5211,4 +5206,19 @@ F 4 "C45874" H 14700 3625 50  0001 C CNN "LCSC"
 $EndComp
 Text Notes 7225 9075 0    50   ~ 0
 Rotary Encoder LEDs
+Text GLabel 1450 9925 2    50   Input ~ 0
+AUDIO
+Text GLabel 15700 2875 2    50   Input ~ 0
+AUDIO
+Wire Wire Line
+	15300 2725 15650 2725
+Wire Wire Line
+	15650 2725 15650 2875
+Wire Wire Line
+	15650 3025 15300 3025
+Wire Wire Line
+	15650 2875 15700 2875
+Connection ~ 15650 2875
+Wire Wire Line
+	15650 2875 15650 3025
 $EndSCHEMATC
