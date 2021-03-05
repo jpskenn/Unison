@@ -377,7 +377,7 @@ U 1 1 5F62637E
 P 2400 2825
 F 0 "SW_26" H 2400 3110 50  0000 C CNN
 F 1 "SW_Push" H 2400 3019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 2400 3025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 2400 3025 50  0001 C CNN
 F 3 "~" H 2400 3025 50  0001 C CNN
 	1    2400 2825
 	1    0    0    -1  
@@ -400,7 +400,7 @@ U 1 1 5F62638A
 P 3050 2825
 F 0 "SW_31" H 3050 3110 50  0000 C CNN
 F 1 "SW_Push" H 3050 3019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 3050 3025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3050 3025 50  0001 C CNN
 F 3 "~" H 3050 3025 50  0001 C CNN
 	1    3050 2825
 	1    0    0    -1  
@@ -423,7 +423,7 @@ U 1 1 5F62D1CC
 P 3700 2825
 F 0 "SW_36_1" H 3700 3110 50  0000 C CNN
 F 1 "SW_Push" H 3700 3019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 3700 3025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3700 3025 50  0001 C CNN
 F 3 "~" H 3700 3025 50  0001 C CNN
 	1    3700 2825
 	1    0    0    -1  
@@ -446,7 +446,7 @@ U 1 1 5F62D1D8
 P 4350 2825
 F 0 "SW_41_1" H 4350 3110 50  0000 C CNN
 F 1 "SW_Push" H 4350 3019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 4350 3025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 4350 3025 50  0001 C CNN
 F 3 "~" H 4350 3025 50  0001 C CNN
 	1    4350 2825
 	1    0    0    -1  
@@ -469,7 +469,7 @@ U 1 1 5F62D1E4
 P 5000 2825
 F 0 "SW_46_1" H 5000 3110 50  0000 C CNN
 F 1 "SW_Push" H 5000 3019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 5000 3025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5000 3025 50  0001 C CNN
 F 3 "~" H 5000 3025 50  0001 C CNN
 	1    5000 2825
 	1    0    0    -1  
@@ -492,7 +492,7 @@ U 1 1 5F62D1F0
 P 9550 2825
 F 0 "SW_81" H 9550 3110 50  0000 C CNN
 F 1 "SW_Push" H 9550 3019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 9550 3025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 9550 3025 50  0001 C CNN
 F 3 "~" H 9550 3025 50  0001 C CNN
 	1    9550 2825
 	1    0    0    -1  
@@ -527,7 +527,7 @@ U 1 1 5F633F2C
 P 5650 2825
 F 0 "SW_51_1" H 5650 3110 50  0000 C CNN
 F 1 "SW_Push" H 5650 3019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 5650 3025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5650 3025 50  0001 C CNN
 F 3 "~" H 5650 3025 50  0001 C CNN
 	1    5650 2825
 	1    0    0    -1  
@@ -550,7 +550,7 @@ U 1 1 5F633F38
 P 6300 2825
 F 0 "SW_56" H 6300 3110 50  0000 C CNN
 F 1 "SW_Push" H 6300 3019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 6300 3025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 6300 3025 50  0001 C CNN
 F 3 "~" H 6300 3025 50  0001 C CNN
 	1    6300 2825
 	1    0    0    -1  
@@ -573,7 +573,7 @@ U 1 1 5F633F44
 P 6950 2825
 F 0 "SW_61" H 6950 3110 50  0000 C CNN
 F 1 "SW_Push" H 6950 3019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 6950 3025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 6950 3025 50  0001 C CNN
 F 3 "~" H 6950 3025 50  0001 C CNN
 	1    6950 2825
 	1    0    0    -1  
@@ -596,7 +596,7 @@ U 1 1 5F639FB6
 P 7600 2825
 F 0 "SW_76" H 7600 3110 50  0000 C CNN
 F 1 "SW_Push" H 7600 3019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 7600 3025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 7600 3025 50  0001 C CNN
 F 3 "~" H 7600 3025 50  0001 C CNN
 	1    7600 2825
 	1    0    0    -1  
@@ -619,7 +619,7 @@ U 1 1 5F639FC2
 P 8250 2825
 F 0 "SW_71" H 8250 3110 50  0000 C CNN
 F 1 "SW_Push" H 8250 3019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 8250 3025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 8250 3025 50  0001 C CNN
 F 3 "~" H 8250 3025 50  0001 C CNN
 	1    8250 2825
 	1    0    0    -1  
@@ -750,7 +750,7 @@ U 1 1 5F665857
 P 3050 5325
 F 0 "SW_23_1" H 3050 5610 50  0000 C CNN
 F 1 "SW_Push" H 3050 5519 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 3050 5525 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3050 5525 50  0001 C CNN
 F 3 "~" H 3050 5525 50  0001 C CNN
 	1    3050 5325
 	1    0    0    -1  
@@ -773,7 +773,7 @@ U 1 1 5F665863
 P 3700 5325
 F 0 "SW_38_1" H 3700 5610 50  0000 C CNN
 F 1 "SW_Push" H 3700 5519 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 3700 5525 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3700 5525 50  0001 C CNN
 F 3 "~" H 3700 5525 50  0001 C CNN
 	1    3700 5325
 	1    0    0    -1  
@@ -796,7 +796,7 @@ U 1 1 5F66586F
 P 4350 5325
 F 0 "SW_43" H 4350 5610 50  0000 C CNN
 F 1 "SW_Push" H 4350 5519 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 4350 5525 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 4350 5525 50  0001 C CNN
 F 3 "~" H 4350 5525 50  0001 C CNN
 	1    4350 5325
 	1    0    0    -1  
@@ -819,7 +819,7 @@ U 1 1 5F66587B
 P 5000 5325
 F 0 "SW_48" H 5000 5610 50  0000 C CNN
 F 1 "SW_Push" H 5000 5519 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 5000 5525 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5000 5525 50  0001 C CNN
 F 3 "~" H 5000 5525 50  0001 C CNN
 	1    5000 5325
 	1    0    0    -1  
@@ -854,7 +854,7 @@ U 1 1 5F66B99B
 P 1100 6575
 F 0 "SW_19_1" H 1100 6860 50  0000 C CNN
 F 1 "SW_Push" H 1100 6769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 1100 6775 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 1100 6775 50  0001 C CNN
 F 3 "~" H 1100 6775 50  0001 C CNN
 	1    1100 6575
 	1    0    0    -1  
@@ -865,7 +865,7 @@ U 1 1 5F66B9A7
 P 2400 6575
 F 0 "SW_29" H 2400 6860 50  0000 C CNN
 F 1 "SW_Push" H 2400 6769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 2400 6775 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 2400 6775 50  0001 C CNN
 F 3 "~" H 2400 6775 50  0001 C CNN
 	1    2400 6575
 	1    0    0    -1  
@@ -888,7 +888,7 @@ U 1 1 5F66B9B3
 P 3050 6575
 F 0 "SW_24_1" H 3050 6860 50  0000 C CNN
 F 1 "SW_Push" H 3050 6769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 3050 6775 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3050 6775 50  0001 C CNN
 F 3 "~" H 3050 6775 50  0001 C CNN
 	1    3050 6575
 	1    0    0    -1  
@@ -911,7 +911,7 @@ U 1 1 5F66B9BF
 P 3700 6575
 F 0 "SW_39_1" H 3700 6860 50  0000 C CNN
 F 1 "SW_Push" H 3700 6769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 3700 6775 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3700 6775 50  0001 C CNN
 F 3 "~" H 3700 6775 50  0001 C CNN
 	1    3700 6575
 	1    0    0    -1  
@@ -934,7 +934,7 @@ U 1 1 5F66B9CB
 P 4350 6575
 F 0 "SW_34" H 4350 6860 50  0000 C CNN
 F 1 "SW_Push" H 4350 6769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 4350 6775 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 4350 6775 50  0001 C CNN
 F 3 "~" H 4350 6775 50  0001 C CNN
 	1    4350 6575
 	1    0    0    -1  
@@ -957,7 +957,7 @@ U 1 1 5F66B9D7
 P 5000 6575
 F 0 "SW_49" H 5000 6860 50  0000 C CNN
 F 1 "SW_Push" H 5000 6769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 5000 6775 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5000 6775 50  0001 C CNN
 F 3 "~" H 5000 6775 50  0001 C CNN
 	1    5000 6575
 	1    0    0    -1  
@@ -1004,7 +1004,7 @@ U 1 1 5F67808B
 P 2400 7825
 F 0 "SW_20_1" H 2400 8110 50  0000 C CNN
 F 1 "SW_Push" H 2400 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 2400 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 2400 8025 50  0001 C CNN
 F 3 "~" H 2400 8025 50  0001 C CNN
 	1    2400 7825
 	1    0    0    -1  
@@ -1015,7 +1015,7 @@ U 1 1 5F68651C
 P 9550 5325
 F 0 "SW_83_1" H 9550 5610 50  0000 C CNN
 F 1 "SW_Push" H 9550 5519 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 9550 5525 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 9550 5525 50  0001 C CNN
 F 3 "~" H 9550 5525 50  0001 C CNN
 	1    9550 5325
 	1    0    0    -1  
@@ -1026,7 +1026,7 @@ U 1 1 5F6B0365
 P 8900 2825
 F 0 "SW_86" H 8900 3110 50  0000 C CNN
 F 1 "SW_Push" H 8900 3019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 8900 3025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 8900 3025 50  0001 C CNN
 F 3 "~" H 8900 3025 50  0001 C CNN
 	1    8900 2825
 	1    0    0    -1  
@@ -1041,7 +1041,7 @@ U 1 1 5EFEDE4B
 P 9550 6575
 F 0 "SW_84" H 9550 6860 50  0000 C CNN
 F 1 "SW_Push" H 9550 6769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 9550 6775 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 9550 6775 50  0001 C CNN
 F 3 "~" H 9550 6775 50  0001 C CNN
 	1    9550 6575
 	1    0    0    -1  
@@ -1239,7 +1239,7 @@ U 1 1 5F29DC6B
 P 1750 7825
 F 0 "SW_15" H 1750 8110 50  0000 C CNN
 F 1 "SW_Push" H 1750 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 1750 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 1750 8025 50  0001 C CNN
 F 3 "~" H 1750 8025 50  0001 C CNN
 	1    1750 7825
 	1    0    0    -1  
@@ -1278,7 +1278,7 @@ U 1 1 5F02207D
 P 1100 7825
 F 0 "SW_10_1" H 1100 8110 50  0000 C CNN
 F 1 "SW_Push" H 1100 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 1100 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 1100 8025 50  0001 C CNN
 F 3 "~" H 1100 8025 50  0001 C CNN
 	1    1100 7825
 	1    0    0    -1  
@@ -1637,7 +1637,7 @@ U 1 1 5F66BA13
 P 6300 6575
 F 0 "SW_59" H 6300 6860 50  0000 C CNN
 F 1 "SW_Push" H 6300 6769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 6300 6775 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 6300 6775 50  0001 C CNN
 F 3 "~" H 6300 6775 50  0001 C CNN
 	1    6300 6575
 	1    0    0    -1  
@@ -1660,7 +1660,7 @@ U 1 1 5F6658B7
 P 6300 5325
 F 0 "SW_58" H 6300 5610 50  0000 C CNN
 F 1 "SW_Push" H 6300 5519 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 6300 5525 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 6300 5525 50  0001 C CNN
 F 3 "~" H 6300 5525 50  0001 C CNN
 	1    6300 5325
 	1    0    0    -1  
@@ -1695,7 +1695,7 @@ U 1 1 5F66BA07
 P 5650 6575
 F 0 "SW_54" H 5650 6860 50  0000 C CNN
 F 1 "SW_Push" H 5650 6769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 5650 6775 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5650 6775 50  0001 C CNN
 F 3 "~" H 5650 6775 50  0001 C CNN
 	1    5650 6575
 	1    0    0    -1  
@@ -1753,7 +1753,7 @@ U 1 1 5F66B9FB
 P 8250 6575
 F 0 "SW_74" H 8250 6860 50  0000 C CNN
 F 1 "SW_Push" H 8250 6769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 8250 6775 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 8250 6775 50  0001 C CNN
 F 3 "~" H 8250 6775 50  0001 C CNN
 	1    8250 6575
 	1    0    0    -1  
@@ -1776,7 +1776,7 @@ U 1 1 5F66589F
 P 8250 5325
 F 0 "SW_73_1" H 8250 5610 50  0000 C CNN
 F 1 "SW_Push" H 8250 5519 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 8250 5525 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 8250 5525 50  0001 C CNN
 F 3 "~" H 8250 5525 50  0001 C CNN
 	1    8250 5325
 	1    0    0    -1  
@@ -1811,7 +1811,7 @@ U 1 1 5F66B9EF
 P 7600 6575
 F 0 "SW_69" H 7600 6860 50  0000 C CNN
 F 1 "SW_Push" H 7600 6769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 7600 6775 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 7600 6775 50  0001 C CNN
 F 3 "~" H 7600 6775 50  0001 C CNN
 	1    7600 6575
 	1    0    0    -1  
@@ -1834,7 +1834,7 @@ U 1 1 5F665893
 P 7600 5325
 F 0 "SW_68" H 7600 5610 50  0000 C CNN
 F 1 "SW_Push" H 7600 5519 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 7600 5525 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 7600 5525 50  0001 C CNN
 F 3 "~" H 7600 5525 50  0001 C CNN
 	1    7600 5325
 	1    0    0    -1  
@@ -1878,7 +1878,7 @@ U 1 1 5F6658C3
 P 6950 5325
 F 0 "SW_63" H 6950 5610 50  0000 C CNN
 F 1 "SW_Push" H 6950 5519 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 6950 5525 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 6950 5525 50  0001 C CNN
 F 3 "~" H 6950 5525 50  0001 C CNN
 	1    6950 5325
 	1    0    0    -1  
@@ -1913,7 +1913,7 @@ U 1 1 5F66BA2B
 P 6950 6575
 F 0 "SW_64" H 6950 6860 50  0000 C CNN
 F 1 "SW_Push" H 6950 6769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 6950 6775 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 6950 6775 50  0001 C CNN
 F 3 "~" H 6950 6775 50  0001 C CNN
 	1    6950 6575
 	1    0    0    -1  
@@ -1934,7 +1934,7 @@ U 1 1 61890135
 P 8900 5325
 F 0 "SW_78_1" H 8900 5610 50  0000 C CNN
 F 1 "SW_Push" H 8900 5519 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 8900 5525 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 8900 5525 50  0001 C CNN
 F 3 "~" H 8900 5525 50  0001 C CNN
 	1    8900 5325
 	1    0    0    -1  
@@ -1946,7 +1946,7 @@ U 1 1 61CC65BC
 P 8900 6575
 F 0 "SW_79" H 8900 6860 50  0000 C CNN
 F 1 "SW_Push" H 8900 6769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 8900 6775 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 8900 6775 50  0001 C CNN
 F 3 "~" H 8900 6775 50  0001 C CNN
 	1    8900 6575
 	1    0    0    -1  
@@ -1979,7 +1979,7 @@ U 1 1 5F6780D3
 P 4350 7825
 F 0 "SW_35_1" H 4350 8110 50  0000 C CNN
 F 1 "SW_Push" H 4350 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2u_guide" H 4350 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 4350 8025 50  0001 C CNN
 F 3 "~" H 4350 8025 50  0001 C CNN
 	1    4350 7825
 	1    0    0    -1  
@@ -2002,7 +2002,7 @@ U 1 1 5F1F97DD
 P 6300 7825
 F 0 "SW_50" H 6300 8110 50  0000 C CNN
 F 1 "SW_Push" H 6300 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 6300 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 6300 8025 50  0001 C CNN
 F 3 "~" H 6300 8025 50  0001 C CNN
 	1    6300 7825
 	1    0    0    -1  
@@ -2025,7 +2025,7 @@ U 1 1 5F198E16
 P 5650 7825
 F 0 "SW_45_1" H 5650 8110 50  0000 C CNN
 F 1 "SW_Push" H 5650 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2u_guide" H 5650 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 5650 8025 50  0001 C CNN
 F 3 "~" H 5650 8025 50  0001 C CNN
 	1    5650 7825
 	1    0    0    -1  
@@ -2048,7 +2048,7 @@ U 1 1 5F145FD8
 P 9550 7825
 F 0 "SW_85_1" H 9550 8110 50  0000 C CNN
 F 1 "SW_Push" H 9550 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 9550 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 9550 8025 50  0001 C CNN
 F 3 "~" H 9550 8025 50  0001 C CNN
 	1    9550 7825
 	1    0    0    -1  
@@ -2059,7 +2059,7 @@ U 1 1 5F106675
 P 8250 7825
 F 0 "SW_75_1" H 8250 8110 50  0000 C CNN
 F 1 "SW_Push" H 8250 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2u_guide" H 8250 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 8250 8025 50  0001 C CNN
 F 3 "~" H 8250 8025 50  0001 C CNN
 	1    8250 7825
 	1    0    0    -1  
@@ -2118,7 +2118,7 @@ U 1 1 5F0A9F1D
 P 3050 7825
 F 0 "SW_25_1" H 3050 8110 50  0000 C CNN
 F 1 "SW_Push" H 3050 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 3050 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3050 8025 50  0001 C CNN
 F 3 "~" H 3050 8025 50  0001 C CNN
 	1    3050 7825
 	1    0    0    -1  
@@ -2141,7 +2141,7 @@ U 1 1 5F10669A
 P 8900 7825
 F 0 "SW_70_1" H 8900 8110 50  0000 C CNN
 F 1 "SW_Push" H 8900 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 8900 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 8900 8025 50  0001 C CNN
 F 3 "~" H 8900 8025 50  0001 C CNN
 	1    8900 7825
 	1    0    0    -1  
@@ -2259,7 +2259,7 @@ U 1 1 5F5D094E
 P 6950 7825
 F 0 "SW_65_1" H 6950 8110 50  0000 C CNN
 F 1 "SW_Push" H 6950 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2u_guide" H 6950 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 6950 8025 50  0001 C CNN
 F 3 "~" H 6950 8025 50  0001 C CNN
 	1    6950 7825
 	1    0    0    -1  
@@ -2273,7 +2273,7 @@ U 1 1 5F66583F
 P 1750 5325
 F 0 "SW_13_1" H 1750 5610 50  0000 C CNN
 F 1 "SW_Push" H 1750 5519 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 1750 5525 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 1750 5525 50  0001 C CNN
 F 3 "~" H 1750 5525 50  0001 C CNN
 	1    1750 5325
 	1    0    0    -1  
@@ -2300,7 +2300,7 @@ U 1 1 5F156A11
 P 10200 7825
 F 0 "SW_80_1" H 10200 8110 50  0000 C CNN
 F 1 "SW_Push" H 10200 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 10200 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 10200 8025 50  0001 C CNN
 F 3 "~" H 10200 8025 50  0001 C CNN
 	1    10200 7825
 	1    0    0    -1  
@@ -2311,7 +2311,7 @@ U 1 1 5F3CB957
 P 10200 6575
 F 0 "SW_89" H 10200 6860 50  0000 C CNN
 F 1 "SW_Push" H 10200 6769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 10200 6775 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 10200 6775 50  0001 C CNN
 F 3 "~" H 10200 6775 50  0001 C CNN
 	1    10200 6575
 	1    0    0    -1  
@@ -2370,7 +2370,7 @@ U 1 1 5F633F20
 P 10200 2825
 F 0 "SW_96" H 10200 3110 50  0000 C CNN
 F 1 "SW_Push" H 10200 3019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 10200 3025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 10200 3025 50  0001 C CNN
 F 3 "~" H 10200 3025 50  0001 C CNN
 	1    10200 2825
 	1    0    0    -1  
@@ -2412,7 +2412,7 @@ U 1 1 5FECF01C
 P 1750 6575
 F 0 "SW_14" H 1750 6860 50  0000 C CNN
 F 1 "SW_Push" H 1750 6769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 1750 6775 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 1750 6775 50  0001 C CNN
 F 3 "~" H 1750 6775 50  0001 C CNN
 	1    1750 6575
 	1    0    0    -1  
@@ -2444,7 +2444,7 @@ U 1 1 5FF60A39
 P 3700 7825
 F 0 "SW_30_1" H 3700 8110 50  0000 C CNN
 F 1 "SW_Push" H 3700 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 3700 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3700 8025 50  0001 C CNN
 F 3 "~" H 3700 8025 50  0001 C CNN
 	1    3700 7825
 	1    0    0    -1  
@@ -2467,7 +2467,7 @@ U 1 1 5FF6B5F2
 P 5000 7825
 F 0 "SW_40_1" H 5000 8110 50  0000 C CNN
 F 1 "SW_Push" H 5000 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 5000 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5000 8025 50  0001 C CNN
 F 3 "~" H 5000 8025 50  0001 C CNN
 	1    5000 7825
 	1    0    0    -1  
@@ -2490,7 +2490,7 @@ U 1 1 5FF76244
 P 7600 7825
 F 0 "SW_60_1" H 7600 8110 50  0000 C CNN
 F 1 "SW_Push" H 7600 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 7600 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 7600 8025 50  0001 C CNN
 F 3 "~" H 7600 8025 50  0001 C CNN
 	1    7600 7825
 	1    0    0    -1  
@@ -2596,7 +2596,7 @@ U 1 1 5FF9BF1A
 P 11500 2825
 F 0 "SW_6" H 11500 3110 50  0000 C CNN
 F 1 "SW_Push" H 11500 3019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 11500 3025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 11500 3025 50  0001 C CNN
 F 3 "~" H 11500 3025 50  0001 C CNN
 F 4 "SW_06" H 11500 3175 50  0000 C CNN "Alt Ref"
 	1    11500 2825
@@ -2633,7 +2633,7 @@ U 1 1 5FF9BF3F
 P 10850 6575
 F 0 "SW_94" H 10850 6860 50  0000 C CNN
 F 1 "SW_Push" H 10850 6769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 10850 6775 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 10850 6775 50  0001 C CNN
 F 3 "~" H 10850 6775 50  0001 C CNN
 	1    10850 6575
 	1    0    0    -1  
@@ -2660,7 +2660,7 @@ U 1 1 5FF9BF76
 P 11500 6575
 F 0 "SW_9" H 11500 6860 50  0000 C CNN
 F 1 "SW_Push" H 11500 6769 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 11500 6775 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 11500 6775 50  0001 C CNN
 F 3 "~" H 11500 6775 50  0001 C CNN
 F 4 "SW_09" H 11500 6925 50  0000 C CNN "Alt Ref"
 	1    11500 6575
@@ -2672,7 +2672,7 @@ U 1 1 5FF9BF84
 P 10850 7825
 F 0 "SW_95" H 10850 8110 50  0000 C CNN
 F 1 "SW_Push" H 10850 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 10850 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 10850 8025 50  0001 C CNN
 F 3 "~" H 10850 8025 50  0001 C CNN
 	1    10850 7825
 	1    0    0    -1  
@@ -2707,7 +2707,7 @@ U 1 1 5FF9BF9F
 P 11500 7825
 F 0 "SW_90_1" H 11500 8110 50  0000 C CNN
 F 1 "SW_Push" H 11500 8019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 11500 8025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 11500 8025 50  0001 C CNN
 F 3 "~" H 11500 8025 50  0001 C CNN
 	1    11500 7825
 	1    0    0    -1  
@@ -2737,7 +2737,7 @@ U 1 1 5F61D6A8
 P 1100 2825
 F 0 "SW_16" H 1100 3110 50  0000 C CNN
 F 1 "SW_Push" H 1100 3019 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 1100 3025 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 1100 3025 50  0001 C CNN
 F 3 "~" H 1100 3025 50  0001 C CNN
 	1    1100 2825
 	1    0    0    -1  
@@ -2764,7 +2764,7 @@ U 1 1 602F9732
 P 1100 4075
 F 0 "SW_17_1" H 1100 4360 50  0000 C CNN
 F 1 "SW_Push" H 1100 4269 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 1100 4275 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 1100 4275 50  0001 C CNN
 F 3 "~" H 1100 4275 50  0001 C CNN
 	1    1100 4075
 	1    0    0    -1  
@@ -2775,7 +2775,7 @@ U 1 1 60307B99
 P 1750 4075
 F 0 "SW_12_1" H 1750 4360 50  0000 C CNN
 F 1 "SW_Push" H 1750 4269 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 1750 4275 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 1750 4275 50  0001 C CNN
 F 3 "~" H 1750 4275 50  0001 C CNN
 	1    1750 4075
 	1    0    0    -1  
@@ -2792,7 +2792,7 @@ U 1 1 603162CC
 P 2400 4075
 F 0 "SW_27_1" H 2400 4360 50  0000 C CNN
 F 1 "SW_Push" H 2400 4269 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 2400 4275 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 2400 4275 50  0001 C CNN
 F 3 "~" H 2400 4275 50  0001 C CNN
 	1    2400 4075
 	1    0    0    -1  
@@ -2803,7 +2803,7 @@ U 1 1 60324A3C
 P 3050 4075
 F 0 "SW_32_1" H 3050 4360 50  0000 C CNN
 F 1 "SW_Push" H 3050 4269 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 3050 4275 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3050 4275 50  0001 C CNN
 F 3 "~" H 3050 4275 50  0001 C CNN
 	1    3050 4075
 	1    0    0    -1  
@@ -2814,7 +2814,7 @@ U 1 1 60333269
 P 3700 4075
 F 0 "SW_37_1" H 3700 4360 50  0000 C CNN
 F 1 "SW_Push" H 3700 4269 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 3700 4275 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3700 4275 50  0001 C CNN
 F 3 "~" H 3700 4275 50  0001 C CNN
 	1    3700 4075
 	1    0    0    -1  
@@ -2825,7 +2825,7 @@ U 1 1 60341952
 P 4350 4075
 F 0 "SW_42" H 4350 4360 50  0000 C CNN
 F 1 "SW_Push" H 4350 4269 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 4350 4275 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 4350 4275 50  0001 C CNN
 F 3 "~" H 4350 4275 50  0001 C CNN
 	1    4350 4075
 	1    0    0    -1  
@@ -2836,7 +2836,7 @@ U 1 1 603501B5
 P 5000 4075
 F 0 "SW_47" H 5000 4360 50  0000 C CNN
 F 1 "SW_Push" H 5000 4269 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 5000 4275 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5000 4275 50  0001 C CNN
 F 3 "~" H 5000 4275 50  0001 C CNN
 	1    5000 4075
 	1    0    0    -1  
@@ -2847,7 +2847,7 @@ U 1 1 6035E991
 P 5650 4075
 F 0 "SW_52" H 5650 4360 50  0000 C CNN
 F 1 "SW_Push" H 5650 4269 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 5650 4275 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5650 4275 50  0001 C CNN
 F 3 "~" H 5650 4275 50  0001 C CNN
 	1    5650 4075
 	1    0    0    -1  
@@ -2858,7 +2858,7 @@ U 1 1 6036CFBD
 P 6300 4075
 F 0 "SW_57" H 6300 4360 50  0000 C CNN
 F 1 "SW_Push" H 6300 4269 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 6300 4275 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 6300 4275 50  0001 C CNN
 F 3 "~" H 6300 4275 50  0001 C CNN
 	1    6300 4075
 	1    0    0    -1  
@@ -2869,7 +2869,7 @@ U 1 1 6037B913
 P 6950 4075
 F 0 "SW_62" H 6950 4360 50  0000 C CNN
 F 1 "SW_Push" H 6950 4269 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 6950 4275 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 6950 4275 50  0001 C CNN
 F 3 "~" H 6950 4275 50  0001 C CNN
 	1    6950 4075
 	1    0    0    -1  
@@ -2905,7 +2905,7 @@ U 1 1 6038C2DC
 P 7600 4075
 F 0 "SW_67" H 7600 4360 50  0000 C CNN
 F 1 "SW_Push" H 7600 4269 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 7600 4275 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 7600 4275 50  0001 C CNN
 F 3 "~" H 7600 4275 50  0001 C CNN
 	1    7600 4075
 	1    0    0    -1  
@@ -2918,7 +2918,7 @@ U 1 1 6038E75B
 P 8250 4075
 F 0 "SW_72_1" H 8250 4360 50  0000 C CNN
 F 1 "SW_Push" H 8250 4269 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 8250 4275 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 8250 4275 50  0001 C CNN
 F 3 "~" H 8250 4275 50  0001 C CNN
 	1    8250 4075
 	1    0    0    -1  
@@ -2932,7 +2932,7 @@ U 1 1 603909D8
 P 8900 4075
 F 0 "SW_87_1" H 8900 4360 50  0000 C CNN
 F 1 "SW_Push" H 8900 4269 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 8900 4275 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 8900 4275 50  0001 C CNN
 F 3 "~" H 8900 4275 50  0001 C CNN
 	1    8900 4075
 	1    0    0    -1  
@@ -2943,7 +2943,7 @@ U 1 1 6039F75D
 P 9550 4075
 F 0 "SW_82_1" H 9550 4360 50  0000 C CNN
 F 1 "SW_Push" H 9550 4269 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 9550 4275 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 9550 4275 50  0001 C CNN
 F 3 "~" H 9550 4275 50  0001 C CNN
 	1    9550 4075
 	1    0    0    -1  
@@ -2954,7 +2954,7 @@ U 1 1 603AE692
 P 10200 4075
 F 0 "SW_97_1" H 10200 4360 50  0000 C CNN
 F 1 "SW_Push" H 10200 4269 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 10200 4275 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 10200 4275 50  0001 C CNN
 F 3 "~" H 10200 4275 50  0001 C CNN
 	1    10200 4075
 	1    0    0    -1  
@@ -2969,7 +2969,7 @@ U 1 1 603CDCCD
 P 11500 4075
 F 0 "SW_7_1" H 11500 4360 50  0000 C CNN
 F 1 "SW_Push" H 11500 4269 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 11500 4275 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 11500 4275 50  0001 C CNN
 F 3 "~" H 11500 4275 50  0001 C CNN
 F 4 "SW_07" H 11500 4650 50  0000 C CNN "Alt Ref"
 	1    11500 4075
@@ -2984,7 +2984,7 @@ U 1 1 5F66584B
 P 2400 5325
 F 0 "SW_28_1" H 2400 5610 50  0000 C CNN
 F 1 "SW_Push" H 2400 5519 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 2400 5525 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 2400 5525 50  0001 C CNN
 F 3 "~" H 2400 5525 50  0001 C CNN
 	1    2400 5325
 	1    0    0    -1  
@@ -3627,7 +3627,7 @@ U 1 1 6238D388
 P 11500 5125
 F 0 "SW_8_2" H 11500 5410 50  0000 C CNN
 F 1 "SW_Push" H 11500 5319 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 11500 5325 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 11500 5325 50  0001 C CNN
 F 3 "~" H 11500 5325 50  0001 C CNN
 	1    11500 5125
 	1    0    0    -1  
@@ -3638,7 +3638,7 @@ U 1 1 5FE56235
 P 1100 7625
 F 0 "SW_10_2" H 1100 7910 50  0000 C CNN
 F 1 "SW_Push" H 1100 7819 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2u_guide" H 1100 7825 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 1100 7825 50  0001 C CNN
 F 3 "~" H 1100 7825 50  0001 C CNN
 	1    1100 7625
 	1    0    0    -1  
@@ -3655,7 +3655,7 @@ U 1 1 5FECAF91
 P 3050 7625
 F 0 "SW_25_2" H 3050 7910 50  0000 C CNN
 F 1 "SW_Push" H 3050 7819 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2U_vertical_guide" H 3050 7825 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2U_vertical_guide" H 3050 7825 50  0001 C CNN
 F 3 "~" H 3050 7825 50  0001 C CNN
 	1    3050 7625
 	1    0    0    -1  
@@ -3672,7 +3672,7 @@ U 1 1 5FFAEB2A
 P 3700 6375
 F 0 "SW_39_2" H 3700 6660 50  0000 C CNN
 F 1 "SW_Push" H 3700 6569 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2u_guide" H 3700 6575 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 3700 6575 50  0001 C CNN
 F 3 "~" H 3700 6575 50  0001 C CNN
 	1    3700 6375
 	1    0    0    -1  
@@ -3696,7 +3696,7 @@ U 1 1 6232085E
 P 11500 3875
 F 0 "SW_7_2" H 11500 4160 50  0000 C CNN
 F 1 "SW_Push" H 11500 4069 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 11500 4075 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 11500 4075 50  0001 C CNN
 F 3 "~" H 11500 4075 50  0001 C CNN
 	1    11500 3875
 	1    0    0    -1  
@@ -3707,7 +3707,7 @@ U 1 1 61BAA342
 P 10200 5325
 F 0 "SW_98_1" H 10200 5610 50  0000 C CNN
 F 1 "SW_Push" H 10200 5519 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 10200 5525 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 10200 5525 50  0001 C CNN
 F 3 "~" H 10200 5525 50  0001 C CNN
 	1    10200 5325
 	1    0    0    -1  
@@ -3718,7 +3718,7 @@ U 1 1 610975FF
 P 3700 3875
 F 0 "SW_37_2" H 3700 4160 50  0000 C CNN
 F 1 "SW_Push" H 3700 4069 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_alt_guide" H 3700 4075 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_alt_guide" H 3700 4075 50  0001 C CNN
 F 3 "~" H 3700 4075 50  0001 C CNN
 	1    3700 3875
 	1    0    0    -1  
@@ -3732,7 +3732,7 @@ U 1 1 610D9564
 P 3700 5125
 F 0 "SW_38_2" H 3700 5410 50  0000 C CNN
 F 1 "SW_Push" H 3700 5319 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 3700 5325 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 3700 5325 50  0001 C CNN
 F 3 "~" H 3700 5325 50  0001 C CNN
 	1    3700 5125
 	1    0    0    -1  
@@ -3743,7 +3743,7 @@ U 1 1 61119BC0
 P 2400 5125
 F 0 "SW_28_2" H 2400 5410 50  0000 C CNN
 F 1 "SW_Push" H 2400 5319 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 2400 5325 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 2400 5325 50  0001 C CNN
 F 3 "~" H 2400 5325 50  0001 C CNN
 	1    2400 5125
 	1    0    0    -1  
@@ -3754,7 +3754,7 @@ U 1 1 6115A144
 P 1750 5125
 F 0 "SW_13_2" H 1750 5410 50  0000 C CNN
 F 1 "SW_Push" H 1750 5319 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 1750 5325 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 1750 5325 50  0001 C CNN
 F 3 "~" H 1750 5325 50  0001 C CNN
 	1    1750 5125
 	1    0    0    -1  
@@ -3765,7 +3765,7 @@ U 1 1 6119A6E3
 P 1100 5125
 F 0 "SW_18_2" H 1100 5410 50  0000 C CNN
 F 1 "SW_Push" H 1100 5319 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 1100 5325 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 1100 5325 50  0001 C CNN
 F 3 "~" H 1100 5325 50  0001 C CNN
 	1    1100 5125
 	1    0    0    -1  
@@ -3776,7 +3776,7 @@ U 1 1 6129BFE7
 P 1100 3875
 F 0 "SW_17_2" H 1100 4160 50  0000 C CNN
 F 1 "SW_Push" H 1100 4069 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 1100 4075 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 1100 4075 50  0001 C CNN
 F 3 "~" H 1100 4075 50  0001 C CNN
 	1    1100 3875
 	1    0    0    -1  
@@ -3787,7 +3787,7 @@ U 1 1 612DC679
 P 1750 3875
 F 0 "SW_12_2" H 1750 4160 50  0000 C CNN
 F 1 "SW_Push" H 1750 4069 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 1750 4075 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 1750 4075 50  0001 C CNN
 F 3 "~" H 1750 4075 50  0001 C CNN
 	1    1750 3875
 	1    0    0    -1  
@@ -3798,7 +3798,7 @@ U 1 1 6131CCF0
 P 2400 3875
 F 0 "SW_27_2" H 2400 4160 50  0000 C CNN
 F 1 "SW_Push" H 2400 4069 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 2400 4075 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 2400 4075 50  0001 C CNN
 F 3 "~" H 2400 4075 50  0001 C CNN
 	1    2400 3875
 	1    0    0    -1  
@@ -3856,7 +3856,7 @@ U 1 1 5FE796B9
 P 1100 6375
 F 0 "SW_19_2" H 1100 6660 50  0000 C CNN
 F 1 "SW_Push" H 1100 6569 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2u_guide" H 1100 6575 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 1100 6575 50  0001 C CNN
 F 3 "~" H 1100 6575 50  0001 C CNN
 	1    1100 6375
 	1    0    0    -1  
@@ -3976,7 +3976,7 @@ U 1 1 60110853
 P 3050 5125
 F 0 "SW_23_2" H 3050 5410 50  0000 C CNN
 F 1 "SW_Push" H 3050 5319 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 3050 5325 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3050 5325 50  0001 C CNN
 F 3 "~" H 3050 5325 50  0001 C CNN
 	1    3050 5125
 	1    0    0    -1  
@@ -3995,7 +3995,7 @@ U 1 1 601DDE62
 P 3700 2475
 F 0 "SW_36_2" H 3700 2760 50  0000 C CNN
 F 1 "SW_Push" H 3700 2669 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 3700 2675 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3700 2675 50  0001 C CNN
 F 3 "~" H 3700 2675 50  0001 C CNN
 	1    3700 2475
 	1    0    0    -1  
@@ -4006,7 +4006,7 @@ U 1 1 6030A01E
 P 4350 2475
 F 0 "SW_41_2" H 4350 2760 50  0000 C CNN
 F 1 "SW_Push" H 4350 2669 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 4350 2675 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 4350 2675 50  0001 C CNN
 F 3 "~" H 4350 2675 50  0001 C CNN
 	1    4350 2475
 	1    0    0    -1  
@@ -4017,7 +4017,7 @@ U 1 1 6036E1F7
 P 5000 2475
 F 0 "SW_46_2" H 5000 2760 50  0000 C CNN
 F 1 "SW_Push" H 5000 2669 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 5000 2675 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5000 2675 50  0001 C CNN
 F 3 "~" H 5000 2675 50  0001 C CNN
 	1    5000 2475
 	1    0    0    -1  
@@ -4028,7 +4028,7 @@ U 1 1 603D1856
 P 5650 2475
 F 0 "SW_51_2" H 5650 2760 50  0000 C CNN
 F 1 "SW_Push" H 5650 2669 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 5650 2675 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 5650 2675 50  0001 C CNN
 F 3 "~" H 5650 2675 50  0001 C CNN
 	1    5650 2475
 	1    0    0    -1  
@@ -4069,7 +4069,7 @@ U 1 1 601D943F
 P 3050 3875
 F 0 "SW_32_2" H 3050 4160 50  0000 C CNN
 F 1 "SW_Push" H 3050 4069 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 3050 4075 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 3050 4075 50  0001 C CNN
 F 3 "~" H 3050 4075 50  0001 C CNN
 	1    3050 3875
 	1    0    0    -1  
@@ -4113,7 +4113,7 @@ U 1 1 6132D040
 P 10200 3875
 F 0 "SW_97_2" H 10200 4160 50  0000 C CNN
 F 1 "SW_Push" H 10200 4069 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 10200 4075 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 10200 4075 50  0001 C CNN
 F 3 "~" H 10200 4075 50  0001 C CNN
 	1    10200 3875
 	1    0    0    -1  
@@ -4130,7 +4130,7 @@ U 1 1 613DE975
 P 9550 3875
 F 0 "SW_82_2" H 9550 4160 50  0000 C CNN
 F 1 "SW_Push" H 9550 4069 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 9550 4075 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 9550 4075 50  0001 C CNN
 F 3 "~" H 9550 4075 50  0001 C CNN
 	1    9550 3875
 	1    0    0    -1  
@@ -4147,7 +4147,7 @@ U 1 1 614918D3
 P 8250 3875
 F 0 "SW_72_2" H 8250 4160 50  0000 C CNN
 F 1 "SW_Push" H 8250 4069 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 8250 4075 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 8250 4075 50  0001 C CNN
 F 3 "~" H 8250 4075 50  0001 C CNN
 	1    8250 3875
 	1    0    0    -1  
@@ -4161,7 +4161,7 @@ U 1 1 614EB0D3
 P 8900 3875
 F 0 "SW_87_2" H 8900 4160 50  0000 C CNN
 F 1 "SW_Push" H 8900 4069 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 8900 4075 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 8900 4075 50  0001 C CNN
 F 3 "~" H 8900 4075 50  0001 C CNN
 	1    8900 3875
 	1    0    0    -1  
@@ -4181,7 +4181,7 @@ U 1 1 61655483
 P 10200 5125
 F 0 "SW_98_2" H 10200 5410 50  0000 C CNN
 F 1 "SW_Push" H 10200 5319 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 10200 5325 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 10200 5325 50  0001 C CNN
 F 3 "~" H 10200 5325 50  0001 C CNN
 	1    10200 5125
 	1    0    0    -1  
@@ -4192,7 +4192,7 @@ U 1 1 616AF3E4
 P 9550 5125
 F 0 "SW_83_2" H 9550 5410 50  0000 C CNN
 F 1 "SW_Push" H 9550 5319 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 9550 5325 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 9550 5325 50  0001 C CNN
 F 3 "~" H 9550 5325 50  0001 C CNN
 	1    9550 5125
 	1    0    0    -1  
@@ -4203,7 +4203,7 @@ U 1 1 61709CBC
 P 8900 5125
 F 0 "SW_78_2" H 8900 5410 50  0000 C CNN
 F 1 "SW_Push" H 8900 5319 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole" H 8900 5325 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2" H 8900 5325 50  0001 C CNN
 F 3 "~" H 8900 5325 50  0001 C CNN
 	1    8900 5125
 	1    0    0    -1  
@@ -4214,7 +4214,7 @@ U 1 1 61763F53
 P 8250 5125
 F 0 "SW_73_2" H 8250 5410 50  0000 C CNN
 F 1 "SW_Push" H 8250 5319 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 8250 5325 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 8250 5325 50  0001 C CNN
 F 3 "~" H 8250 5325 50  0001 C CNN
 	1    8250 5125
 	1    0    0    -1  
@@ -4249,7 +4249,7 @@ U 1 1 61957303
 P 11500 7650
 F 0 "SW_90_2" H 11500 7935 50  0000 C CNN
 F 1 "SW_Push" H 11500 7844 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2U_vertical_guide" H 11500 7850 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2U_vertical_guide" H 11500 7850 50  0001 C CNN
 F 3 "~" H 11500 7850 50  0001 C CNN
 	1    11500 7650
 	1    0    0    -1  
@@ -4266,7 +4266,7 @@ U 1 1 61A13D82
 P 7600 7650
 F 0 "SW_60_2" H 7600 7935 50  0000 C CNN
 F 1 "SW_Push" H 7600 7844 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2U_vertical_guide" H 7600 7850 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2U_vertical_guide" H 7600 7850 50  0001 C CNN
 F 3 "~" H 7600 7850 50  0001 C CNN
 	1    7600 7650
 	1    0    0    -1  
@@ -4282,7 +4282,7 @@ U 1 1 61A8A567
 P 5650 7650
 F 0 "SW_45_2" H 5650 7935 50  0000 C CNN
 F 1 "SW_Push" H 5650 7844 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2u_guide" H 5650 7850 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 5650 7850 50  0001 C CNN
 F 3 "~" H 5650 7850 50  0001 C CNN
 	1    5650 7650
 	1    0    0    -1  
@@ -4299,7 +4299,7 @@ U 1 1 61AF67A6
 P 9550 7650
 F 0 "SW_85_2" H 9550 7935 50  0000 C CNN
 F 1 "SW_Push" H 9550 7844 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2u_guide" H 9550 7850 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 9550 7850 50  0001 C CNN
 F 3 "~" H 9550 7850 50  0001 C CNN
 	1    9550 7650
 	1    0    0    -1  
@@ -4316,7 +4316,7 @@ U 1 1 61B6B486
 P 5650 7475
 F 0 "SW_45_3" H 5650 7760 50  0000 C CNN
 F 1 "SW_Push" H 5650 7669 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 5650 7675 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 5650 7675 50  0001 C CNN
 F 3 "~" H 5650 7675 50  0001 C CNN
 	1    5650 7475
 	1    0    0    -1  
@@ -4327,7 +4327,7 @@ U 1 1 61BD84A8
 P 6950 7650
 F 0 "SW_65_2" H 6950 7935 50  0000 C CNN
 F 1 "SW_Push" H 6950 7844 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 6950 7850 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 6950 7850 50  0001 C CNN
 F 3 "~" H 6950 7850 50  0001 C CNN
 	1    6950 7650
 	1    0    0    -1  
@@ -4344,7 +4344,7 @@ U 1 1 61C9BF22
 P 8250 7650
 F 0 "SW_75_2" H 8250 7935 50  0000 C CNN
 F 1 "SW_Push" H 8250 7844 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 8250 7850 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 8250 7850 50  0001 C CNN
 F 3 "~" H 8250 7850 50  0001 C CNN
 	1    8250 7650
 	1    0    0    -1  
@@ -4361,7 +4361,7 @@ U 1 1 61D1090C
 P 9550 7475
 F 0 "SW_85_3" H 9550 7760 50  0000 C CNN
 F 1 "SW_Push" H 9550 7669 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 9550 7675 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 9550 7675 50  0001 C CNN
 F 3 "~" H 9550 7675 50  0001 C CNN
 	1    9550 7475
 	1    0    0    -1  
@@ -4377,7 +4377,7 @@ U 1 1 61D7CB06
 P 2400 7625
 F 0 "SW_20_2" H 2400 7910 50  0000 C CNN
 F 1 "SW_Push" H 2400 7819 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 2400 7825 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 2400 7825 50  0001 C CNN
 F 3 "~" H 2400 7825 50  0001 C CNN
 	1    2400 7625
 	1    0    0    -1  
@@ -4388,7 +4388,7 @@ U 1 1 61DDF8CD
 P 3700 7625
 F 0 "SW_30_2" H 3700 7910 50  0000 C CNN
 F 1 "SW_Push" H 3700 7819 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 3700 7825 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 3700 7825 50  0001 C CNN
 F 3 "~" H 3700 7825 50  0001 C CNN
 	1    3700 7625
 	1    0    0    -1  
@@ -4408,7 +4408,7 @@ U 1 1 61EA91EB
 P 4350 7625
 F 0 "SW_35_2" H 4350 7910 50  0000 C CNN
 F 1 "SW_Push" H 4350 7819 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2u_guide" H 4350 7825 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 4350 7825 50  0001 C CNN
 F 3 "~" H 4350 7825 50  0001 C CNN
 	1    4350 7625
 	1    0    0    -1  
@@ -4422,7 +4422,7 @@ U 1 1 61F1BE07
 P 8250 7500
 F 0 "SW_75_3" H 8250 7785 50  0000 C CNN
 F 1 "SW_Push" H 8250 7694 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2u_guide" H 8250 7700 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 8250 7700 50  0001 C CNN
 F 3 "~" H 8250 7700 50  0001 C CNN
 	1    8250 7500
 	1    0    0    -1  
@@ -4436,7 +4436,7 @@ U 1 1 61FEDB77
 P 3050 7425
 F 0 "SW_25_3" H 3050 7710 50  0000 C CNN
 F 1 "SW_Push" H 3050 7619 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 3050 7625 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 3050 7625 50  0001 C CNN
 F 3 "~" H 3050 7625 50  0001 C CNN
 	1    3050 7425
 	1    0    0    -1  
@@ -4452,7 +4452,7 @@ U 1 1 62052F41
 P 4350 7425
 F 0 "SW_35_3" H 4350 7710 50  0000 C CNN
 F 1 "SW_Push" H 4350 7619 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 4350 7625 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 4350 7625 50  0001 C CNN
 F 3 "~" H 4350 7625 50  0001 C CNN
 	1    4350 7425
 	1    0    0    -1  
@@ -4469,7 +4469,7 @@ U 1 1 621209D2
 P 5650 7275
 F 0 "SW_45_4" H 5650 7560 50  0000 C CNN
 F 1 "SW_Push" H 5650 7469 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 5650 7475 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 5650 7475 50  0001 C CNN
 F 3 "~" H 5650 7475 50  0001 C CNN
 	1    5650 7275
 	1    0    0    -1  
@@ -4480,7 +4480,7 @@ U 1 1 6220128F
 P 6950 7475
 F 0 "SW_65_3" H 6950 7760 50  0000 C CNN
 F 1 "SW_Push" H 6950 7669 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 6950 7675 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 6950 7675 50  0001 C CNN
 F 3 "~" H 6950 7675 50  0001 C CNN
 	1    6950 7475
 	1    0    0    -1  
@@ -4586,7 +4586,7 @@ U 1 1 601AB361
 P 10200 7650
 F 0 "SW_80_2" H 10200 7935 50  0000 C CNN
 F 1 "SW_Push" H 10200 7844 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 10200 7850 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 10200 7850 50  0001 C CNN
 F 3 "~" H 10200 7850 50  0001 C CNN
 	1    10200 7650
 	1    0    0    -1  
@@ -4603,7 +4603,7 @@ U 1 1 6026A20D
 P 8900 7650
 F 0 "SW_70_2" H 8900 7935 50  0000 C CNN
 F 1 "SW_Push" H 8900 7844 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_1.5u_guide" H 8900 7850 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_1.5u_guide" H 8900 7850 50  0001 C CNN
 F 3 "~" H 8900 7850 50  0001 C CNN
 	1    8900 7650
 	1    0    0    -1  
@@ -4620,7 +4620,7 @@ U 1 1 6032DF0B
 P 7600 7475
 F 0 "SW_60_3" H 7600 7760 50  0000 C CNN
 F 1 "SW_Push" H 7600 7669 50  0000 C CNN
-F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_merged_hole_2u_guide" H 7600 7675 50  0001 C CNN
+F 2 "ukiha:CherryMX_MidHeight_16mm_rev2_2u_guide" H 7600 7675 50  0001 C CNN
 F 3 "~" H 7600 7675 50  0001 C CNN
 	1    7600 7475
 	1    0    0    -1  
