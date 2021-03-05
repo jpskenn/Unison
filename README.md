@@ -78,9 +78,15 @@ MIDIキーボードは24鍵の鍵盤で演奏でき、ロータリーエンコ�
 シーケンサーとMIDIキーボードは、それぞれ単独でも、両方を同時にでも使用できます。  
 MIDIキーボードのチャンネルを変更することで、チャンネル1でシーケンサーを再生しながら、別チャンネルに割り当てた音源が演奏できます。
 
-参考：シーケンサーとMIDIキーボードを同時に使用するデモンストレーション動画  
-[![](http://img.youtube.com/vi/_A8NaXlWKeE/0.jpg)](http://www.youtube.com/watch?v=_A8NaXlWKeE "QMK Sequencer & MIDI keyboard")  
-[QMK Sequencer & MIDI keyboard](http://www.youtube.com/watch?v=_A8NaXlWKeE)
+##### 参考
+
+- シーケンサー操作ガイド
+    [![Unison Music Style 操作ガイド / Operation guide](./assets/readme/music_style_operation_guide.jpg)](https://youtu.be/0ARp5gR2G88)
+    [Unison Music Style 操作ガイド / Operation guide](https://youtu.be/0ARp5gR2G88)
+
+- シーケンサーとMIDIキーボードを同時に使用するデモンストレーション  
+    [![QMK Sequencer & MIDI keyboard](./assets/readme/sequencer_and_midi_play.jpg)](http://www.youtube.com/watch?v=_A8NaXlWKeE "QMK Sequencer & MIDI keyboard")  
+    [QMK Sequencer & MIDI keyboard](http://www.youtube.com/watch?v=_A8NaXlWKeE)
 
 
 
