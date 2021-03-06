@@ -105,12 +105,11 @@ Unisonのコンセプトや特徴などについては、[Unison README](https:/
 
 - 基板おもて側  
 部品が何も取り付けられていない方が、おもて側です。
-![基板おもて側](../assets/BuildGuide_v04/IMG_2467.jpeg)
+![基板おもて側](../assets/BuildGuide_v04/IMG_2747.jpeg)
 
 - 基板裏側  
 細かな部品がたくさん取り付けられている方が、裏側です。  
-※F1, J1, D102, ResetSW1に部品を取り付ける前の写真です。実際には部品が取り付けられています。
-![基板裏側](../assets/BuildGuide_v04/IMG_2472.jpeg)
+![基板裏側](../assets/BuildGuide_v04/IMG_2756.jpeg)
 
 - プレート類  
     上から順に
