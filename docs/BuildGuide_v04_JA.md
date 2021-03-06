@@ -84,7 +84,7 @@ Musicスタイルは、以下も必要となります。
 | ----- | -----: |
 | ロータリーエンコーダ<br>EC11, EC12, またはその互換品<br>取り付け時、基板表面から軸の先端まで20〜25mm程度のもの。<br>[ALPS EC11E18244AU](https://tech.alpsalpine.com/prod/j/html/encoder/incremental/ec11/ec11e18244au.html), [BOURNS PEC11R-4x15](https://www.digikey.jp/htmldatasheets/production/1399781/0/0/1/pec11r-4015f-n0024.html)など | 5 |
 | ロータリーエンコーダ用ノブ・つまみ | 5 |
-| LED<br>SK6812MINI | 7<br>無くても動作するが、シーケンサーの操作などがほぼ不可能となる |
+| LED<br>SK6812MINI<br>無くても動作するが、シーケンサーの操作などがほぼ不可能となる | 7 |
 
 ### オプション部品
 
