@@ -200,7 +200,13 @@ QMK Toolbox、またはQMKのコマンドなどで書き込んでください。
 
 USB接続します。
 
-基板裏側のリセットスイッチを押して、`*** Atmel DFU device connected`が表示されることを確認します。  
+基板裏側のリセットスイッチを押して、
+
+```console
+*** Atmel DFU device connected
+```
+
+が表示されることを確認します。  
 
 `Flash`ボタンを押します。
 
