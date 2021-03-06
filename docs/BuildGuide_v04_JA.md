@@ -72,16 +72,19 @@ Unisonのコンセプトや特徴などについては、[Unison README](https:/
 
 | 部品名 | 個数 |
 | ----- | -----: |
-| MXスイッチ<br>取り付けの安定性が高い、5pinのものを推奨。 | Musicスタイル：70</br>Terminalスタイル：最大 83 (\*1) |
+| MXスイッチ<br>取り付けの安定性が高い、5pinのものを推奨。 | Musicスタイル：70</br>Terminalスタイル：最大 83 (\*) |
 | キーキャップ<br>挟ピッチに対応する、16mm＋α以下のもの。<br>[Cherry MX Backlit Low Profile Keycap Set](https://yushakobo.jp/shop/cherry-mx-backlit-low-profile-keycap-set/), [YKNキーキャップセット(MX/ChocV2スイッチ 16x16mmキーピッチ用) v1.2](https://make.dmm.com/item/1279617/)など | 同上 |
 | ケース<br>GH60型 | 1 |
 | USBケーブル <br>Type-C | 1 |
-| ロータリーエンコーダ<br>EC11, EC12, またはその互換品<br>取り付け時、基板表面から軸の先端まで20〜25mm程度のもの。<br>[ALPS EC11E18244AU](https://tech.alpsalpine.com/prod/j/html/encoder/incremental/ec11/ec11e18244au.html), [BOURNS PEC11R-4x15](https://www.digikey.jp/htmldatasheets/production/1399781/0/0/1/pec11r-4015f-n0024.html)など | 5(\*2) |
-| ロータリーエンコーダ用ノブ・つまみ | 5(\*2) |
 
-\*1 Modキーの配置によって使用数が変わります。  
-\*2 Musicスタイルのみ
+\* Modキーの配置によって使用数が変わります。  
 
+Musicスタイルは、以下も必要となります。
+| 部品名 | 個数 |
+| ----- | -----: |
+| ロータリーエンコーダ<br>EC11, EC12, またはその互換品<br>取り付け時、基板表面から軸の先端まで20〜25mm程度のもの。<br>[ALPS EC11E18244AU](https://tech.alpsalpine.com/prod/j/html/encoder/incremental/ec11/ec11e18244au.html), [BOURNS PEC11R-4x15](https://www.digikey.jp/htmldatasheets/production/1399781/0/0/1/pec11r-4015f-n0024.html)など | 5 |
+| ロータリーエンコーダ用ノブ・つまみ | 5 |
+| LED<br>SK6812MINI | 7<br>無くても動作するが、シーケンサーの操作などがほぼ不可能となる |
 
 ### オプション部品
 
