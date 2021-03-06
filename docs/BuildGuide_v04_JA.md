@@ -54,38 +54,44 @@ Unisonのコンセプトや特徴などについては、[Unison README](https:/
 
 ### キット内容物
 
-| 部品名 | 個数 |
-| ----- | -----: |
-| Unison 基板 v04（部品実装済み） | 1 |
-| Musicスタイル用ミドルレート v04（FR-4） | 1 |
-| Musicスタイル用トップレート（アクリル） | 1 |
-| Terminalスタイル用トップレート（アクリル） | 1 |
-| スペーサー 8mm | 6(\*)  |
-| ネジ M2 5mm<br>スペーサー固定用 | 6(\*)  |
-| ネジ 低頭 M2 6mm<br>プレート固定用 | 6(\*)  |
-| ネジ 低頭 M2 5mm<br>ケース固定用 | 5 |
-| Mill-Maxソケット 金色<br> [7305-0-15-15-47-27-10-0](https://www.digikey.jp/product-detail/ja/mill-max-manufacturing-corp/7305-0-15-15-47-27-10-0/ED1039-ND/1765737)| 10 |
-| Mill-Maxソケット 銀色<br>[0305-2-15-80-47-80-10-0](https://www.digikey.jp/product-detail/ja/mill-max-manufacturing-corp/0305-2-15-80-47-80-10-0/ED90584-ND/2639493)<br>（取り付け失敗時用予備）| 4 |
+- Unison v04 試作版
+    | 部品名 | 個数 |
+    | ----- | -----: |
+    | Unison 基板 v04（部品実装済み） | 1 |
+    | スペーサー 8mm | 6  |
+    | ネジ M2 5mm<br>スペーサー固定用 | 6  |
+    | ネジ 低頭 M2 6mm<br>プレート固定用 | 6  |
+    | ネジ 低頭 M2 5mm<br>ケース固定用 | 5 |
+    | Mill-Maxソケット 金色<br> [7305-0-15-15-47-27-10-0](https://www.digikey.jp/product-detail/ja/mill-max-manufacturing-corp/7305-0-15-15-47-27-10-0/ED1039-ND/1765737)| 10 |
+    | Mill-Maxソケット 銀色<br>[0305-2-15-80-47-80-10-0](https://www.digikey.jp/product-detail/ja/mill-max-manufacturing-corp/0305-2-15-80-47-80-10-0/ED90584-ND/2639493)<br>（取り付け失敗時用予備）| 4 |
 
-\* レイアウト・スタイルによって使用数が変わります。  
+- Musicスタイル用 プレートセット
+    | 部品名 | 個数 |
+    | ----- | -----: |
+    | Musicスタイル用ミドルプレート v04（FR-4） | 1 |
+    | Musicスタイル用トップレート（アクリル） | 1 |
+
+- Terminalスタイル用 プレート
+    | 部品名 | 個数 |
+    | ----- | -----: |
+    | Terminalスタイル用トップレート（アクリル） | 1 |
 
 ### 別途用意が必要な部品
 
-| 部品名 | 個数 |
-| ----- | -----: |
-| MXスイッチ<br>取り付けの安定性が高い、5pinのものを推奨。 | Musicスタイル：70</br>Terminalスタイル：最大 83 (\*) |
-| キーキャップ<br>挟ピッチに対応する、16mm＋α以下のもの。<br>[Cherry MX Backlit Low Profile Keycap Set](https://yushakobo.jp/shop/cherry-mx-backlit-low-profile-keycap-set/), [YKNキーキャップセット(MX/ChocV2スイッチ 16x16mmキーピッチ用) v1.2](https://make.dmm.com/item/1279617/)など | 同上 |
-| ケース<br>GH60型 | 1 |
-| USBケーブル <br>Type-C | 1 |
+- Musicスタイル、Terminalスタイル共通
+    | 部品名 | 個数 |
+    | ----- | -----: |
+    | MXスイッチ<br>取り付けの安定性が高い、5pinのものを推奨。 | Musicスタイル：70<br>Terminalスタイル：最大 83 (\*) |
+    | キーキャップ<br>挟ピッチに対応する、16mm＋α以下のもの。<br>[Cherry MX Backlit Low Profile Keycap Set](https://yushakobo.jp/shop/cherry-mx-backlit-low-profile-keycap-set/), [YKNキーキャップセット(MX/ChocV2スイッチ 16x16mmキーピッチ用) v1.2](https://make.dmm.com/item/1279617/)など | 同上 |
+    | ケース<br>GH60型 | 1 |
+    | USBケーブル <br>Type-C | 1 |
 
-\* Modキーの配置によって使用数が変わります。  
-
-Musicスタイルは、以下も必要となります。
-| 部品名 | 個数 |
-| ----- | -----: |
-| ロータリーエンコーダ<br>EC11, EC12, またはその互換品<br>取り付け時、基板表面から軸の先端まで20〜25mm程度のもの。<br>[ALPS EC11E18244AU](https://tech.alpsalpine.com/prod/j/html/encoder/incremental/ec11/ec11e18244au.html), [BOURNS PEC11R-4x15](https://www.digikey.jp/htmldatasheets/production/1399781/0/0/1/pec11r-4015f-n0024.html)など | 5 |
-| ロータリーエンコーダ用ノブ・つまみ | 5 |
-| LED<br>SK6812MINI<br>無くても動作するが、シーケンサーの操作などがほぼ不可能となる | 7 |
+- Musicスタイル
+    | 部品名 | 個数 |
+    | ----- | -----: |
+    | ロータリーエンコーダ<br>EC11, EC12, またはその互換品<br>取り付け時、基板表面から軸の先端まで20〜25mm程度のもの。<br>[ALPS EC11E18244AU](https://tech.alpsalpine.com/prod/j/html/encoder/incremental/ec11/ec11e18244au.html), [BOURNS PEC11R-4x15](https://www.digikey.jp/htmldatasheets/production/1399781/0/0/1/pec11r-4015f-n0024.html)など | 5 |
+    | ロータリーエンコーダ用ノブ・つまみ | 5 |
+    | LED<br>SK6812MINI<br>無くても動作するが、シーケンサーの操作などがほぼ不可能となる | 7 |
 
 ### オプション部品
 
@@ -94,8 +100,6 @@ Musicスタイルは、以下も必要となります。
 | LED<br>SK6812MINI | 最大 9 (\*) |
 | LEDテープ<br>アンダーグロー用 26cm程度 | 1 |
 | スピーカー<br>[Murata PKMCS0909E4000-R1](https://www.digikey.jp/product-detail/ja/PKMCS0909E4000-R1/490-9647-1-ND/4878401/?itemSeq=353128711) | 1 |
-
-\* LEDの設置場所によって使用数が変わります。
 
 ## 組み立てに必要な工具
 
