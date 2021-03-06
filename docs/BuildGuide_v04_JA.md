@@ -60,11 +60,11 @@ Unisonのコンセプトや特徴などについては、[Unison README](https:/
 | Musicスタイル用トップレート（アクリル） | 1 |
 | Terminalスタイル用トップレート（アクリル） | 1 |
 | スペーサー 8mm | 6(\*)  |
-| ネジ M2 5mm<br/>スペーサー固定用 | 6(\*)  |
-| ネジ 低頭 M2 6mm<br/>プレート固定用 | 6(\*)  |
-| ネジ 低頭 M2 5mm<br/>ケース固定用 | 5 |
-| Mill-Maxソケット 金色<br/> [7305-0-15-15-47-27-10-0](https://www.digikey.jp/product-detail/ja/mill-max-manufacturing-corp/7305-0-15-15-47-27-10-0/ED1039-ND/1765737)| 10 |
-| Mill-Maxソケット 銀色<br/>[0305-2-15-80-47-80-10-0](https://www.digikey.jp/product-detail/ja/mill-max-manufacturing-corp/0305-2-15-80-47-80-10-0/ED90584-ND/2639493)<br/>（取り付け失敗時用予備）| 4 |
+| ネジ M2 5mm<br>スペーサー固定用 | 6(\*)  |
+| ネジ 低頭 M2 6mm<br>プレート固定用 | 6(\*)  |
+| ネジ 低頭 M2 5mm<br>ケース固定用 | 5 |
+| Mill-Maxソケット 金色<br> [7305-0-15-15-47-27-10-0](https://www.digikey.jp/product-detail/ja/mill-max-manufacturing-corp/7305-0-15-15-47-27-10-0/ED1039-ND/1765737)| 10 |
+| Mill-Maxソケット 銀色<br>[0305-2-15-80-47-80-10-0](https://www.digikey.jp/product-detail/ja/mill-max-manufacturing-corp/0305-2-15-80-47-80-10-0/ED90584-ND/2639493)<br>（取り付け失敗時用予備）| 4 |
 
 \* レイアウト・スタイルによって使用数が変わります。  
 
@@ -72,11 +72,11 @@ Unisonのコンセプトや特徴などについては、[Unison README](https:/
 
 | 部品名 | 個数 |
 | ----- | -----: |
-| MXスイッチ<br/>取り付けの安定性が高い、5pinのものを推奨。 | Musicスタイル：70</br>Terminalスタイル：最大 83 (\*1) |
-| キーキャップ<br/>挟ピッチに対応する、16mm＋α以下のもの。<br/>[Cherry MX Backlit Low Profile Keycap Set](https://yushakobo.jp/shop/cherry-mx-backlit-low-profile-keycap-set/), [YKNキーキャップセット(MX/ChocV2スイッチ 16x16mmキーピッチ用) v1.2](https://make.dmm.com/item/1279617/)など | 同上 |
-| ケース<br/>GH60型 | 1 |
-| USBケーブル <br/>Type-C | 1 |
-| ロータリーエンコーダ<br/>EC11, EC12, またはその互換品<br/>取り付け時、基板表面から軸の先端まで20〜25mm程度のもの。<br/>[ALPS EC11E18244AU](https://tech.alpsalpine.com/prod/j/html/encoder/incremental/ec11/ec11e18244au.html), [BOURNS PEC11R-4x15](https://www.digikey.jp/htmldatasheets/production/1399781/0/0/1/pec11r-4015f-n0024.html)など | 5(\*2) |
+| MXスイッチ<br>取り付けの安定性が高い、5pinのものを推奨。 | Musicスタイル：70</br>Terminalスタイル：最大 83 (\*1) |
+| キーキャップ<br>挟ピッチに対応する、16mm＋α以下のもの。<br>[Cherry MX Backlit Low Profile Keycap Set](https://yushakobo.jp/shop/cherry-mx-backlit-low-profile-keycap-set/), [YKNキーキャップセット(MX/ChocV2スイッチ 16x16mmキーピッチ用) v1.2](https://make.dmm.com/item/1279617/)など | 同上 |
+| ケース<br>GH60型 | 1 |
+| USBケーブル <br>Type-C | 1 |
+| ロータリーエンコーダ<br>EC11, EC12, またはその互換品<br>取り付け時、基板表面から軸の先端まで20〜25mm程度のもの。<br>[ALPS EC11E18244AU](https://tech.alpsalpine.com/prod/j/html/encoder/incremental/ec11/ec11e18244au.html), [BOURNS PEC11R-4x15](https://www.digikey.jp/htmldatasheets/production/1399781/0/0/1/pec11r-4015f-n0024.html)など | 5(\*2) |
 | ロータリーエンコーダ用ノブ・つまみ | 5(\*2) |
 
 \*1 Modキーの配置によって使用数が変わります。  
