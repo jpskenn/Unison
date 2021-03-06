@@ -8,7 +8,6 @@
 
 音楽用とコンピュータ用のふたつのキーボードがひとつになるイメージから、音楽用語のユニゾンが名前の由来です。
 
-
 ## コンセプト
 
 このキーボードのコンセプトや実現したい要件は次の通りです。
@@ -31,7 +30,7 @@
 <!-- TODO スイッチだけの写真 -->
 通常の19.05mmのキーピッチに対して約87%となる、**縦16.4mm × 横16.8mm**のキーピッチを採用しています。
 
-![](./assets/readme/IMG_2392.jpeg)  
+![通常のピッチの60%キーボードとの比較](./assets/readme/IMG_2392.jpeg)  
 通常のピッチの60%キーボードとの比較  
 上：通常ピッチ Jones, 下：狭ピッチ Unison
 
@@ -44,7 +43,6 @@
 <!-- TODO　ロープロキャップ写真 -->
 <!-- TODO YKNキャップ写真 -->
 
-
 ### 独自の物理配列
 
 以前設計した60%キーボードの[Jones](https://github.com/jpskenn/Jones)と同じく、2行目と3行目のずれをなくし、ロースタッガードとオルソリニアを組み合わせたキー配列を採用しています。  
@@ -53,7 +51,6 @@
 詳しくは[Jones：キーレイアウト](https://github.com/jpskenn/Jones#キーレイアウト)を参照してください。
 
 また、この配列を採用したことで、白鍵と黒鍵のずれをうまく表現できました。
-
 
 ### ふたつのレイアウト・スタイル
 
@@ -88,13 +85,11 @@ MIDIキーボードのチャンネルを変更することで、チャンネル1
     [![QMK Sequencer & MIDI keyboard](./assets/readme/sequencer_and_midi_play.jpg)](http://www.youtube.com/watch?v=_A8NaXlWKeE "QMK Sequencer & MIDI keyboard")  
     [QMK Sequencer & MIDI keyboard](http://www.youtube.com/watch?v=_A8NaXlWKeE)
 
-
-
 #### Terminalスタイル（ターミナル・スタイル）
 <!-- TODO写真 -->
 コンピュータでの作業を想定したTerminalスタイルは、数字行を含めた5行×17列のレイアウトです。
 
-[![layout: Unison Music style](./assets/readme/layout_terminal_style.png)Keyboard Layout Editor: Unison Terminal style ](http://www.keyboard-layout-editor.com/#/gists/f8cf33730eca47e1e9039568cd3ca72c)
+[![layout: Unison Music style](./assets/readme/layout_terminal_style.png)Keyboard Layout Editor: Unison Terminal style](http://www.keyboard-layout-editor.com/#/gists/f8cf33730eca47e1e9039568cd3ca72c)
 
 60%キーボードにテンキーを組み合わせたようなレイアウトで、挟ピッチによって手をホームポジションから大きく動かさずに入力することができ、コンピュータでの作業を快適におこなえます。  
 
@@ -112,22 +107,22 @@ Terminalスタイルは、[VIA](https://caniusevia.com)または[Remap](https://
 - [v04](https://github.com/jpskenn/Unison/blob/main/docs/BuildGuide_v04_JA.md)
 
 ## ギャラリー
-![](./assets/readme/IMG_2669.jpeg)  
+
+![Musicスタイル](./assets/readme/IMG_2669.jpeg)  
 Musicスタイル  
 60% プラスチックケース ホワイト, Cherry MX Backlit Low Profile Keycap Set
 
-![](./assets/readme/DSC_7352.jpg)  
+![Musicスタイル, サイドビュー](./assets/readme/DSC_7352.jpg)  
 Musicスタイル, サイドビュー  
 60% プラスチックケース ホワイト, Cherry MX Backlit Low Profile Keycap Set
 
-![](./assets/readme/IMG_2684.jpeg)  
+![Terminalスタイル, アンダーグローLED追加](./assets/readme/IMG_2684.jpeg)  
 Terminalスタイル, アンダーグローLED追加  
 60% プラスチックケース クリア, YKNキーキャップセット(MX/ChocV2スイッチ 16x16mmキーピッチ用) v1.2
 
-![](./assets/readme/IMG_2626.jpeg)  
+![Terminalスタイル, アンダーグローLED追加](./assets/readme/IMG_2626.jpeg)  
 Terminalスタイル, アンダーグローLED追加  
 60% プラスチックケース クリア, Cherry MX Backlit Low Profile Keycap Set
-
 
 ## 製作歴
 
@@ -135,6 +130,7 @@ Terminalスタイル, アンダーグローLED追加
 
 組み立てやすさの向上。  
 細部の調整。
+
 ### v04
 
 v03の不具合修正、各部調整などをおこなった、*ほぼ*完成版。  
@@ -143,6 +139,7 @@ v03の不具合修正、各部調整などをおこなった、*ほぼ*完成版
 簡易ケースレスなボトムプレートを用意したが、組み立てに難ありでボツ。
 
 ![v04](./assets/readme/IMG_2626.jpeg)
+
 ### v03
 
 初期動作版。
@@ -169,6 +166,7 @@ v01発注後、縦16mmピッチで基板データを仮に作成したもの。
 キーキャップの干渉具合や、ロータリーエンコーダの配置など、各部の寸法チェックをおこなった。
 
 ![v01](./assets/readme/IMG_2311.jpeg)
+
 ### v01以前
 
 OP-1のスタイルに惚れ、60%キーボードの[Jones](https://github.com/jpskenn/Jones)に多数のロータリーエンコーダを搭載したバリエーションとして開発をスタート。
