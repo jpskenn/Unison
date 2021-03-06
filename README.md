@@ -63,7 +63,6 @@ DAW連携を想定したMisicスタイルは、上部に5個のロータリー�
 
 [![layout: Unison Music style](./assets/readme/layout_music_style.png)Keyboard Layout Editor: Unison Music style](http://www.keyboard-layout-editor.com/#/gists/866c93c6eb4c580be0cf582207fa1836)
 
-
 キーボードファームウェア[QMK](https://github.com/qmk/qmk_firmware)の機能によってシーケンサーとMIDIキーボードが使用でき、USB接続のMIDIデバイスとしてDAWと連携させることができます。  
 もちろん、通常のコンピュータ用キーボードとしても使用できます。
 
