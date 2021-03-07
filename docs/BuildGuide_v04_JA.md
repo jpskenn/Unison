@@ -6,7 +6,7 @@ Unisonのコンセプトや特徴などについては、[Unison README](https:/
 
 ## 注意事項、制限など
 
-- 5pinスイッチの取り付け穴が、少し緩めです。（v04のみ）
+- 5pinスイッチの取り付け穴が緩めです。（v04のみ）
 
     設計上の不備により、5pinスイッチをがっちりと取り付けできないため、スイッチが傾かないように注意して取り付けてください。
 
@@ -14,7 +14,7 @@ Unisonのコンセプトや特徴などについては、[Unison README](https:/
 
     スイッチをしっかりと取り付けることを優先しています。  
     この箇所をケースへネジ止めしない場合でも、特に不具合は見受けられません。  
-    
+
 - 中央下側のネジ穴にかぶさるスイッチは、スイッチの足を加工して取り付けます。  
 
     該当箇所では、スイッチ取り付けの安定感が低下したり、打鍵感が悪くなることがあります。
@@ -30,21 +30,21 @@ Unisonのコンセプトや特徴などについては、[Unison README](https:/
 
 - もしかしたら、取り付けできないケースがあるかもしれません。  
 
-    現在のところ、下記のケースで取り付けできることを確認済みです。
-    - [KBDfans TOFU 60% ALUMINUM CASE](https://kbdfans.com/products/kbdfans-tofu-60-aluminum-case)  
-    - [KBDfans 5° FROSTED ACRYLIC CNC 60% CASE](https://kbdfans.com/products/pre-order-kbdfans5-transparent-acrylic-cnc-60-case)  
-    - [60% プラスチックケース](https://yushakobo.jp/shop/60-plastic-case/)（簡単な加工が必要）
+  現在のところ、下記のケースで取り付けできることを確認済みです。
+  - [KBDfans TOFU 60% ALUMINUM CASE](https://kbdfans.com/products/kbdfans-tofu-60-aluminum-case)  
+  - [KBDfans 5° FROSTED ACRYLIC CNC 60% CASE](https://kbdfans.com/products/pre-order-kbdfans5-transparent-acrylic-cnc-60-case)  
+  - [60% プラスチックケース](https://yushakobo.jp/shop/60-plastic-case/)（簡単な加工が必要）
 
-    上記以外のケースへの取り付けの成功／失敗の報告を募集しています。
+  上記以外のケースへの取り付けの成功／失敗の報告を募集しています。
 
-- MIDI機能とスピーカーを使用するAudio機能は、同時に有効化できません。
+- Musicスタイルのスピーカーホールは、デザイン上設けられたハリボテです。
 
-    同時に有効化するとファームウェアサイズが大きくなりすぎるため、書き込むことができません。
+    ファームウェアサイズの制限により、MIDI機能とスピーカーを使用するAudio機能は同時に有効化できません。  
+    MIDI機能を使用しない場合は、Audio機能を有効化してスピーカーを使用できます。
 
 - スピーカーを使用するAudio機能は、単音再生となります。（v04のみ）
 
     設計上の都合により、v04では2音同時再生に対応できませんでした。
-
 
 ## 部品リスト
 
@@ -54,35 +54,46 @@ Unisonのコンセプトや特徴などについては、[Unison README](https:/
 
 ### キット内容物
 
-| 部品名 | 個数 |
-| ----- | -----: |
-| Unison 基板 v04（部品実装済み） | 1 |
-| Musicスタイル用ミドルレート v04（FR-4） | 1 |
-| Musicスタイル用トップレート（アクリル） | 1 |
-| Terminalスタイル用トップレート（アクリル） | 1 |
-| スペーサー 8mm | 6(\*)  |
-| ネジ M2 5mm<br/>スペーサー固定用 | 6(\*)  |
-| ネジ 低頭 M2 6mm<br/>プレート固定用 | 6(\*)  |
-| ネジ 低頭 M2 5mm<br/>ケース固定用 | 5 |
-| Mill-Maxソケット 金色<br/> [7305-0-15-15-47-27-10-0](https://www.digikey.jp/product-detail/ja/mill-max-manufacturing-corp/7305-0-15-15-47-27-10-0/ED1039-ND/1765737)| 10 |
-| Mill-Maxソケット 銀色<br/>[0305-2-15-80-47-80-10-0](https://www.digikey.jp/product-detail/ja/mill-max-manufacturing-corp/0305-2-15-80-47-80-10-0/ED90584-ND/2639493)<br/>（取り付け失敗時用予備）| 4 |
+- Unison v04 試作版
+    | 部品名 | 個数 |
+    | ----- | -----: |
+    | Unison 基板 v04（部品実装済み） | 1 |
+    | スペーサー 8mm | 6  |
+    | ネジ M2 5mm<br>スペーサー固定用 | 6  |
+    | ネジ 低頭 M2 6mm<br>プレート固定用 | 6  |
+    | ネジ 低頭 M2 5mm<br>ケース固定用 | 5 |
+    | Mill-Maxソケット 金色<br> [7305-0-15-15-47-27-10-0](https://www.digikey.jp/product-detail/ja/mill-max-manufacturing-corp/7305-0-15-15-47-27-10-0/ED1039-ND/1765737)| 10 |
+    | Mill-Maxソケット 銀色<br>[0305-2-15-80-47-80-10-0](https://www.digikey.jp/product-detail/ja/mill-max-manufacturing-corp/0305-2-15-80-47-80-10-0/ED90584-ND/2639493)<br>（取り付け失敗時用予備）| 4 |
 
-\* レイアウト・スタイルによって使用数が変わります。  
+- プレート（レイアウト・スタイルに合わせていずれか一方）
+
+  - Musicスタイル用 プレート
+    | 部品名 | 個数 |
+    | ----- | -----: |
+    | Musicスタイル用トップレート（アクリル） | 1 |
+    | Musicスタイル用ミドルプレート v04（FR-4） | 1 |
+
+  - Terminalスタイル用 プレート
+    | 部品名 | 個数 |
+    | ----- | -----: |
+    | Terminalスタイル用トップレート（アクリル） | 1 |
 
 ### 別途用意が必要な部品
 
-| 部品名 | 個数 |
-| ----- | -----: |
-| MXスイッチ<br/>取り付けの安定性が高い、5pinのものを推奨。 | Musicスタイル：70</br>Terminalスタイル：最大 83 (\*1) |
-| キーキャップ<br/>挟ピッチに対応する、16mm＋α以下のもの。<br/>[Cherry MX Backlit Low Profile Keycap Set](https://yushakobo.jp/shop/cherry-mx-backlit-low-profile-keycap-set/), [YKNキーキャップセット(MX/ChocV2スイッチ 16x16mmキーピッチ用) v1.2](https://make.dmm.com/item/1279617/)など | 同上 |
-| ケース<br/>GH60型 | 1 |
-| USBケーブル <br/>Type-C | 1 |
-| ロータリーエンコーダ<br/>EC11, EC12, またはその互換品<br/>取り付け時、基板表面から軸の先端まで20〜25mm程度のもの。<br/>[ALPS EC11E18244AU](https://tech.alpsalpine.com/prod/j/html/encoder/incremental/ec11/ec11e18244au.html), [BOURNS PEC11R-4x15](https://www.digikey.jp/htmldatasheets/production/1399781/0/0/1/pec11r-4015f-n0024.html)など | 5(\*2) |
-| ロータリーエンコーダ用ノブ・つまみ | 5(\*2) |
+- Musicスタイル、Terminalスタイル共通
+    | 部品名 | 個数 |
+    | ----- | -----: |
+    | MXスイッチ<br>取り付けの安定性が高い、5pinのものを推奨。 | Musicスタイル：70<br>Terminalスタイル：最大 83 (\*) |
+    | キーキャップ<br>挟ピッチに対応する、16mm＋α以下のもの。<br>[Cherry MX Backlit Low Profile Keycap Set](https://yushakobo.jp/shop/cherry-mx-backlit-low-profile-keycap-set/), [YKNキーキャップセット(MX/ChocV2スイッチ 16x16mmキーピッチ用) v1.2](https://make.dmm.com/item/1279617/)など | 同上 |
+    | ケース<br>GH60型 | 1 |
+    | USBケーブル <br>Type-C | 1 |
 
-\*1 Modキーの配置によって使用数が変わります。  
-\*2 Musicスタイルのみ
-
+- Musicスタイル
+    | 部品名 | 個数 |
+    | ----- | -----: |
+    | ロータリーエンコーダ<br>EC11, EC12, またはその互換品。<br>取り付け時に、基板表面から軸の先端までが20〜25mm程度のもの。<br>軸の直径が9mm以下のもの。（ALPSのセレーションモデルは非推奨）<br>[ALPS EC11E18244AU](https://tech.alpsalpine.com/prod/j/html/encoder/incremental/ec11/ec11e18244au.html), [BOURNS PEC11R-4015](https://www.digikey.jp/htmldatasheets/production/1399781/0/0/1/pec11r-4015f-n0024.html)など | 5 |
+    | ロータリーエンコーダ用ノブ・つまみ | 5 |
+    | LED<br>SK6812MINI<br>無くても動作するが、シーケンサーの操作などがほぼ不可能となる | 7 |
 
 ### オプション部品
 
@@ -92,25 +103,22 @@ Unisonのコンセプトや特徴などについては、[Unison README](https:/
 | LEDテープ<br>アンダーグロー用 26cm程度 | 1 |
 | スピーカー<br>[Murata PKMCS0909E4000-R1](https://www.digikey.jp/product-detail/ja/PKMCS0909E4000-R1/490-9647-1-ND/4878401/?itemSeq=353128711) | 1 |
 
-\* LEDの設置場所によって使用数が変わります。
-
 ## 組み立てに必要な工具
+
 ドライバー、ピンセット、はんだ付け関連用品など、一般的な電子工作向け工具を使用します。  
 [遊舎工房の工具セット](https://yushakobo.jp/shop/a9900to/)を参考に用意してください。
 
 なお、なくても組み立てはできますが、何か不具合があった場合の原因究明のために、テスターがあると便利です。
 
-
 ## キット内容物概要
 
 - 基板おもて側  
 部品が何も取り付けられていない方が、おもて側です。
-![基板おもて側](../assets/BuildGuide_v04/IMG_2467.jpeg)
+![基板おもて側](../assets/BuildGuide_v04/IMG_2747.jpeg)
 
 - 基板裏側  
 細かな部品がたくさん取り付けられている方が、裏側です。  
-※F1, J1, D102, ResetSW1に部品を取り付ける前の写真です。実際には部品が取り付けられています。
-![基板裏側](../assets/BuildGuide_v04/IMG_2472.jpeg)
+![基板裏側](../assets/BuildGuide_v04/IMG_2756.jpeg)
 
 - プレート類  
     上から順に
@@ -121,30 +129,29 @@ Unisonのコンセプトや特徴などについては、[Unison README](https:/
 
 - 小物パーツ類
     上段左より、スペーサー 8mm, ネジ M2 5mm, ネジ 低頭 M2 5mm, ネジ 低頭 M2 6mm。  
-    下段左より、Mill-Maxソケット 金色, Mill-Maxソケット 銀色,   
+    下段左より、Mill-Maxソケット 金色, Mill-Maxソケット 銀色,  
     （※ネジ類の色は仕入れ時期などによって変わることがあります）
     ![小物パーツ類](../assets/BuildGuide_v04/IMG_2650.jpeg)
-
 
 ## 組み立て手順
 
 **作業をおこなう前に、各手順に目を通しておくと作業ミスの防止につながります。**
 
-
 ### 組み立て前の確認
 
 #### 同梱物の確認
+
 組み立てを始める前に、同梱物に不足がないか確認してください。  
 また、基板に破損がないか、実装された部品が外れていないか（梱包の中に小さな部品が落ちていないか）も確認してください。
 
 #### 接続確認
+
 続いて、基板をPCやMacに接続して、キーボードとして認識されるかを確認します。  
-動作確認用として”Terminalスタイル VIA対応ファームウェア”を書き込み済みのため、基板に問題がなければ、キーボードとして認識されます。  
-USB接続し、下記のMacとWindowsでの確認方法や、スイッチの取り付け箇所の端子部分をピンセットなどでショートして文字を入力するなどして確認してください。
 
-可能であれば、全てのキーが正常に入力されるか確認しておくと、キースイッチ取り付け後の動作確認時に、問題の切り分けがしやすくなります。
+動作確認用として”Terminalスタイル VIA対応ファームウェア”を書き込み済みですので、USB接続するとキーボードとして認識されます。  
+下記のMacとWindowsでの確認方法や、スイッチの取り付け箇所の端子部分をピンセットなどでショートして文字を入力するなどの方法で確認してください。
 
-認識されなかった場合は輸送中の事故等が考えられますので、BOOTHの購入履歴から該当の注文詳細画面表示し、`ショップにメッセージを送る`で報告してください。
+動作確認用のファームウェアを書き込んだ際に全てのキーが正しく反応することを確認済みですが、このタイミングで全てのキーが正しく反応するかを確認しておくと、何かあった場合の問題切り分けがやりやすくなります。
 
 ##### Mac, macOS Big Sur 11.2.1
 
@@ -156,7 +163,7 @@ USB接続します。
 
 右側のどこかに`Unison`というデバイスが表示されていれば、接続確認はOKです。
 
-![](../assets/BuildGuide_v04/MacSystemReport.png)  
+![Mac System Report](../assets/BuildGuide_v04/MacSystemReport.png)  
 システムレポートの表示
 
 ##### Windows, 10 ARM64 Insider Preview - Build 21286
@@ -166,16 +173,9 @@ USB接続します。
 USB接続します。
 
 `設定` → `Bluetooth とその他のデバイス`を開き、  
-`マウス、キーボード、ペン`の項目に
+`マウス、キーボード、ペン`の項目に`Unison`が表示されていれば、接続確認はOKです。
 
-```
-Unison
-```
-
-が表示されていれば、接続確認はOKです。
-
-
-![](../assets/BuildGuide_v04/WindowsDevice.png)  
+![Windows Device Name](../assets/BuildGuide_v04/WindowsDevice.png)  
 デバイスの表示
 
 ### ファームウェアの書き込み
@@ -192,7 +192,7 @@ QMK Toolbox、またはQMKのコマンドなどで書き込んでください。
 
 - Musicスタイルファームウェア  
 
-    [unison_v04_music.hex](https://gist.github.com/jpskenn/32210c4bdc371ec8600858d6645fd631)　
+    [unison_v04_music.hex](https://gist.github.com/jpskenn/32210c4bdc371ec8600858d6645fd631)
 
 - Terminalスタイル VIA対応ファームウェア  
 
@@ -202,13 +202,19 @@ QMK Toolbox、またはQMKのコマンドなどで書き込んでください。
 
 USB接続します。
 
-基板裏側のリセットスイッチを押して、`*** Atmel DFU device connected`が表示されることを確認します。  
+基板裏側のリセットスイッチを押して、
+
+```console
+*** Atmel DFU device connected
+```
+
+が表示されることを確認します。  
 
 `Flash`ボタンを押します。
 
 以下のような書き込みメッセージが表示されれば完了です。
 
-![](../assets/BuildGuide_v04/QmkToolboxFlash.png)  
+![QMK Toolbox message](../assets/BuildGuide_v04/QmkToolboxFlash.png)  
 ファームウェアの書き込みメッセージ  
 （ファイル名や%の数値などは実際と異なる場合があります）
 
@@ -225,26 +231,30 @@ USB接続します。
 キーレイアウトに合わせて、いずれかのコマンドを実行します。
 
 - Musicスタイル  
-    ```
+
+    ```console
     qmk flash -kb unison/v04 -km music
     ```
 
 - Terminalスタイル（テンキー中央）
-    ```
+
+    ```console
     qmk flash -kb unison/v04 -km via
     ```
 
 何やら画面に表示された後、しばらくすると次のようなメッセージが繰り返し表示されます。
 
-    dfu-programmer: no device present.
-    ERROR: Bootloader not found. Trying again in 5s.
+```console
+dfu-programmer: no device present.
+ERROR: Bootloader not found. Trying again in 5s.
+```
 
 キーボードのリセットスイッチを押すと書き込みが始まります。
 
 次のようなメッセージが表示されたら完了です。  
 （%の数値などは実際とは異なる場合があります）
 
-```
+```console
 Bootloader Version: 0x00 (0)
 Erasing flash...  Success
 Checking memory from 0x0 to 0x6FFF...  Empty.
@@ -256,11 +266,12 @@ Validating...  Success
 0x6900 bytes written into 0x7000 bytes memory (93.75%).
 ```
 
-
 ### （オプション）LEDの取り付け
+
 基板裏側でジャンパし、おもて側へLEDを取り付けます。
 
 #### LEDの取り付け箇所
+
 LEDの取り付け箇所は、次の3グループに分かれています。
 
 - インジケータ 2個：`L1`,  `L2`
@@ -270,6 +281,7 @@ LEDの取り付け箇所は、次の3グループに分かれています。
 ![LED Group](../assets/BuildGuide_v04/IMG_2467_2.jpeg)
 
 #### LEDグループの組み合わせ
+
 LEDグループの組み合わせは、以下の表のとおりです。
 
 | 組み合わせ | インジケータ | REサイド | 追加オプション |
@@ -281,6 +293,7 @@ LEDグループの組み合わせは、以下の表のとおりです。
 表に載っていない「REサイド：なし、追加オプション：あり」などは、無効な組み合わせです。
 
 #### ファームウェアに定義されたLEDの設定
+
 ファームウェアに定義されているLEDの設定は、次のとおりです。  
 これ以外の組み合わせや、LEDの数が異なる場合は、ファームウェアの定義を変更してください。
 
@@ -301,12 +314,11 @@ REサイドのLEDを使用する場合は、基板裏側のジャンパ`R.E. LED
 
 追加オプションのLEDを使用する場合は、基板裏側のジャンパ`Opt. LEDs`を`Enable`に、使用しない場合は`Disable`にジャンパします。
 
-![](../assets/BuildGuide_v04/IMG_2523.jpeg)  
+![LEDジャンパ位置](../assets/BuildGuide_v04/IMG_2523.jpeg)  
 LEDジャンパ位置
 
-![](../assets/BuildGuide_v04/IMG_2572.jpeg)  
+![LEDジャンパ例](../assets/BuildGuide_v04/IMG_2572.jpeg)  
 `R.E. LEDs`を`Enable`に、`Opt. LEDs`を`Disable`にジャンパした例
-
 
 #### LEDの取り付け
 
@@ -314,7 +326,7 @@ LEDジャンパ位置
 
 LEDの取り付け方向は、発光面の切り欠きマーク（▲）が、設置位置を示す短い横線に合う方向です。
 
-![](../assets/BuildGuide_v04/IMG_2586.jpeg)
+![LED取り付け方向](../assets/BuildGuide_v04/IMG_2586.jpeg)
 LED取り付け方向
 
 LEDは高温ではんだ付けすると壊れるため、コテ先温度を220-270℃に設定します。  
@@ -338,11 +350,11 @@ LEDの位置がずれていないことを確認します。
 残りのパッド3箇所をはんだ付けします。  
 予備はんだ以外の3箇所は、少量のはんだをコテ先に乗せておき、先ほどと同様の手順をおこないます。
 
-![](../assets/BuildGuide_v04/IMG_2592.jpeg)
+![取り付けたLED](../assets/BuildGuide_v04/IMG_2592.jpeg)
 取り付けたLED
 
-
 ### （オプション）スピーカーの取り付け
+
 基板おもて側にスピーカーを取り付けます。
 
 取り付け場所が狭く、スペーサーと干渉しやすいため、四角の枠内でUSBコネクタ側に寄せるようにして取り付けます。  
@@ -359,11 +371,11 @@ LEDの位置がずれていないことを確認します。
 
 残りの1箇所をはんだ付けします。
 
-![](../assets/BuildGuide_v04/IMG_2628.jpeg)
+![取り付けたスピーカー](../assets/BuildGuide_v04/IMG_2628.jpeg)
 取り付けたスピーカー
 
-
 ### スイッチソケットの取り付け
+
 基板裏側から取り付けます。
 
 `左上`, `左下`, `右上`, `右下`, `中央`の5箇所のネジ穴にかぶさるスイッチは、ソケットを介して取り付けます。  
@@ -376,7 +388,7 @@ v04ではMill-Maxソケットを取り付けます。
 *細かい部品のはんだ付けに不安がある場合は、失敗した場合にそなえ、どうなっても良いスイッチを使用することをおすすめします。*  
 *スイッチの端子とソケットがはんだでくっついてしまったり、加熱しすぎてスイッチが溶けたりすることがあります。*
 
-![](../assets/BuildGuide_v04/IMG_2630.jpeg)
+![Mill-Maxソケットを差し込んだスイッチ](../assets/BuildGuide_v04/IMG_2630.jpeg)
 Mill-Maxソケットを差し込んだスイッチ
 
 Mill-Maxソケットを差し込んだスイッチを、基板へはめ込みます。  
@@ -386,22 +398,23 @@ Mill-Maxソケットを差し込んだスイッチを、基板へはめ込みま
 はんだをつけすぎて、ソケット先端からスイッチの端子へ流れ込まないように注意してください。  
 こて先をソケット先端から少し離しておくと、流れ込みにくくなります。
 
-![](../assets/BuildGuide_v04/IMG_2634.jpeg)
-取り付けの様子
+![ソケット取り付けの様子](../assets/BuildGuide_v04/IMG_2634.jpeg)
+ソケット取り付けの様子
 
 スイッチを取り外します。
 
 基板おもて側から見て、ソケットが奥まで差し込まれてはんだ付けされていることを確認します。  
 ソケットのツバと基板に隙間があいて少し浮いているような場合は、基板おもて側からソケットをはんだごてで加熱しながら慎重に押し込みます。
 
-![](../assets/BuildGuide_v04/IMG_2662.jpeg)
+![取り付けたソケット, 基板おもて側
+](../assets/BuildGuide_v04/IMG_2662.jpeg)
 取り付けたソケット, 基板おもて側
 
-![](../assets/BuildGuide_v04/IMG_2638.jpeg)
+![取り付けたソケット, 基板裏側](../assets/BuildGuide_v04/IMG_2638.jpeg)
 取り付けたソケット, 基板裏側
 
-
 ### キースイッチの取り付け
+
 基板おもて側からスイッチを取り付けます。
 
 取り付けを始める前に、スイッチの端子が真っ直ぐになっていることを確認しておきます。
@@ -415,7 +428,7 @@ Mill-Maxソケットを差し込んだスイッチを、基板へはめ込みま
 はめ込んだスイッチの固定がゆるい場合は、マスキングテープなどを貼って仮止めしておきます。
 5個や10個ずつ作業を進めると確実です。
 
-![](../assets/BuildGuide_v04/IMG_2600.jpeg)
+![はめ込んだスイッチを仮止めした様子](../assets/BuildGuide_v04/IMG_2600.jpeg)
 はめ込んだスイッチを仮止めした様子
 
 スイッチが外れないように注意しながら、基板を裏返します。
@@ -429,7 +442,6 @@ Mill-Maxソケットを差し込んだスイッチを、基板へはめ込みま
 
 作業を繰り返し、残りのスイッチを取り付けます。
 
-
 #### スイッチ足の加工
 
 中央下側のネジ穴にかぶさるスイッチを取り付けるには、スイッチ足の加工が必要です。
@@ -440,7 +452,7 @@ Mill-Maxソケットを差し込んだスイッチを、基板へはめ込みま
 
     干渉する方の足をニッパーなどで切り取ります。
 
-    ![](../assets/BuildGuide_v04/IMG_2101.jpeg)  
+    ![片方の足を切り取る様子](../assets/BuildGuide_v04/IMG_2101.jpeg)  
     片方の足を切り取る様子
 
 - 中央の足（でっぱり部分）が干渉する場合
@@ -450,23 +462,23 @@ Mill-Maxソケットを差し込んだスイッチを、基板へはめ込みま
 
     押下時に軸がネジに当たる場合は、軸の下端もカットします。  
 
-    ![](../assets/BuildGuide_v04/IMG_2138.jpeg)  
+    ![縦に切れ込みを入れる様子](../assets/BuildGuide_v04/IMG_2138.jpeg)  
     縦に切れ込みを入れる様子
 
-    ![](../assets/BuildGuide_v04/IMG_2162.jpeg)  
+    ![切れ込みを入れたところまでカットする様子](../assets/BuildGuide_v04/IMG_2162.jpeg)  
     切れ込みを入れたところまでカットする様子
 
-    ![](../assets/BuildGuide_v04/DSC_7065.jpeg)  
+    ![足をカットしたスイッチ](../assets/BuildGuide_v04/DSC_7065.jpeg)  
     足をカットしたスイッチ  
     左から順に  
-    - Gateron Silent Red 5pin：片方の足をカット
-    - Gateron Ink Black 5pin：片方の足をカット
-    - Kailh Pro Burgundy 3pin：無加工
-    - Gateron Ink Red 5pin：片方の足をカット、中央の足を1/3カット
-    - Gateron Silent Red 5pin：両方の足をカット、中央の足を全てカット
-
+  - Gateron Silent Red 5pin：片方の足をカット
+  - Gateron Ink Black 5pin：片方の足をカット
+  - Kailh Pro Burgundy 3pin：無加工
+  - Gateron Ink Red 5pin：片方の足をカット、中央の足を1/3カット
+  - Gateron Silent Red 5pin：両方の足をカット、中央の足を全てカット
 
 ### （オプション）ロータリーエンコーダの取り付け
+
 基板おもて側から取り付けます。
 
 取り付け位置は、`SW_RE1`から`SW_RE5`の5箇所です。
@@ -480,10 +492,11 @@ Mill-Maxソケットを差し込んだスイッチを、基板へはめ込みま
 
 残りのピンをはんだ付けします。
 
-![](../assets/BuildGuide_v04/IMG_2642.jpeg)
+![取り付けたロータリーエンコーダ（基板おもて側）](../assets/BuildGuide_v04/IMG_2642.jpeg)
 取り付けたロータリーエンコーダ（基板おもて側）
 
 ### （オプション）LEDテープの取り付け
+
 基板裏側から`LED Strip`へ取り付けます。
 
 LEDテープの取り付け位置を確認し、使用する長さにカットしておきます。  
@@ -500,14 +513,15 @@ LEDテープがまっすぐ取り付けられていることを確認します�
 テープを貼り付けます。  
 LEDテープ自体のシール部分を使わず、カプトンテープなどで貼り付けておくと、後からメンテナンスしやすいかもしれません。
 
-![](../assets/BuildGuide_v04/IMG_2644.jpeg)  
+![LEDテープを取り付けた状態, カプトンテープで貼り付け](../assets/BuildGuide_v04/IMG_2644.jpeg)  
 LEDテープを取り付けた状態, カプトンテープで貼り付け
 
-
 ### 動作確認
+
 ケースへ取り付ける前に、キーボードをPCやMacに接続して動作確認を行います。
 
 #### キースイッチの動作確認
+
 確認の前に、OSの設定方法に従い、OSが認識するキーボードの配列を英語キーボード（ANSI）に合わせておきます。
 
 キースイッチの動作確認は、OSのキーボードビューアや、[Keyboard Checker](https://keyboardchecker.com)、[QMK Configrator](https://config.qmk.fm/)の入力テスト機能を使用して行います。  
@@ -516,13 +530,15 @@ LEDテープを取り付けた状態, カプトンテープで貼り付け
 なお、初めてキーボードを使用する際はMac向けのキーマップに設定されているため、Windows環境では`ALT`と`Win`が逆に認識されます。  
 使用するファームウェアに合わせて、キーの配置を切り替えてください。
 
-- Musicスタイル
-Windows向けのキーマップへは`Lower + Raise + W`を、Mac向けのキーマップへは`Lower + Raise + Q`のキーを同時に押すと切り替わります。 （ベースレイヤーの切り替え） 
-切り替えれた状態は記憶されます。  
-※`Lower`は左スペース、`Raise`は右スペースの長押し。
+- Musicスタイル  
 
-- Terminalスタイル
-後述の[RemapまたはVIAによるキーマップの変更](#RemapまたはVIAによるキーマップの変更)を参考に、各ツールを使用してキーの配置を切り替えます。
+    Windows向けのキーマップへは`Lower + Raise + W`を、Mac向けのキーマップへは`Lower + Raise + Q`のキーを同時に押すと切り替わります。 （ベースレイヤーの切り替え）  
+    切り替えれた状態は記憶されます。  
+    ※`Lower`は左スペース、`Raise`は右スペースの長押し。
+
+- Terminalスタイル  
+
+    後述の[RemapまたはVIAによるキーマップの変更](#RemapまたはVIAによるキーマップの変更)を参考に、各ツールを使用してキーの配置を切り替えます。
 
 正常に入力できないキーがあった場合は、原因を調査し、修復します。
 
@@ -546,7 +562,6 @@ Windows向けのキーマップへは`Lower + Raise + W`を、Mac向けのキー
 
 動作不良の場合は、はんだ付けをやり直してください。
 
-
 #### LEDの動作確認
 
 取り付けたLEDがすべて点灯していれば正常です。
@@ -554,6 +569,7 @@ Windows向けのキーマップへは`Lower + Raise + W`を、Mac向けのキー
 インジケータの2個以外が消灯している場合、`Lower + Raise + L`でLEDの点灯オン／オフを切り替えて確認します。
 
 光らない箇所がある場合は、次の原因が考えられるため、それぞれに応じた対応をおこないます。
+
 - [取り付けるLEDに応じたジャンパ](#取り付けるLEDに応じたジャンパ)がおこなわれていない  
 
     → 正しくジャンパする。
@@ -588,14 +604,16 @@ Windows向けのキーマップへは`Lower + Raise + W`を、Mac向けのキー
 
 （参考）主なLED関連キーは次の通りです。
 
-    Lower + Raise + L  LED点灯のオン／オフ
-    Lower + Raise + Lの右隣のキー（;）　次の点灯モードに切り替え
-    Lower + Raise + P　前の点灯モードに切り替え
-    Lower + Raise + I　LEDの輝度増加
-    Lower + Raise + K　LEDの輝度低下
-
+```plaintext
+Lower + Raise + L  LED点灯のオン／オフ
+Lower + Raise + Lの右隣のキー（;）　次の点灯モードに切り替え
+Lower + Raise + P　前の点灯モードに切り替え
+Lower + Raise + I　LEDの輝度増加
+Lower + Raise + K　LEDの輝度低下
+```
 
 #### スピーカーの動作確認（Terminalスタイルのみ）
+
 キーボードを接続した際、♪ピロッという音が鳴っていれば確認OKです。
 
 音が鳴らない場合は、`Lower + Raise + A`でスピーカーのオン／オフを切り替えて確認します。
@@ -604,29 +622,30 @@ Windows向けのキーマップへは`Lower + Raise + W`を、Mac向けのキー
 
 主なスピーカー関連キーは次の通りです。
 
-    Lower + Raise + A　スピーカーのオン／オフ切り替え
-    Lower + Raise + S　タイプ音のオン／オフ切り替え
-    Lower + Raise + A　ミュージックモードのオン／オフ切り替え
-
+```plaintext
+Lower + Raise + A　スピーカーのオン／オフ切り替え
+Lower + Raise + S　タイプ音のオン／オフ切り替え
+Lower + Raise + A　ミュージックモードのオン／オフ切り替え
+```
 
 ### プレート用スペーサーの取り付け
+
 基板おもて側にスペーサーを取り付け、裏側からねじ止めします。
 
 スペーサーの取り付け位置は次のとおりです。
 
-![](../assets/BuildGuide_v04/IMG_2467_3.jpeg)
+![スタイル・レイアウトごとの取り付け位置](../assets/BuildGuide_v04/IMG_2467_3.jpeg)
 スタイル・レイアウトごとの取り付け位置
 
 取り付け位置にスペーサーを配置し、基板裏側からM2 5mmのネジで止めます。  
 ギュウギュウとネジを締め込むと基板が破損する場合がるため、スペーサーが軽く止まってネジが緩んでこない程度にしておきます。
 
-![](../assets/BuildGuide_v04/IMG_2646.jpeg)
+![スペーサーを取り付けた状態, Terminalスタイル](../assets/BuildGuide_v04/IMG_2646.jpeg)
 スペーサーを取り付けた状態, Terminalスタイル
 
 メモ：  
 組み合わせるケースによっては、プレートが高すぎたり低すぎることがあります。  
 ちょうど良い長さのスペーサーに交換して、一番格好良いと思える高さを探してください。  
-
 
 ### （該当者のみ）60% プラスチックケースの加工
 
@@ -634,24 +653,24 @@ Windows向けのキーマップへは`Lower + Raise + W`を、Mac向けのキー
 
 カットする箇所を確認します。  
 以下に示す、ケースネジ穴と同じ高さになっているリブがカットする箇所です。  
+
 - 左の上側ネジの上と下。
 - 右の上側ネジの上と下。
 - 中央付近、左右に長いリブ2本。
 - ケース一番下の長いリブのうち、スイッチの端子などに当たる部分。  
 
-![](../assets/BuildGuide_v04/DSC_7068.jpeg)
+![カット箇所](../assets/BuildGuide_v04/DSC_7068.jpeg)
 カット箇所
 
 写真で示した部分を、ニッパーやカッターなどを使ってカットします。  
 ニッパー使用時は、1-2mmくらいずつ切り進んでいきます。  
 それ以上の長さをカットすると、意図しないところまで割れてしまうことがあります。
 
-![](../assets/BuildGuide_v04/IMG_1899.jpeg)
+![カット前：左の上側ネジの上と下](../assets/BuildGuide_v04/IMG_1899.jpeg)
 カット前：左の上側ネジの上と下
 
-![](../assets/BuildGuide_v04/DSC_7071.jpeg)
+![カット後：左の上側ネジの上と下](../assets/BuildGuide_v04/DSC_7071.jpeg)
 カット後：左の上側ネジの上と下
-
 
 ### ケースへの取り付け
 
@@ -662,7 +681,7 @@ Windows向けのキーマップへは`Lower + Raise + W`を、Mac向けのキー
 その状態で基板の手前側をおろして水平にすると、力をかけることなく、基板全体がストンとケースに入ります。  
 力を入れてグリグリとこじったり、ググググッと押し込むようなことはせず、角度を合わせて差し込むだけです。
 
-![](../assets/BuildGuide_v04/IMG_2648.jpeg)
+![30度で差し込む様子](../assets/BuildGuide_v04/IMG_2648.jpeg)
 30度で差し込む様子
 
 ケースネジ穴と基板のネジ穴の位置を合わせ、`左上`, `左下`, `右上`, `右下`, `中央`の5箇所を、M2 5mmの低頭ネジで仮止めします。  
@@ -677,6 +696,7 @@ Windows向けのキーマップへは`Lower + Raise + W`を、Mac向けのキー
 PCやMacに接続し、各部の動作を簡単に確認しておきます。
 
 ### プレートの取り付け
+
 レイアウト・スタイルに合わせ、ミドルプレートとトッププレートを取り付けます。  
 
 **アクリルプレートは割れたりヒビが入ったりしやすいので、丁寧に扱います。**
@@ -686,7 +706,6 @@ PCやMacに接続し、各部の動作を簡単に確認しておきます。
 
 スペーサーにプレートを乗せ、M2 6mmの低頭ネジで固定します。  
 なお、強くネジ止めするとアクリルプレートが割れるため、軽く固定される程度にしておきます。
-
 
 ### 仕上げ
 
