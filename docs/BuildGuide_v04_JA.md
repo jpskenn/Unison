@@ -65,13 +65,15 @@ Unisonのコンセプトや特徴などについては、[Unison README](https:/
     | Mill-Maxソケット 金色<br> [7305-0-15-15-47-27-10-0](https://www.digikey.jp/product-detail/ja/mill-max-manufacturing-corp/7305-0-15-15-47-27-10-0/ED1039-ND/1765737)| 10 |
     | Mill-Maxソケット 銀色<br>[0305-2-15-80-47-80-10-0](https://www.digikey.jp/product-detail/ja/mill-max-manufacturing-corp/0305-2-15-80-47-80-10-0/ED90584-ND/2639493)<br>（取り付け失敗時用予備）| 4 |
 
-- Musicスタイル用 プレート
+- プレート（レイアウト・スタイルに合わせていずれか一方）
+
+  - Musicスタイル用 プレート
     | 部品名 | 個数 |
     | ----- | -----: |
     | Musicスタイル用トップレート（アクリル） | 1 |
     | Musicスタイル用ミドルプレート v04（FR-4） | 1 |
 
-- Terminalスタイル用 プレート
+  - Terminalスタイル用 プレート
     | 部品名 | 個数 |
     | ----- | -----: |
     | Terminalスタイル用トップレート（アクリル） | 1 |
