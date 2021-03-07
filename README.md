@@ -107,21 +107,27 @@ Terminalスタイルは、[VIA](https://caniusevia.com)または[Remap](https://
 
 ## ギャラリー
 
-![Musicスタイル](./assets/readme/IMG_2669.jpeg)  
+![Musicスタイル](./assets/readme/DSC_7422.jpeg)  
 Musicスタイル  
-60% プラスチックケース ホワイト, Cherry MX Backlit Low Profile Keycap Set
+60% プラスチックケース ホワイト,  
+Cherry MX Backlit Low Profile Keycap Set 白 & 黒,  
+Bourns PEC11R 4115 w/K-100-16RS-GY and caps
 
 ![Musicスタイル, サイドビュー](./assets/readme/DSC_7352.jpg)  
 Musicスタイル, サイドビュー  
-60% プラスチックケース ホワイト, Cherry MX Backlit Low Profile Keycap Set
+60% プラスチックケース ホワイト,  
+Cherry MX Backlit Low Profile Keycap Set 白 & 黒,  
+EC11E18244AU w/K-100-16RS-GY and caps
 
-![Terminalスタイル, アンダーグローLED追加](./assets/readme/IMG_2684.jpeg)  
+![Terminalスタイル, アンダーグローLED追加](./assets/readme/DSC_7390.jpeg)  
 Terminalスタイル, アンダーグローLED追加  
-60% プラスチックケース クリア, YKNキーキャップセット(MX/ChocV2スイッチ 16x16mmキーピッチ用) v1.2
+60% プラスチックケース クリア,  
+YKNキーキャップセット(MX/ChocV2スイッチ 16x16mmキーピッチ用) v1.2 ナイロン・ブルー（磨き）
 
 ![Terminalスタイル, アンダーグローLED追加](./assets/readme/IMG_2626.jpeg)  
 Terminalスタイル, アンダーグローLED追加  
-60% プラスチックケース クリア, Cherry MX Backlit Low Profile Keycap Set
+60% プラスチックケース クリア,  
+Cherry MX Backlit Low Profile Keycap Set 黒
 
 ## 製作歴
 
